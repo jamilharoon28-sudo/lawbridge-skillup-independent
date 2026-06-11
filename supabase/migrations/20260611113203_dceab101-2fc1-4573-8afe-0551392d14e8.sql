@@ -1,0 +1,72 @@
+-- Seed LawBridge content
+
+INSERT INTO public.course_categories (name, description, display_order) VALUES
+  ('Legal Skills', 'Core legal practice skills with scenarios and exhibits.', 1),
+  ('Practical Skills', 'Professional, workplace and conduct skills.', 2)
+ON CONFLICT (name) DO NOTHING;
+
+INSERT INTO public.skills (category_id, code, name, display_order) VALUES
+  ((SELECT id FROM public.course_categories WHERE name='Legal Skills'), 'AN', 'Attendance Notes and Legal Analysis', 1),
+  ((SELECT id FROM public.course_categories WHERE name='Legal Skills'), 'AO', 'Advocacy and Oral Presentation', 2),
+  ((SELECT id FROM public.course_categories WHERE name='Legal Skills'), 'CI', 'Client Interviewing', 3),
+  ((SELECT id FROM public.course_categories WHERE name='Legal Skills'), 'CLA', 'Commercial Legal Analysis', 4),
+  ((SELECT id FROM public.course_categories WHERE name='Legal Skills'), 'CMA', 'Case and Matter Analysis', 5),
+  ((SELECT id FROM public.course_categories WHERE name='Legal Skills'), 'DR', 'Document Review', 6),
+  ((SELECT id FROM public.course_categories WHERE name='Legal Skills'), 'LD', 'Legal Drafting', 7),
+  ((SELECT id FROM public.course_categories WHERE name='Legal Skills'), 'LR', 'Legal Research', 8),
+  ((SELECT id FROM public.course_categories WHERE name='Legal Skills'), 'LW', 'Legal Writing', 9),
+  ((SELECT id FROM public.course_categories WHERE name='Legal Skills'), 'NP', 'Negotiation Preparation', 10),
+  ((SELECT id FROM public.course_categories WHERE name='Practical Skills'), 'PS-BFA', 'Business and Financial Awareness', 1),
+  ((SELECT id FROM public.course_categories WHERE name='Practical Skills'), 'PS-CC', 'Client Care', 2),
+  ((SELECT id FROM public.course_categories WHERE name='Practical Skills'), 'PS-COM', 'Communication Skills', 3),
+  ((SELECT id FROM public.course_categories WHERE name='Practical Skills'), 'PS-NRB', 'Networking and Relationship Building', 4),
+  ((SELECT id FROM public.course_categories WHERE name='Practical Skills'), 'PS-PCE', 'Professional Conduct and Ethics', 5),
+  ((SELECT id FROM public.course_categories WHERE name='Practical Skills'), 'PS-PC', 'Professional Confidence', 6),
+  ((SELECT id FROM public.course_categories WHERE name='Practical Skills'), 'PS-RP', 'Reflective Practice', 7),
+  ((SELECT id FROM public.course_categories WHERE name='Practical Skills'), 'PS-TAC', 'Teamwork and Collaboration', 8),
+  ((SELECT id FROM public.course_categories WHERE name='Practical Skills'), 'PS-TMP', 'Time Management and Prioritisation', 9),
+  ((SELECT id FROM public.course_categories WHERE name='Practical Skills'), 'PS-WR', 'Workplace Readiness', 10)
+ON CONFLICT (code) DO NOTHING;
+
+INSERT INTO public.scenarios (skill_id, code, title, display_order) VALUES
+  ((SELECT id FROM public.skills WHERE code='AN'), 'AN-01', 'Analysing a Cyberattack After a Client Interview', 1),
+  ((SELECT id FROM public.skills WHERE code='AN'), 'AN-02', 'Analysing a Contract Dispute With Missing Evidence', 2),
+  ((SELECT id FROM public.skills WHERE code='AO'), 'AO-01', 'Oral Submission in a Technology Payment Dispute', 1),
+  ((SELECT id FROM public.skills WHERE code='AO'), 'AO-02', 'Oral Application in a Business Interruption Insurance Dispute', 2),
+  ((SELECT id FROM public.skills WHERE code='CI'), 'CI-01', 'The Startup Founder With a Failed Software Launch', 1),
+  ((SELECT id FROM public.skills WHERE code='CI'), 'CI-02', 'The Employee Who Was Dismissed After Raising a Concern', 2),
+  ((SELECT id FROM public.skills WHERE code='CLA'), 'CLA-01', 'Assessing a Retail Data Partnership', 1),
+  ((SELECT id FROM public.skills WHERE code='CLA'), 'CLA-02', 'Advising on a Failed FinTech Pilot', 2),
+  ((SELECT id FROM public.skills WHERE code='CMA'), 'CMA-01', 'Analysing Red Flags in a Tech Company Acquisition', 1),
+  ((SELECT id FROM public.skills WHERE code='CMA'), 'CMA-02', 'Analysing a Blockchain Payment Dispute', 2),
+  ((SELECT id FROM public.skills WHERE code='DR'), 'DR-01', 'Reviewing an AI Procurement Pack', 1),
+  ((SELECT id FROM public.skills WHERE code='DR'), 'DR-02', 'Reviewing a Settlement Pack Before Signature', 2),
+  ((SELECT id FROM public.skills WHERE code='LD'), 'LD-01', 'Redrafting a Weak Limitation of Liability Clause', 1),
+  ((SELECT id FROM public.skills WHERE code='LD'), 'LD-02', 'Drafting an AI Ownership Clause', 2),
+  ((SELECT id FROM public.skills WHERE code='LR'), 'LR-01', 'Researching Data Breach Reporting Duties', 1),
+  ((SELECT id FROM public.skills WHERE code='LR'), 'LR-02', 'Researching Market Entry Rules for a Digital Payments Business', 2),
+  ((SELECT id FROM public.skills WHERE code='LW'), 'LW-01', 'Writing a Client Advice Email After an AI Tool Dispute', 1),
+  ((SELECT id FROM public.skills WHERE code='LW'), 'LW-02', 'Writing a Professional Response to a Service Failure Complaint', 2),
+  ((SELECT id FROM public.skills WHERE code='NP'), 'NP-01', 'Preparing for a SaaS Renewal Negotiation', 1),
+  ((SELECT id FROM public.skills WHERE code='NP'), 'NP-02', 'Preparing to Settle a Supplier Delay Dispute', 2),
+  ((SELECT id FROM public.skills WHERE code='PS-BFA'), 'PS-BFA-01', 'Business and Financial Awareness Scenario 01', 1),
+  ((SELECT id FROM public.skills WHERE code='PS-BFA'), 'PS-BFA-02', 'Business and Financial Awareness Scenario 02', 2),
+  ((SELECT id FROM public.skills WHERE code='PS-CC'), 'PS-CC-01', 'Client Care Scenario 01', 1),
+  ((SELECT id FROM public.skills WHERE code='PS-CC'), 'PS-CC-02', 'Client Care Scenario 02', 2),
+  ((SELECT id FROM public.skills WHERE code='PS-COM'), 'PS-COM-01', 'Communication Skills Scenario 01', 1),
+  ((SELECT id FROM public.skills WHERE code='PS-COM'), 'PS-COM-02', 'Communication Skills Scenario 02', 2),
+  ((SELECT id FROM public.skills WHERE code='PS-NRB'), 'PS-NRB-01', 'Networking and Relationship Building Scenario 01', 1),
+  ((SELECT id FROM public.skills WHERE code='PS-NRB'), 'PS-NRB-02', 'Networking and Relationship Building Scenario 02', 2),
+  ((SELECT id FROM public.skills WHERE code='PS-PCE'), 'PS-PCE-01', 'Professional Conduct and Ethics Scenario 01', 1),
+  ((SELECT id FROM public.skills WHERE code='PS-PCE'), 'PS-PCE-02', 'Professional Conduct and Ethics Scenario 02', 2),
+  ((SELECT id FROM public.skills WHERE code='PS-PC'), 'PS-PC-01', 'Professional Confidence Scenario 01', 1),
+  ((SELECT id FROM public.skills WHERE code='PS-PC'), 'PS-PC-02', 'Professional Confidence Scenario 02', 2),
+  ((SELECT id FROM public.skills WHERE code='PS-RP'), 'PS-RP-01', 'Reflective Practice Scenario 01', 1),
+  ((SELECT id FROM public.skills WHERE code='PS-RP'), 'PS-RP-02', 'Reflective Practice Scenario 02', 2),
+  ((SELECT id FROM public.skills WHERE code='PS-TAC'), 'PS-TAC-01', 'Teamwork and Collaboration Scenario 01', 1),
+  ((SELECT id FROM public.skills WHERE code='PS-TAC'), 'PS-TAC-02', 'Teamwork and Collaboration Scenario 02', 2),
+  ((SELECT id FROM public.skills WHERE code='PS-TMP'), 'PS-TMP-01', 'Time Management and Prioritisation Scenario 01', 1),
+  ((SELECT id FROM public.skills WHERE code='PS-TMP'), 'PS-TMP-02', 'Time Management and Prioritisation Scenario 02', 2),
+  ((SELECT id FROM public.skills WHERE code='PS-WR'), 'PS-WR-01', 'Workplace Readiness Scenario 01', 1),
+  ((SELECT id FROM public.skills WHERE code='PS-WR'), 'PS-WR-02', 'Workplace Readiness Scenario 02', 2)
+ON CONFLICT (code) DO NOTHING;

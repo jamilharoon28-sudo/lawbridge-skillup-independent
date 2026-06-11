@@ -1,0 +1,106 @@
+# Exhibit 1 - Client Instruction Email
+
+Source path: `Legal Skills/Student Packs/CMA/CMA-02 Student Pack/Exhibit 1 - Client Instruction Email.docx`
+
+### Exhibit 1 - Client Instruction Email
+
+
+Student Exhibit Document | Analysing a Blockchain Payment Dispute
+
+
+| ⚖ | Pack code | CMA-02 |
+| --- | --- | --- |
+| ▣ | Skill focus | Case and Matter Analysis |
+| ▥ | Scenario | Analysing a Blockchain Payment Dispute |
+| 👤 | Exhibit number | 1 |
+| ◷ | Document title | Client Instruction Email |
+| ⚖ | Status | Fictional training document - read with the full exhibit set |
+| v | Use of exhibit | Extract facts, identify uncertainty and decide what needs checking before producing the final output. |
+
+
+What This Exhibit Contains
+
+This exhibit contains the source material for 'Client Instruction Email'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: From | General Counsel, Vertex Trading To | LawBridge Digital Assets Team A smart contract released 50,000 USDT to a supplier after supposed delivery confirmation. Our operations team says the digital files were never received. The supplier says the ledger proves performance. We need a strategy before escalating the dispute.
+
+How to Use This Exhibit
+
+Read the exact wording rather than relying on the title.
+
+Identify what is confirmed, what is uncertain and what is missing.
+
+Use the exhibit number and document title when citing evidence in your answer.
+
+Do not treat this exhibit alone as the full legal or commercial position.
+
+Cross-check against the instructions, task brief and other exhibits before finalising your output.
+
+Exhibit Content Map
+
+
+| Document format | Email / instruction record |
+| --- | --- |
+| What this exhibit contains | This exhibit contains the source material for 'Client Instruction Email'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: From \| General Counsel, Vertex Trading To \| LawBridge Digital Assets Team A smart contract released 50,000 USDT to a supplier after supposed delivery confirmation. Our operations team says the digital files were never received. The supplier says the ledger proves performance. We need a strategy before escalating the dispute. |
+| How students should use it | Treat it like an email: check sender, recipient, date, subject, request and any limits on the task. |
+| Evidence caution | Do not treat this exhibit as the whole answer. Cross-check it against the instructions, other exhibits and any legal framework that requires verification. |
+
+
+Email / instruction record - Full Exhibit Content
+
+
+| Date | 27 March |
+| --- | --- |
+| From | General Counsel, Vertex Trading |
+| To | LawBridge Digital Assets Team |
+
+
+A smart contract released 50,000 USDT to a supplier after supposed delivery confirmation. Our operations team says the digital files were never received. The supplier says the ledger proves performance. We need a strategy before escalating the dispute.
+
+Expanded Exhibit Reading Guide
+
+
+| # | Specific content in this exhibit | Why it matters | What to check next |
+| --- | --- | --- | --- |
+| 1 | From \| General Counsel, Vertex Trading | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
+| 2 | To \| LawBridge Digital Assets Team | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
+| 3 | A smart contract released 50,000 USDT to a supplier after supposed delivery confirmation. Our operations team says the digital files were never received. The supplier says the ledger proves performance. We need a strateg | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
+
+
+What This Exhibit Does and Does Not Prove
+
+
+| Point | Explanation |
+| --- | --- |
+| Confirmed by this exhibit | The wording, facts, figures or message content shown in the exhibit itself. |
+| Not confirmed by this exhibit alone | The full legal answer, final client instructions, complete chronology, causation, loss, regulatory position or settlement value. |
+| Cross-check required | Read with the instruction document, any agreement or policy wording, chronology, emails, technical records and the source quality guidance. |
+| Student caution | Confident wording in a document may still be incomplete, inaccurate, biased, outdated or non-lawyer commentary. |
+
+
+Student Extraction Boxes
+
+Box 1 - Key facts from this exhibit
+
+
+| Type your answer here. |
+| --- |
+
+
+Box 2 - Risks, uncertainty or missing information
+
+
+| Type your answer here. |
+| --- |
+
+
+Box 3 - How this exhibit affects the final output
+
+
+| Type your answer here. |
+| --- |
+
+
+Box 4 - Follow-up questions to carry forward
+
+
+| Type your answer here. |
+| --- |
