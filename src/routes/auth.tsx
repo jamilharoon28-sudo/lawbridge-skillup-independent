@@ -1,5 +1,5 @@
-import { createFileRoute, useNavigate, Link } from "@tanstack/react-router";
-import { useEffect, useState } from "react";
+import { createFileRoute, Link } from "@tanstack/react-router";
+import { useState } from "react";
 import type { FormEvent } from "react";
 import { supabase } from "@/integrations/supabase/client";
 import { Button } from "@/components/ui/button";
@@ -8,6 +8,7 @@ import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import {
+  AlertCircle,
   BookOpen,
   CheckCircle2,
   FileText,
@@ -30,8 +31,31 @@ type AuthMode = "signin" | "signup";
 type AuthMethod = "password" | "magic";
 type PortalMode = "student" | "admin";
 
+const AUTH_TIMEOUT_MS = 15000;
+
+function withTimeout<T>(promise: Promise<T>, label: string): Promise<T> {
+  return new Promise((resolve, reject) => {
+    const timer = window.setTimeout(() => {
+      reject(new Error(`${label} timed out. Please check your internet connection and Supabase settings, then try again.`));
+    }, AUTH_TIMEOUT_MS);
+
+    promise
+      .then((value) => {
+        window.clearTimeout(timer);
+        resolve(value);
+      })
+      .catch((error) => {
+        window.clearTimeout(timer);
+        reject(error);
+      });
+  });
+}
+
+function redirectTo(path: "/dashboard" | "/admin") {
+  window.location.replace(path);
+}
+
 function AuthPage() {
-  const navigate = useNavigate();
   const [portalMode, setPortalMode] = useState<PortalMode>("student");
   const [mode, setMode] = useState<AuthMode>("signin");
   const [authMethod, setAuthMethod] = useState<AuthMethod>("password");
@@ -39,156 +63,132 @@ function AuthPage() {
   const [password, setPassword] = useState("");
   const [name, setName] = useState("");
   const [loading, setLoading] = useState(false);
+  const [authError, setAuthError] = useState("");
+  const [infoMessage, setInfoMessage] = useState("");
 
-  const goToDashboard = () => {
-    window.location.assign("/dashboard");
-  };
-
-  const goToAdmin = () => {
-    window.location.assign("/admin");
-  };
-
-  const ensureProfile = async (fullName?: string) => {
-    const { data } = await supabase.auth.getUser();
-    if (!data.user) return;
-
-    const { error: rpcError } = await (supabase as any).rpc("ensure_current_user_profile", {
-      _full_name: fullName?.trim() || null,
-    });
-
-    if (rpcError) {
-      console.warn("ensure_current_user_profile RPC failed; falling back to profile upsert", rpcError);
-      await supabase.from("profiles").upsert(
-        {
-          id: data.user.id,
-          email: data.user.email,
-          full_name:
-            fullName?.trim() ||
-            data.user.user_metadata?.full_name ||
-            data.user.user_metadata?.name ||
-            data.user.email,
-        },
-        { onConflict: "id" },
-      );
-    }
-  };
-
-  const getCurrentRoles = async () => {
-    const { data: userData } = await supabase.auth.getUser();
-    if (!userData.user) return [] as string[];
-
-    const { data, error } = await supabase
-      .from("user_roles")
-      .select("role")
-      .eq("user_id", userData.user.id);
-
-    if (error) throw error;
-    return (data ?? []).map((item) => item.role as string);
-  };
-
-  const verifyAdminAccess = async () => {
-    await ensureProfile();
-    const roles = await getCurrentRoles();
-    const allowed = roles.includes("admin") || roles.includes("tutor");
-
-    if (!allowed) {
-      await supabase.auth.signOut();
-      toast.error("This account is not an admin or tutor account.");
-      return false;
-    }
-
-    return true;
-  };
+  const cleanEmail = email.trim().toLowerCase();
+  const isSignup = mode === "signup";
+  const isMagic = authMethod === "magic";
+  const isAdminPortal = portalMode === "admin";
 
   const switchPortal = (nextPortal: PortalMode) => {
     setPortalMode(nextPortal);
     setMode("signin");
     setAuthMethod("password");
+    setAuthError("");
+    setInfoMessage("");
   };
 
-  useEffect(() => {
-    let cancelled = false;
+  const switchMode = (nextMode: AuthMode) => {
+    setMode(nextMode);
+    setAuthError("");
+    setInfoMessage("");
+  };
 
-    supabase.auth.getSession().then(async ({ data }) => {
-      if (cancelled || !data.session) return;
-      await ensureProfile();
-      navigate({ to: "/dashboard" });
-    });
-
-    const { data: listener } = supabase.auth.onAuthStateChange(async (event) => {
-      if (event === "SIGNED_IN") {
-        await ensureProfile();
-        goToDashboard();
-      }
-    });
-
-    return () => {
-      cancelled = true;
-      listener.subscription.unsubscribe();
-    };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [navigate]);
+  const switchMethod = (nextMethod: AuthMethod) => {
+    setAuthMethod(nextMethod);
+    setAuthError("");
+    setInfoMessage("");
+  };
 
   const handlePasswordAuth = async (event: FormEvent) => {
     event.preventDefault();
     setLoading(true);
-
-    const cleanEmail = email.trim().toLowerCase();
-    const cleanName = name.trim();
+    setAuthError("");
+    setInfoMessage("");
 
     try {
-      if (portalMode === "admin") {
-        const { error } = await supabase.auth.signInWithPassword({
-          email: cleanEmail,
-          password,
-        });
+      if (!cleanEmail) throw new Error("Please enter an email address.");
+      if (!password || password.length < 6) throw new Error("Password must be at least 6 characters.");
+
+      if (isAdminPortal) {
+        const { error } = await withTimeout(
+          supabase.auth.signInWithPassword({ email: cleanEmail, password }),
+          "Admin sign in",
+        );
 
         if (error) throw error;
 
-        const allowed = await verifyAdminAccess();
-        if (!allowed) return;
-
-        toast.success("Admin sign-in successful.");
-        goToAdmin();
+        toast.success("Signed in. Opening admin area...");
+        redirectTo("/admin");
         return;
       }
 
-      if (mode === "signup") {
-        const { data, error } = await supabase.auth.signUp({
-          email: cleanEmail,
-          password,
-          options: {
-            data: { full_name: cleanName },
-            emailRedirectTo: `${window.location.origin}/dashboard`,
-          },
-        });
+      if (isSignup) {
+        const fullName = name.trim();
+        if (!fullName) throw new Error("Please enter your full name.");
+
+        const { data, error } = await withTimeout(
+          supabase.auth.signUp({
+            email: cleanEmail,
+            password,
+            options: {
+              data: { full_name: fullName },
+              emailRedirectTo: `${window.location.origin}/dashboard`,
+            },
+          }),
+          "Account creation",
+        );
 
         if (error) throw error;
 
         if (data.session) {
-          await ensureProfile(cleanName);
           toast.success("Account created. Welcome to LawBridge.");
-          goToDashboard();
+          redirectTo("/dashboard");
           return;
         }
 
-        toast.success("Account created. Please check your email to confirm the account, then sign in.");
+        setInfoMessage(
+          "Account created. Please check your email to confirm the account, then return here and sign in.",
+        );
+        toast.success("Account created. Please check your email if confirmation is enabled.");
         setMode("signin");
+        setLoading(false);
         return;
       }
 
-      const { error } = await supabase.auth.signInWithPassword({
-        email: cleanEmail,
-        password,
-      });
+      const { error } = await withTimeout(
+        supabase.auth.signInWithPassword({ email: cleanEmail, password }),
+        "Student sign in",
+      );
 
       if (error) throw error;
 
-      await ensureProfile();
       toast.success("Signed in successfully.");
-      goToDashboard();
+      redirectTo("/dashboard");
     } catch (err: any) {
-      toast.error(err.message ?? "Authentication failed");
+      const message = err?.message || "Authentication failed. Please try again.";
+      setAuthError(message);
+      toast.error(message);
+      setLoading(false);
+    }
+  };
+
+
+
+  const handlePasswordRecovery = async () => {
+    setLoading(true);
+    setAuthError("");
+    setInfoMessage("");
+
+    try {
+      if (!cleanEmail) throw new Error("Enter your email address first, then press reset password.");
+
+      const { error } = await withTimeout(
+        supabase.auth.resetPasswordForEmail(cleanEmail, {
+          redirectTo: `${window.location.origin}/reset-password`,
+        }),
+        "Password recovery",
+      );
+
+      if (error) throw error;
+
+      setInfoMessage("Password reset link sent. Check your email and open the link to choose a new password.");
+      toast.success("Password reset link sent.");
+    } catch (err: any) {
+      const message = err?.message || "Could not send password reset link.";
+      setAuthError(message);
+      toast.error(message);
     } finally {
       setLoading(false);
     }
@@ -197,29 +197,35 @@ function AuthPage() {
   const handleMagicLink = async (event: FormEvent) => {
     event.preventDefault();
     setLoading(true);
+    setAuthError("");
+    setInfoMessage("");
 
     try {
-      const { error } = await supabase.auth.signInWithOtp({
-        email: email.trim().toLowerCase(),
-        options: {
-          shouldCreateUser: true,
-          emailRedirectTo: `${window.location.origin}/dashboard`,
-        },
-      });
+      if (!cleanEmail) throw new Error("Please enter an email address.");
+
+      const { error } = await withTimeout(
+        supabase.auth.signInWithOtp({
+          email: cleanEmail,
+          options: {
+            shouldCreateUser: true,
+            emailRedirectTo: `${window.location.origin}/dashboard`,
+          },
+        }),
+        "Magic link",
+      );
 
       if (error) throw error;
 
-      toast.success("Magic link sent. Check your email and open the link to continue.");
+      setInfoMessage("Magic link sent. Check your inbox, then open the link to continue.");
+      toast.success("Magic link sent. Check your email.");
     } catch (err: any) {
-      toast.error(err.message ?? "Could not send magic link");
+      const message = err?.message || "Could not send magic link.";
+      setAuthError(message);
+      toast.error(message);
     } finally {
       setLoading(false);
     }
   };
-
-  const isSignup = mode === "signup";
-  const isMagic = authMethod === "magic";
-  const isAdminPortal = portalMode === "admin";
 
   return (
     <div className="auth-page min-h-screen bg-background px-4 py-8">
@@ -269,12 +275,13 @@ function AuthPage() {
               </CardTitle>
               <CardDescription>
                 {isAdminPortal
-                  ? "Tutors and administrators can sign in here to access the review and management area."
+                  ? "Tutors and administrators can sign in here. The admin area checks your role after login."
                   : isSignup
                     ? "Create a learner account using email and password, or use a password-free magic link."
                     : "Sign in to access your simulations, progress and submissions."}
               </CardDescription>
             </CardHeader>
+
             <CardContent className="space-y-5 p-6">
               <div className="grid grid-cols-2 gap-2 rounded-2xl border border-border bg-muted/40 p-1">
                 <button
@@ -301,7 +308,7 @@ function AuthPage() {
                 <div className="grid grid-cols-2 gap-2 rounded-2xl border border-border bg-muted/40 p-1">
                   <button
                     type="button"
-                    onClick={() => setAuthMethod("password")}
+                    onClick={() => switchMethod("password")}
                     className={`rounded-xl px-3 py-2 text-sm font-semibold transition ${
                       authMethod === "password" ? "bg-background text-primary shadow-sm" : "text-muted-foreground hover:text-foreground"
                     }`}
@@ -310,7 +317,7 @@ function AuthPage() {
                   </button>
                   <button
                     type="button"
-                    onClick={() => setAuthMethod("magic")}
+                    onClick={() => switchMethod("magic")}
                     className={`rounded-xl px-3 py-2 text-sm font-semibold transition ${
                       authMethod === "magic" ? "bg-background text-primary shadow-sm" : "text-muted-foreground hover:text-foreground"
                     }`}
@@ -322,23 +329,31 @@ function AuthPage() {
 
               {isAdminPortal && (
                 <div className="rounded-2xl border border-accent/20 bg-accent/5 p-4 text-sm text-muted-foreground">
-                  Admin access is restricted. Sign in with an account that has an <strong>admin</strong> or <strong>tutor</strong> role in Supabase.
+                  Admin access is restricted. Sign in here with an account that has an <strong>admin</strong> or <strong>tutor</strong> role in Supabase.
+                </div>
+              )}
+
+              {authError && (
+                <div className="rounded-2xl border border-destructive/25 bg-destructive/10 p-4 text-sm font-medium text-destructive">
+                  <AlertCircle className="mr-2 inline h-4 w-4" /> {authError}
+                </div>
+              )}
+
+              {infoMessage && (
+                <div className="rounded-2xl border border-accent/20 bg-accent/5 p-4 text-sm text-muted-foreground">
+                  <CheckCircle2 className="mr-2 inline h-4 w-4 text-accent" /> {infoMessage}
                 </div>
               )}
 
               {isSignup && authMethod === "password" && !isAdminPortal && (
                 <div className="rounded-2xl border border-accent/20 bg-accent/5 p-4 text-sm text-muted-foreground">
-                  New accounts now create their LawBridge profile automatically. For instant access,
-                  Supabase email confirmation should be switched off. If confirmation is on, users must
-                  confirm their email before signing in.
+                  For instant access, Supabase email confirmation should be switched off. If confirmation is on,
+                  users must confirm their email before signing in.
                 </div>
               )}
 
               {isMagic && !isAdminPortal ? (
                 <form onSubmit={handleMagicLink} className="space-y-4">
-                  <div className="rounded-2xl border border-accent/20 bg-accent/5 p-4 text-sm text-muted-foreground">
-                    Enter your email and we will send you a secure sign-in link. No Google Cloud setup is needed.
-                  </div>
                   <div>
                     <Label htmlFor="magic-email">Email</Label>
                     <Input
@@ -391,6 +406,18 @@ function AuthPage() {
                       placeholder="Minimum 6 characters"
                     />
                   </div>
+                  {!isSignup && (
+                    <div className="flex justify-end">
+                      <button
+                        type="button"
+                        onClick={handlePasswordRecovery}
+                        disabled={loading}
+                        className="text-sm font-medium text-accent hover:underline disabled:cursor-not-allowed disabled:opacity-60"
+                      >
+                        Forgot or reset password?
+                      </button>
+                    </div>
+                  )}
                   <Button type="submit" className="w-full" disabled={loading}>
                     {loading
                       ? "Please wait..."
@@ -410,7 +437,7 @@ function AuthPage() {
                     <div>
                       <p className="font-medium text-foreground">Google sign-in is disabled for now.</p>
                       <p className="mt-1">
-                        Use email/password or magic link. Google can be added later when the OAuth setup is ready.
+                        Use email/password or magic link. Google can be added later when OAuth setup is ready.
                       </p>
                     </div>
                   </div>
@@ -435,7 +462,7 @@ function AuthPage() {
                     <button
                       type="button"
                       className="font-medium text-accent hover:underline"
-                      onClick={() => setMode("signin")}
+                      onClick={() => switchMode("signin")}
                     >
                       Sign in
                     </button>
@@ -446,7 +473,7 @@ function AuthPage() {
                     <button
                       type="button"
                       className="font-medium text-accent hover:underline"
-                      onClick={() => setMode("signup")}
+                      onClick={() => switchMode("signup")}
                     >
                       Create an account
                     </button>
