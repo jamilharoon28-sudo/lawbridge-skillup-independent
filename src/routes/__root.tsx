@@ -134,11 +134,37 @@ function RootShell({ children }: { children: ReactNode }) {
   );
 }
 
+
+function AuthRecoveryRedirector() {
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+
+    const { pathname, search, hash } = window.location;
+    if (pathname.startsWith("/reset-password")) return;
+
+    const hashParams = new URLSearchParams(hash.replace(/^#/, ""));
+    const searchParams = new URLSearchParams(search);
+    const authType = hashParams.get("type") || searchParams.get("type");
+    const hasRecoveryTokens =
+      authType === "recovery" ||
+      hashParams.has("access_token") ||
+      searchParams.has("code");
+
+    if (!hasRecoveryTokens) return;
+
+    const nextUrl = `/reset-password${search || ""}${hash || ""}`;
+    window.location.replace(nextUrl);
+  }, []);
+
+  return null;
+}
+
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
 
   return (
     <QueryClientProvider client={queryClient}>
+      <AuthRecoveryRedirector />
       {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
       <Outlet />
     </QueryClientProvider>
