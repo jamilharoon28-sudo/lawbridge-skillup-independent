@@ -13,7 +13,6 @@ import {
   FileText,
   KeyRound,
   Mail,
-  Scale,
   ShieldCheck,
   Sparkles,
 } from "lucide-react";
@@ -34,57 +33,99 @@ function AuthPage() {
   const [name, setName] = useState("");
   const [loading, setLoading] = useState(false);
 
-  useEffect(() => {
-    supabase.auth.getUser().then(({ data }) => {
-      if (data.user) navigate({ to: "/dashboard" });
-    });
-  }, [navigate]);
+  const goToDashboard = () => {
+    // A hard navigation is more reliable after Supabase changes auth state.
+    window.location.assign("/dashboard");
+  };
 
   const ensureProfile = async (fullName?: string) => {
     const { data } = await supabase.auth.getUser();
     if (!data.user) return;
 
-    await supabase.from("profiles").upsert(
-      {
-        id: data.user.id,
-        email: data.user.email,
-        full_name: fullName || data.user.user_metadata?.full_name || data.user.email,
-      },
-      { onConflict: "id" },
-    );
+    // Preferred path: use the security-definer RPC added in the SQL patch.
+    // This creates/repairs the profile and assigns a student role automatically.
+    const { error: rpcError } = await (supabase as any).rpc("ensure_current_user_profile", {
+      _full_name: fullName?.trim() || null,
+    });
+
+    // Fallback path: if the RPC has not been run yet, still create/update the profile.
+    // Role assignment will then be handled by the signup trigger or by running the SQL patch.
+    if (rpcError) {
+      console.warn("ensure_current_user_profile RPC failed; falling back to profile upsert", rpcError);
+      await supabase.from("profiles").upsert(
+        {
+          id: data.user.id,
+          email: data.user.email,
+          full_name:
+            fullName?.trim() ||
+            data.user.user_metadata?.full_name ||
+            data.user.user_metadata?.name ||
+            data.user.email,
+        },
+        { onConflict: "id" },
+      );
+    }
   };
+
+  useEffect(() => {
+    let cancelled = false;
+
+    supabase.auth.getSession().then(async ({ data }) => {
+      if (cancelled || !data.session) return;
+      await ensureProfile();
+      navigate({ to: "/dashboard" });
+    });
+
+    const { data: listener } = supabase.auth.onAuthStateChange(async (event) => {
+      if (event === "SIGNED_IN") {
+        await ensureProfile();
+        goToDashboard();
+      }
+    });
+
+    return () => {
+      cancelled = true;
+      listener.subscription.unsubscribe();
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [navigate]);
 
   const handlePasswordAuth = async (event: FormEvent) => {
     event.preventDefault();
     setLoading(true);
 
+    const cleanEmail = email.trim().toLowerCase();
+    const cleanName = name.trim();
+
     try {
       if (mode === "signup") {
         const { data, error } = await supabase.auth.signUp({
-          email: email.trim(),
+          email: cleanEmail,
           password,
           options: {
-            data: { full_name: name.trim() },
+            data: { full_name: cleanName },
             emailRedirectTo: `${window.location.origin}/dashboard`,
           },
         });
 
         if (error) throw error;
 
+        // If Supabase email confirmation is OFF, a session is returned and we can go straight in.
         if (data.session) {
-          await ensureProfile(name.trim());
+          await ensureProfile(cleanName);
           toast.success("Account created. Welcome to LawBridge.");
-          navigate({ to: "/dashboard" });
+          goToDashboard();
           return;
         }
 
-        toast.success("Account created. Check your email to confirm your account, then sign in.");
+        // If email confirmation is ON, Supabase creates the user but does not log them in yet.
+        toast.success("Account created. Please check your email to confirm the account, then sign in.");
         setMode("signin");
         return;
       }
 
       const { error } = await supabase.auth.signInWithPassword({
-        email: email.trim(),
+        email: cleanEmail,
         password,
       });
 
@@ -92,7 +133,7 @@ function AuthPage() {
 
       await ensureProfile();
       toast.success("Signed in successfully.");
-      navigate({ to: "/dashboard" });
+      goToDashboard();
     } catch (err: any) {
       toast.error(err.message ?? "Authentication failed");
     } finally {
@@ -106,7 +147,7 @@ function AuthPage() {
 
     try {
       const { error } = await supabase.auth.signInWithOtp({
-        email: email.trim(),
+        email: email.trim().toLowerCase(),
         options: {
           shouldCreateUser: true,
           emailRedirectTo: `${window.location.origin}/dashboard`,
@@ -130,14 +171,13 @@ function AuthPage() {
     <div className="auth-page min-h-screen bg-background px-4 py-8">
       <div className="mx-auto grid min-h-[calc(100vh-4rem)] w-full max-w-6xl items-center gap-8 lg:grid-cols-[1fr_440px]">
         <section className="hidden lg:block">
-          <Link to="/" className="mb-10 inline-flex items-center gap-3 font-semibold text-primary">
-            <span className="brand-mark flex h-11 w-11 items-center justify-center rounded-2xl text-primary-foreground shadow-sm">
-              <Scale className="h-5 w-5" />
-            </span>
-            <span>
-              <span className="block text-lg">LawBridge</span>
-              <span className="text-xs uppercase tracking-[0.18em] text-muted-foreground">Skills Portal</span>
-            </span>
+          <Link to="/" className="mb-10 inline-flex items-center">
+            <img
+              src="/lawbridge-logo-header.png"
+              alt="LawBridge"
+              className="h-12 w-auto object-contain transition-transform duration-200 hover:scale-[1.02]"
+            />
+            <span className="sr-only">LawBridge Skills Portal</span>
           </Link>
 
           <Badge variant="outline" className="mb-4 rounded-full bg-white/50 px-3 py-1">
@@ -159,11 +199,13 @@ function AuthPage() {
         </section>
 
         <div className="w-full">
-          <Link to="/" className="mb-6 flex items-center justify-center gap-2 font-semibold text-primary lg:hidden">
-            <span className="brand-mark flex h-9 w-9 items-center justify-center rounded-2xl text-primary-foreground">
-              <Scale className="h-4 w-4" />
-            </span>
-            LawBridge Skills Portal
+          <Link to="/" className="mb-6 flex items-center justify-center lg:hidden">
+            <img
+              src="/lawbridge-logo-header.png"
+              alt="LawBridge"
+              className="h-11 w-auto object-contain"
+            />
+            <span className="sr-only">LawBridge Skills Portal</span>
           </Link>
 
           <Card className="auth-card overflow-hidden shadow-xl">
@@ -196,6 +238,14 @@ function AuthPage() {
                   <Mail className="mr-1.5 inline h-4 w-4" /> Magic link
                 </button>
               </div>
+
+              {isSignup && authMethod === "password" && (
+                <div className="rounded-2xl border border-accent/20 bg-accent/5 p-4 text-sm text-muted-foreground">
+                  New accounts now create their LawBridge profile automatically. For instant access,
+                  Supabase email confirmation should be switched off. If confirmation is on, users must
+                  confirm their email before signing in.
+                </div>
+              )}
 
               {isMagic ? (
                 <form onSubmit={handleMagicLink} className="space-y-4">
