@@ -1,10 +1,8 @@
 import { Link, useNavigate, useRouterState } from "@tanstack/react-router";
 import {
   BookOpen,
-  GraduationCap,
   LayoutDashboard,
   LogOut,
-  Scale,
   ShieldCheck,
   Sparkles,
 } from "lucide-react";
@@ -55,18 +53,13 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     <div className="app-shell min-h-screen flex flex-col bg-background">
       <header className="app-topbar sticky top-0 z-30 border-b border-border/70 bg-background/90 backdrop-blur-xl">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
-          <Link to="/dashboard" className="brand-lockup group flex items-center gap-3">
-            <span className="brand-mark flex h-10 w-10 items-center justify-center rounded-2xl text-primary-foreground shadow-sm">
-              <Scale className="h-5 w-5" />
-            </span>
-            <span className="min-w-0">
-              <span className="block text-base font-semibold leading-tight text-primary group-hover:text-accent transition-colors">
-                LawBridge
-              </span>
-              <span className="hidden sm:flex items-center gap-1 text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
-                <GraduationCap className="h-3 w-3" /> Skills Portal
-              </span>
-            </span>
+          <Link to="/dashboard" className="brand-lockup group flex items-center">
+            <img
+              src="/lawbridge-logo-header.png"
+              alt="LawBridge"
+              className="h-10 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.02] sm:h-11"
+            />
+            <span className="sr-only">LawBridge Skills Portal</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-1 rounded-full border border-border/70 bg-card/80 p-1 shadow-sm">

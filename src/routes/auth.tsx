@@ -12,9 +12,11 @@ import {
   CheckCircle2,
   FileText,
   KeyRound,
+  LockKeyhole,
   Mail,
   ShieldCheck,
   Sparkles,
+  UserRound,
 } from "lucide-react";
 import { toast } from "sonner";
 
@@ -24,32 +26,36 @@ export const Route = createFileRoute("/auth")({
   component: AuthPage,
 });
 
+type AuthMode = "signin" | "signup";
+type AuthMethod = "password" | "magic";
+type PortalMode = "student" | "admin";
+
 function AuthPage() {
   const navigate = useNavigate();
-  const [mode, setMode] = useState<"signin" | "signup">("signin");
-  const [authMethod, setAuthMethod] = useState<"password" | "magic">("password");
+  const [portalMode, setPortalMode] = useState<PortalMode>("student");
+  const [mode, setMode] = useState<AuthMode>("signin");
+  const [authMethod, setAuthMethod] = useState<AuthMethod>("password");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [name, setName] = useState("");
   const [loading, setLoading] = useState(false);
 
   const goToDashboard = () => {
-    // A hard navigation is more reliable after Supabase changes auth state.
     window.location.assign("/dashboard");
+  };
+
+  const goToAdmin = () => {
+    window.location.assign("/admin");
   };
 
   const ensureProfile = async (fullName?: string) => {
     const { data } = await supabase.auth.getUser();
     if (!data.user) return;
 
-    // Preferred path: use the security-definer RPC added in the SQL patch.
-    // This creates/repairs the profile and assigns a student role automatically.
     const { error: rpcError } = await (supabase as any).rpc("ensure_current_user_profile", {
       _full_name: fullName?.trim() || null,
     });
 
-    // Fallback path: if the RPC has not been run yet, still create/update the profile.
-    // Role assignment will then be handled by the signup trigger or by running the SQL patch.
     if (rpcError) {
       console.warn("ensure_current_user_profile RPC failed; falling back to profile upsert", rpcError);
       await supabase.from("profiles").upsert(
@@ -65,6 +71,39 @@ function AuthPage() {
         { onConflict: "id" },
       );
     }
+  };
+
+  const getCurrentRoles = async () => {
+    const { data: userData } = await supabase.auth.getUser();
+    if (!userData.user) return [] as string[];
+
+    const { data, error } = await supabase
+      .from("user_roles")
+      .select("role")
+      .eq("user_id", userData.user.id);
+
+    if (error) throw error;
+    return (data ?? []).map((item) => item.role as string);
+  };
+
+  const verifyAdminAccess = async () => {
+    await ensureProfile();
+    const roles = await getCurrentRoles();
+    const allowed = roles.includes("admin") || roles.includes("tutor");
+
+    if (!allowed) {
+      await supabase.auth.signOut();
+      toast.error("This account is not an admin or tutor account.");
+      return false;
+    }
+
+    return true;
+  };
+
+  const switchPortal = (nextPortal: PortalMode) => {
+    setPortalMode(nextPortal);
+    setMode("signin");
+    setAuthMethod("password");
   };
 
   useEffect(() => {
@@ -98,6 +137,22 @@ function AuthPage() {
     const cleanName = name.trim();
 
     try {
+      if (portalMode === "admin") {
+        const { error } = await supabase.auth.signInWithPassword({
+          email: cleanEmail,
+          password,
+        });
+
+        if (error) throw error;
+
+        const allowed = await verifyAdminAccess();
+        if (!allowed) return;
+
+        toast.success("Admin sign-in successful.");
+        goToAdmin();
+        return;
+      }
+
       if (mode === "signup") {
         const { data, error } = await supabase.auth.signUp({
           email: cleanEmail,
@@ -110,7 +165,6 @@ function AuthPage() {
 
         if (error) throw error;
 
-        // If Supabase email confirmation is OFF, a session is returned and we can go straight in.
         if (data.session) {
           await ensureProfile(cleanName);
           toast.success("Account created. Welcome to LawBridge.");
@@ -118,7 +172,6 @@ function AuthPage() {
           return;
         }
 
-        // If email confirmation is ON, Supabase creates the user but does not log them in yet.
         toast.success("Account created. Please check your email to confirm the account, then sign in.");
         setMode("signin");
         return;
@@ -166,6 +219,7 @@ function AuthPage() {
 
   const isSignup = mode === "signup";
   const isMagic = authMethod === "magic";
+  const isAdminPortal = portalMode === "admin";
 
   return (
     <div className="auth-page min-h-screen bg-background px-4 py-8">
@@ -210,36 +264,69 @@ function AuthPage() {
 
           <Card className="auth-card overflow-hidden shadow-xl">
             <CardHeader className="auth-card-header">
-              <CardTitle className="text-2xl">{isSignup ? "Create your account" : "Welcome back"}</CardTitle>
+              <CardTitle className="text-2xl">
+                {isAdminPortal ? "Admin sign in" : isSignup ? "Create your account" : "Welcome back"}
+              </CardTitle>
               <CardDescription>
-                {isSignup
-                  ? "Create a learner account using email and password, or use a password-free magic link."
-                  : "Sign in to access your simulations, progress and submissions."}
+                {isAdminPortal
+                  ? "Tutors and administrators can sign in here to access the review and management area."
+                  : isSignup
+                    ? "Create a learner account using email and password, or use a password-free magic link."
+                    : "Sign in to access your simulations, progress and submissions."}
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-5 p-6">
               <div className="grid grid-cols-2 gap-2 rounded-2xl border border-border bg-muted/40 p-1">
                 <button
                   type="button"
-                  onClick={() => setAuthMethod("password")}
+                  onClick={() => switchPortal("student")}
                   className={`rounded-xl px-3 py-2 text-sm font-semibold transition ${
-                    authMethod === "password" ? "bg-background text-primary shadow-sm" : "text-muted-foreground hover:text-foreground"
+                    portalMode === "student" ? "bg-background text-primary shadow-sm" : "text-muted-foreground hover:text-foreground"
                   }`}
                 >
-                  <KeyRound className="mr-1.5 inline h-4 w-4" /> Password
+                  <UserRound className="mr-1.5 inline h-4 w-4" /> Student sign in
                 </button>
                 <button
                   type="button"
-                  onClick={() => setAuthMethod("magic")}
+                  onClick={() => switchPortal("admin")}
                   className={`rounded-xl px-3 py-2 text-sm font-semibold transition ${
-                    authMethod === "magic" ? "bg-background text-primary shadow-sm" : "text-muted-foreground hover:text-foreground"
+                    portalMode === "admin" ? "bg-background text-primary shadow-sm" : "text-muted-foreground hover:text-foreground"
                   }`}
                 >
-                  <Mail className="mr-1.5 inline h-4 w-4" /> Magic link
+                  <LockKeyhole className="mr-1.5 inline h-4 w-4" /> Admin sign in
                 </button>
               </div>
 
-              {isSignup && authMethod === "password" && (
+              {!isAdminPortal && (
+                <div className="grid grid-cols-2 gap-2 rounded-2xl border border-border bg-muted/40 p-1">
+                  <button
+                    type="button"
+                    onClick={() => setAuthMethod("password")}
+                    className={`rounded-xl px-3 py-2 text-sm font-semibold transition ${
+                      authMethod === "password" ? "bg-background text-primary shadow-sm" : "text-muted-foreground hover:text-foreground"
+                    }`}
+                  >
+                    <KeyRound className="mr-1.5 inline h-4 w-4" /> Password
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setAuthMethod("magic")}
+                    className={`rounded-xl px-3 py-2 text-sm font-semibold transition ${
+                      authMethod === "magic" ? "bg-background text-primary shadow-sm" : "text-muted-foreground hover:text-foreground"
+                    }`}
+                  >
+                    <Mail className="mr-1.5 inline h-4 w-4" /> Magic link
+                  </button>
+                </div>
+              )}
+
+              {isAdminPortal && (
+                <div className="rounded-2xl border border-accent/20 bg-accent/5 p-4 text-sm text-muted-foreground">
+                  Admin access is restricted. Sign in with an account that has an <strong>admin</strong> or <strong>tutor</strong> role in Supabase.
+                </div>
+              )}
+
+              {isSignup && authMethod === "password" && !isAdminPortal && (
                 <div className="rounded-2xl border border-accent/20 bg-accent/5 p-4 text-sm text-muted-foreground">
                   New accounts now create their LawBridge profile automatically. For instant access,
                   Supabase email confirmation should be switched off. If confirmation is on, users must
@@ -247,7 +334,7 @@ function AuthPage() {
                 </div>
               )}
 
-              {isMagic ? (
+              {isMagic && !isAdminPortal ? (
                 <form onSubmit={handleMagicLink} className="space-y-4">
                   <div className="rounded-2xl border border-accent/20 bg-accent/5 p-4 text-sm text-muted-foreground">
                     Enter your email and we will send you a secure sign-in link. No Google Cloud setup is needed.
@@ -269,7 +356,7 @@ function AuthPage() {
                 </form>
               ) : (
                 <form onSubmit={handlePasswordAuth} className="space-y-4">
-                  {isSignup && (
+                  {isSignup && !isAdminPortal && (
                     <div>
                       <Label htmlFor="name">Full name</Label>
                       <Input
@@ -289,7 +376,7 @@ function AuthPage() {
                       value={email}
                       onChange={(event) => setEmail(event.target.value)}
                       required
-                      placeholder="you@example.com"
+                      placeholder={isAdminPortal ? "admin@example.com" : "you@example.com"}
                     />
                   </div>
                   <div>
@@ -305,25 +392,44 @@ function AuthPage() {
                     />
                   </div>
                   <Button type="submit" className="w-full" disabled={loading}>
-                    {loading ? "Please wait..." : isSignup ? "Create account" : "Sign in"}
+                    {loading
+                      ? "Please wait..."
+                      : isAdminPortal
+                        ? "Sign in as admin"
+                        : isSignup
+                          ? "Create account"
+                          : "Sign in"}
                   </Button>
                 </form>
               )}
 
-              <div className="rounded-2xl border border-dashed border-border bg-muted/25 p-4 text-sm text-muted-foreground">
-                <div className="flex items-start gap-3">
-                  <CheckCircle2 className="mt-0.5 h-4 w-4 text-accent" />
-                  <div>
-                    <p className="font-medium text-foreground">Google sign-in is disabled for now.</p>
-                    <p className="mt-1">
-                      Use email/password or magic link. Google can be added later when the OAuth setup is ready.
-                    </p>
+              {!isAdminPortal && (
+                <div className="rounded-2xl border border-dashed border-border bg-muted/25 p-4 text-sm text-muted-foreground">
+                  <div className="flex items-start gap-3">
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-accent" />
+                    <div>
+                      <p className="font-medium text-foreground">Google sign-in is disabled for now.</p>
+                      <p className="mt-1">
+                        Use email/password or magic link. Google can be added later when the OAuth setup is ready.
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
+              )}
 
               <p className="text-center text-sm text-muted-foreground">
-                {isSignup ? (
+                {isAdminPortal ? (
+                  <>
+                    Need learner access?{" "}
+                    <button
+                      type="button"
+                      className="font-medium text-accent hover:underline"
+                      onClick={() => switchPortal("student")}
+                    >
+                      Return to student sign in
+                    </button>
+                  </>
+                ) : isSignup ? (
                   <>
                     Already have an account?{" "}
                     <button
