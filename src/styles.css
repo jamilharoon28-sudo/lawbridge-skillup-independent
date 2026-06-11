@@ -170,3 +170,781 @@
 .prose-lawbridge blockquote {
   @apply border-l-4 border-accent pl-4 italic text-muted-foreground my-3;
 }
+
+/* Scenario/content reading experience */
+.scenario-hero {
+  @apply rounded-2xl border border-border bg-card px-5 py-5 shadow-sm;
+  background-image: linear-gradient(135deg, color-mix(in oklch, var(--card) 92%, var(--accent) 8%), var(--card));
+}
+
+.scenario-tabs {
+  @apply bg-card border border-border p-1 shadow-sm;
+}
+
+.document-card,
+.task-panel {
+  @apply border-border bg-card shadow-sm;
+}
+
+.document-header,
+.task-panel-header {
+  background-image: linear-gradient(135deg, color-mix(in oklch, var(--muted) 85%, var(--accent) 15%), var(--card));
+}
+
+.sticky-panel {
+  @apply xl:sticky xl:top-4 xl:self-start;
+}
+
+.task-number {
+  @apply inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground text-xs font-semibold shadow-sm;
+}
+
+.task-card textarea,
+.document-card textarea {
+  @apply leading-relaxed;
+}
+
+.prose-lawbridge {
+  @apply text-foreground leading-7;
+}
+
+.prose-lawbridge h1 {
+  @apply text-2xl font-semibold mt-2 mb-4 pb-3 border-b border-border;
+}
+
+.prose-lawbridge h2 {
+  @apply text-xl font-semibold mt-8 mb-3 pb-2 border-b border-border/70;
+}
+
+.prose-lawbridge h3 {
+  @apply text-lg font-semibold mt-6 mb-2;
+}
+
+.prose-lawbridge h4 {
+  @apply text-base font-semibold mt-5 mb-2;
+}
+
+.prose-lawbridge p {
+  @apply mb-4;
+}
+
+.prose-lawbridge ul,
+.prose-lawbridge ol {
+  @apply mb-5 space-y-2;
+}
+
+.prose-lawbridge li {
+  @apply pl-1;
+}
+
+.prose-lawbridge strong {
+  @apply font-semibold text-foreground;
+}
+
+.prose-lawbridge hr {
+  @apply my-6 border-border;
+}
+
+.prose-lawbridge table {
+  @apply w-full text-sm border-separate border-spacing-0 my-5 overflow-hidden rounded-xl border border-border shadow-sm;
+}
+
+.prose-lawbridge th {
+  @apply text-left font-semibold bg-muted border-b border-border px-4 py-3;
+}
+
+.prose-lawbridge td {
+  @apply border-b border-border/70 px-4 py-3 align-top bg-card;
+}
+
+.prose-lawbridge tr:last-child td {
+  @apply border-b-0;
+}
+
+.prose-lawbridge code {
+  @apply bg-muted px-1.5 py-0.5 rounded text-sm text-foreground;
+}
+
+.prose-lawbridge pre {
+  @apply bg-muted rounded-xl p-4 overflow-x-auto my-4 text-sm;
+}
+
+.prose-lawbridge blockquote {
+  @apply border-l-4 border-accent bg-accent/5 rounded-r-xl px-4 py-3 italic text-muted-foreground my-4;
+}
+
+.prose-lawbridge a {
+  @apply text-accent underline-offset-2 hover:underline;
+}
+
+.prose-lawbridge input[type="checkbox"] {
+  @apply mr-2 align-middle;
+}
+
+.task-launcher-card,
+.task-workspace-card {
+  @apply border-border bg-card shadow-sm;
+}
+
+.task-launch-card {
+  @apply cursor-pointer;
+}
+
+.task-workspace-top,
+.task-launcher-card .task-panel-header {
+  background-image: linear-gradient(135deg, color-mix(in oklch, var(--muted) 78%, var(--accent) 22%), var(--card));
+}
+
+.task-workspace-number {
+  @apply inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-primary text-primary-foreground text-base font-bold shadow-sm;
+}
+
+.task-workspace-textarea {
+  @apply border-border shadow-inner;
+}
+
+/* LawBridge public-site inspired visual refresh: ivory canvas, deep navy, purple and restrained gold accents. */
+:root {
+  --background: #fbf7ef;
+  --foreground: #17213b;
+  --card: #ffffff;
+  --card-foreground: #17213b;
+  --popover: #ffffff;
+  --popover-foreground: #17213b;
+  --primary: #24143d;
+  --primary-foreground: #fffdf8;
+  --secondary: #f2eadf;
+  --secondary-foreground: #24143d;
+  --muted: #f4efe7;
+  --muted-foreground: #6b6475;
+  --accent: #7357ff;
+  --accent-foreground: #ffffff;
+  --destructive: #b42318;
+  --destructive-foreground: #ffffff;
+  --border: #ded4c5;
+  --input: #d8cfbf;
+  --ring: #7357ff;
+  --sidebar: #24143d;
+  --sidebar-foreground: #fffdf8;
+  --sidebar-primary: #d8b46a;
+  --sidebar-primary-foreground: #24143d;
+  --sidebar-accent: #372153;
+  --sidebar-accent-foreground: #fffdf8;
+  --sidebar-border: #46305f;
+  --sidebar-ring: #d8b46a;
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(115, 87, 255, 0.12), transparent 34rem),
+    radial-gradient(circle at 90% 10%, rgba(216, 180, 106, 0.18), transparent 28rem),
+    linear-gradient(180deg, #fbf7ef 0%, #f7f1e7 100%);
+}
+
+.scenario-page {
+  --lawbridge-gold: #d8b46a;
+}
+
+.scenario-hero {
+  border-color: rgba(36, 20, 61, 0.16);
+  box-shadow: 0 20px 60px rgba(36, 20, 61, 0.10);
+  background:
+    linear-gradient(135deg, rgba(36, 20, 61, 0.98), rgba(50, 29, 85, 0.96) 54%, rgba(115, 87, 255, 0.86)),
+    linear-gradient(135deg, #24143d, #7357ff);
+  color: #fffdf8;
+}
+
+.scenario-hero h1,
+.scenario-hero .text-foreground {
+  color: #fffdf8;
+}
+
+.scenario-hero .text-muted-foreground {
+  color: rgba(255, 253, 248, 0.75);
+}
+
+.scenario-hero .border-border,
+.scenario-hero [class*="border-border"] {
+  border-color: rgba(255, 253, 248, 0.22);
+}
+
+.scenario-hero .bg-card,
+.scenario-hero .bg-background\/80 {
+  background: rgba(255, 253, 248, 0.10);
+  color: #fffdf8;
+  backdrop-filter: blur(10px);
+}
+
+.scenario-tabs {
+  border-radius: 999px;
+  padding: 0.35rem;
+  border-color: rgba(36, 20, 61, 0.14);
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: 0 10px 30px rgba(36, 20, 61, 0.08);
+  backdrop-filter: blur(14px);
+}
+
+.document-card,
+.task-panel,
+.task-launcher-card,
+.task-workspace-card {
+  border-radius: 1.5rem;
+  border-color: rgba(36, 20, 61, 0.12);
+  background: rgba(255, 255, 255, 0.90);
+  box-shadow: 0 18px 48px rgba(36, 20, 61, 0.08);
+  overflow: hidden;
+}
+
+.document-header,
+.task-panel-header,
+.task-workspace-top {
+  background:
+    linear-gradient(135deg, rgba(36, 20, 61, 0.08), rgba(115, 87, 255, 0.08)),
+    linear-gradient(180deg, #fffdf8, #f7f0e5);
+  border-color: rgba(36, 20, 61, 0.10);
+}
+
+.task-launcher-card .task-panel-header h3,
+.document-header h3 {
+  color: #24143d;
+}
+
+.task-answer-card {
+  position: relative;
+  border-color: rgba(36, 20, 61, 0.12);
+  background:
+    linear-gradient(180deg, rgba(255, 253, 248, 0.96), rgba(255, 255, 255, 0.96));
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.task-answer-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  background: linear-gradient(180deg, #7357ff, #d8b46a);
+  border-radius: 1.5rem 0 0 1.5rem;
+}
+
+.task-answer-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(115, 87, 255, 0.36);
+  box-shadow: 0 18px 45px rgba(36, 20, 61, 0.12);
+}
+
+.task-number,
+.task-workspace-number {
+  background: linear-gradient(135deg, #24143d, #7357ff);
+  color: #fffdf8;
+  box-shadow: 0 10px 22px rgba(36, 20, 61, 0.18);
+}
+
+.inline-answer-box {
+  background:
+    linear-gradient(180deg, rgba(255, 253, 248, 0.95), rgba(255, 255, 255, 0.95));
+  border-color: rgba(115, 87, 255, 0.24);
+  box-shadow: 0 12px 32px rgba(36, 20, 61, 0.08);
+}
+
+.inline-answer-box textarea,
+.task-answer-card textarea,
+.task-workspace-card textarea,
+.document-card textarea {
+  border-radius: 1rem;
+  border-color: rgba(36, 20, 61, 0.16);
+  background: #fffdf8;
+  box-shadow: inset 0 1px 0 rgba(36, 20, 61, 0.04);
+}
+
+.inline-answer-box textarea:focus,
+.task-answer-card textarea:focus,
+.task-workspace-card textarea:focus,
+.document-card textarea:focus {
+  border-color: #7357ff;
+  box-shadow: 0 0 0 4px rgba(115, 87, 255, 0.12);
+}
+
+.prose-lawbridge {
+  color: #17213b;
+  font-size: 0.96rem;
+  line-height: 1.85;
+}
+
+.prose-lawbridge h1,
+.prose-lawbridge h2 {
+  color: #24143d;
+}
+
+.prose-lawbridge h1 {
+  font-size: 1.85rem;
+  border-bottom: 1px solid rgba(36, 20, 61, 0.12);
+}
+
+.prose-lawbridge h2 {
+  position: relative;
+  margin-top: 2.2rem;
+  padding: 0.9rem 1rem 0.9rem 1.15rem;
+  border: 1px solid rgba(36, 20, 61, 0.10);
+  border-radius: 1rem;
+  background: linear-gradient(135deg, rgba(115, 87, 255, 0.08), rgba(216, 180, 106, 0.12));
+}
+
+.prose-lawbridge h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.75rem;
+  bottom: 0.75rem;
+  width: 4px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #7357ff, #d8b46a);
+}
+
+.prose-lawbridge h3 {
+  color: #24143d;
+  font-size: 1.1rem;
+  margin-top: 1.8rem;
+}
+
+.prose-lawbridge p {
+  color: rgba(23, 33, 59, 0.88);
+}
+
+.prose-lawbridge ul,
+.prose-lawbridge ol {
+  padding: 1rem 1.25rem 1rem 1.6rem;
+  border: 1px solid rgba(36, 20, 61, 0.08);
+  border-radius: 1rem;
+  background: rgba(255, 253, 248, 0.65);
+}
+
+.prose-lawbridge li::marker {
+  color: #7357ff;
+  font-weight: 700;
+}
+
+.prose-lawbridge table {
+  border-color: rgba(36, 20, 61, 0.14);
+  box-shadow: 0 14px 40px rgba(36, 20, 61, 0.08);
+}
+
+.prose-lawbridge th {
+  background: #24143d;
+  color: #fffdf8;
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.prose-lawbridge td {
+  background: #fffdf8;
+}
+
+.prose-lawbridge blockquote {
+  border-left-color: #d8b46a;
+  background: rgba(216, 180, 106, 0.12);
+  color: rgba(23, 33, 59, 0.78);
+}
+
+.task-panel-toggle {
+  cursor: pointer;
+  transition: background 160ms ease, box-shadow 160ms ease;
+}
+
+.task-panel-toggle:hover {
+  background:
+    linear-gradient(135deg, rgba(36, 20, 61, 0.10), rgba(115, 87, 255, 0.10)),
+    linear-gradient(180deg, #fffdf8, #f7f0e5);
+}
+
+.task-panel-toggle-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 999px;
+  color: #24143d;
+  background: rgba(255, 253, 248, 0.78);
+  border: 1px solid rgba(36, 20, 61, 0.12);
+  box-shadow: 0 8px 20px rgba(36, 20, 61, 0.08);
+  flex-shrink: 0;
+}
+
+/* Full platform upgrade polish */
+body {
+  background:
+    radial-gradient(circle at top left, color-mix(in oklch, var(--accent) 10%, transparent) 0, transparent 34rem),
+    radial-gradient(circle at top right, color-mix(in oklch, var(--chart-4) 14%, transparent) 0, transparent 32rem),
+    var(--background);
+}
+
+.brand-mark {
+  background-image: linear-gradient(135deg, var(--primary), color-mix(in oklch, var(--accent) 78%, var(--primary)));
+}
+
+.app-topbar,
+.app-footer {
+  box-shadow: 0 1px 0 color-mix(in oklch, var(--border) 80%, transparent);
+}
+
+.dashboard-hero,
+.skills-hero,
+.landing-hero {
+  background:
+    linear-gradient(135deg, color-mix(in oklch, var(--card) 82%, var(--accent) 8%), color-mix(in oklch, var(--card) 84%, var(--chart-4) 10%)),
+    var(--card);
+}
+
+.auth-page {
+  background:
+    radial-gradient(circle at 12% 8%, color-mix(in oklch, var(--accent) 14%, transparent) 0, transparent 30rem),
+    radial-gradient(circle at 80% 20%, color-mix(in oklch, var(--chart-4) 16%, transparent) 0, transparent 28rem),
+    var(--background);
+}
+
+.auth-card-header {
+  background-image: linear-gradient(135deg, color-mix(in oklch, var(--muted) 82%, var(--accent) 18%), var(--card));
+}
+
+.stat-card,
+.feature-card,
+.library-filter-card,
+.scenario-card,
+.skill-section {
+  @apply border-border/70 bg-card/90;
+}
+
+.stat-card {
+  background-image: linear-gradient(180deg, var(--card), color-mix(in oklch, var(--card) 86%, var(--muted) 14%));
+}
+
+.stat-icon {
+  background: color-mix(in oklch, var(--accent) 12%, var(--card));
+}
+
+.scenario-link-card,
+.scenario-card {
+  position: relative;
+}
+
+.scenario-link-card::before,
+.scenario-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  border-radius: 999px 0 0 999px;
+  background: linear-gradient(180deg, var(--accent), color-mix(in oklch, var(--chart-4) 88%, var(--accent)));
+  opacity: 0;
+  transition: opacity 180ms ease;
+}
+
+.scenario-link-card:hover::before,
+.scenario-card:hover::before {
+  opacity: 1;
+}
+
+.landing-preview {
+  background:
+    linear-gradient(135deg, color-mix(in oklch, var(--card) 80%, var(--accent) 10%), color-mix(in oklch, var(--card) 82%, var(--chart-4) 12%)),
+    var(--card);
+}
+
+/* Scenario upgrade refinements */
+.scenario-page .scenario-tabs {
+  @apply rounded-2xl;
+}
+
+.task-launcher-card,
+.task-workspace-card {
+  border-color: color-mix(in oklch, var(--accent) 22%, var(--border));
+  box-shadow: 0 16px 45px color-mix(in oklch, var(--primary) 8%, transparent);
+}
+
+.task-panel-toggle {
+  cursor: pointer;
+}
+
+.task-panel-toggle:hover {
+  background-image: linear-gradient(135deg, color-mix(in oklch, var(--muted) 78%, var(--accent) 22%), var(--card));
+}
+
+.task-panel-toggle-icon {
+  @apply flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-border bg-card text-muted-foreground;
+}
+
+.task-answer-card {
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.task-answer-card:hover {
+  transform: translateY(-1px);
+  border-color: color-mix(in oklch, var(--accent) 38%, var(--border));
+  box-shadow: 0 10px 26px color-mix(in oklch, var(--primary) 7%, transparent);
+}
+
+.task-workspace-number {
+  @apply flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-primary text-lg font-semibold text-primary-foreground shadow-sm;
+}
+
+.task-workspace-textarea,
+.inline-answer-box textarea,
+.task-answer-card textarea {
+  border-color: color-mix(in oklch, var(--accent) 18%, var(--border));
+}
+
+/* More engaging document presentation */
+.prose-lawbridge {
+  font-size: 0.98rem;
+}
+
+.prose-lawbridge > h1:first-child,
+.prose-lawbridge > h2:first-child {
+  @apply mt-0;
+}
+
+.prose-lawbridge h1,
+.prose-lawbridge h2 {
+  color: var(--primary);
+}
+
+.prose-lawbridge h2 {
+  @apply rounded-2xl border border-border/70 px-4 py-3;
+  background-image: linear-gradient(135deg, color-mix(in oklch, var(--muted) 82%, var(--accent) 14%), var(--card));
+}
+
+.prose-lawbridge ul,
+.prose-lawbridge ol {
+  @apply rounded-2xl border border-border/70 bg-card/70 p-4 pl-9 shadow-sm;
+}
+
+.prose-lawbridge blockquote {
+  @apply rounded-r-2xl bg-muted/50 py-3 pr-4;
+}
+
+.prose-lawbridge table {
+  @apply bg-card;
+}
+
+.document-card {
+  box-shadow: 0 12px 34px color-mix(in oklch, var(--primary) 6%, transparent);
+}
+
+.document-header {
+  border-bottom-color: color-mix(in oklch, var(--accent) 16%, var(--border));
+}
+
+@media (max-width: 640px) {
+  .dashboard-hero,
+  .skills-hero {
+    @apply rounded-2xl p-5;
+  }
+
+  .prose-lawbridge h2 {
+    @apply px-3 py-2;
+  }
+}
+
+/* Brilliant simulation workspace upgrade */
+.brilliant-simulation {
+  --lb-navy: #151539;
+  --lb-purple: #6b4fd3;
+  --lb-gold: #c39a4a;
+  --lb-cream: #fbf7ef;
+}
+
+.brilliant-hero,
+.brilliant-task-launcher,
+.brilliant-task-workspace,
+.final-builder-card,
+.passport-card,
+.evidence-bank-card,
+.matter-notes-card,
+.supervisor-tip-card,
+.supervisor-check-card,
+.skill-passport-card,
+.tutor-review-panel {
+  background:
+    radial-gradient(circle at top left, color-mix(in srgb, var(--accent) 12%, transparent), transparent 36%),
+    linear-gradient(180deg, color-mix(in srgb, var(--card) 96%, white), var(--card));
+  border-color: color-mix(in srgb, var(--border) 84%, var(--accent));
+  box-shadow: 0 18px 55px rgba(21, 21, 57, 0.08);
+}
+
+.brilliant-tabs {
+  background: color-mix(in srgb, var(--card) 90%, var(--accent) 8%);
+  border: 1px solid color-mix(in srgb, var(--border) 80%, var(--accent));
+  padding: 0.35rem;
+  border-radius: 1rem;
+}
+
+.brilliant-tabs [data-state="active"] {
+  background: linear-gradient(135deg, var(--primary), color-mix(in srgb, var(--primary) 70%, var(--accent)));
+  color: var(--primary-foreground);
+  box-shadow: 0 10px 24px rgba(21, 21, 57, 0.14);
+}
+
+.matter-file-grid .document-card,
+.premium-document {
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+
+.matter-file-button.is-active {
+  background: linear-gradient(135deg, color-mix(in srgb, var(--primary) 10%, var(--card)), color-mix(in srgb, var(--accent) 9%, var(--card)));
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
+  box-shadow: 0 14px 34px rgba(21, 21, 57, 0.1);
+}
+
+.matter-search-card,
+.empty-matter-card {
+  background: color-mix(in srgb, var(--card) 96%, var(--accent) 4%);
+}
+
+.evidence-check-row.is-selected {
+  background: color-mix(in srgb, var(--accent) 12%, var(--card));
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--border));
+  color: var(--foreground);
+}
+
+.brilliant-task-card {
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--card) 96%, white), var(--card));
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.brilliant-task-card:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--accent) 48%, var(--border));
+  box-shadow: 0 18px 38px rgba(21, 21, 57, 0.10);
+}
+
+.quality-meter {
+  background: linear-gradient(135deg, color-mix(in srgb, var(--card) 94%, white), color-mix(in srgb, var(--accent) 8%, var(--card)));
+}
+
+.premium-prose h1,
+.premium-prose h2,
+.premium-prose h3 {
+  color: var(--primary);
+  letter-spacing: -0.02em;
+}
+
+.premium-prose h2 {
+  margin-top: 2rem;
+  padding: 0.85rem 1rem;
+  border-radius: 1rem;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--primary) 8%, transparent), color-mix(in srgb, var(--accent) 8%, transparent));
+  border: 1px solid color-mix(in srgb, var(--border) 80%, var(--accent));
+}
+
+.premium-prose blockquote {
+  border-left: 4px solid var(--accent);
+  background: color-mix(in srgb, var(--accent) 8%, var(--card));
+  border-radius: 0 1rem 1rem 0;
+  padding: 1rem;
+}
+
+.premium-prose ul,
+.premium-prose ol {
+  background: color-mix(in srgb, var(--muted) 48%, transparent);
+  border: 1px solid color-mix(in srgb, var(--border) 75%, transparent);
+  border-radius: 1rem;
+  padding: 1rem 1rem 1rem 2rem;
+}
+
+.premium-prose table {
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border-radius: 1rem;
+  border: 1px solid var(--border);
+  width: 100%;
+}
+
+.premium-prose th {
+  background: color-mix(in srgb, var(--primary) 10%, var(--card));
+}
+
+.final-builder-card textarea,
+.brilliant-task-workspace textarea,
+.brilliant-task-card textarea,
+.matter-notes-card textarea {
+  border-radius: 1rem;
+  border-color: color-mix(in srgb, var(--border) 78%, var(--accent));
+}
+
+.skill-passport-card,
+.supervisor-placeholder-card {
+  background: linear-gradient(180deg, color-mix(in srgb, var(--card) 94%, white), color-mix(in srgb, var(--accent) 5%, var(--card)));
+}
+
+
+/* Scenario hero readability fix
+   Keeps the premium LawBridge header but stops white text disappearing on a pale background. */
+.scenario-page .scenario-hero.brilliant-hero {
+  background:
+    radial-gradient(circle at 12% 8%, rgba(216, 180, 106, 0.28), transparent 18rem),
+    radial-gradient(circle at 86% 4%, rgba(115, 87, 255, 0.42), transparent 24rem),
+    linear-gradient(135deg, #24143d 0%, #321d55 56%, #5f49cf 100%) !important;
+  color: #fffdf8 !important;
+  border-color: rgba(216, 180, 106, 0.34) !important;
+  box-shadow: 0 24px 70px rgba(36, 20, 61, 0.22) !important;
+}
+
+.scenario-page .scenario-hero.brilliant-hero h1,
+.scenario-page .scenario-hero.brilliant-hero > div:not(.passport-card) .text-foreground,
+.scenario-page .scenario-hero.brilliant-hero > div:not(.passport-card) p,
+.scenario-page .scenario-hero.brilliant-hero > div:not(.passport-card) span {
+  color: #fffdf8 !important;
+}
+
+.scenario-page .scenario-hero.brilliant-hero .text-muted-foreground {
+  color: rgba(255, 253, 248, 0.82) !important;
+}
+
+.scenario-page .scenario-hero.brilliant-hero .border-border,
+.scenario-page .scenario-hero.brilliant-hero [class*="border-border"] {
+  border-color: rgba(255, 253, 248, 0.26) !important;
+}
+
+.scenario-page .scenario-hero.brilliant-hero .bg-background\/80,
+.scenario-page .scenario-hero.brilliant-hero .bg-card {
+  background: rgba(255, 253, 248, 0.12) !important;
+  color: #fffdf8 !important;
+  backdrop-filter: blur(10px);
+}
+
+.scenario-page .scenario-hero.brilliant-hero .passport-card {
+  background:
+    linear-gradient(180deg, rgba(255, 253, 248, 0.98), rgba(255, 250, 240, 0.94)) !important;
+  color: #24143d !important;
+  border-color: rgba(216, 180, 106, 0.42) !important;
+  box-shadow: 0 18px 45px rgba(13, 11, 35, 0.20) !important;
+}
+
+.scenario-page .scenario-hero.brilliant-hero .passport-card,
+.scenario-page .scenario-hero.brilliant-hero .passport-card h1,
+.scenario-page .scenario-hero.brilliant-hero .passport-card h2,
+.scenario-page .scenario-hero.brilliant-hero .passport-card h3,
+.scenario-page .scenario-hero.brilliant-hero .passport-card p,
+.scenario-page .scenario-hero.brilliant-hero .passport-card span,
+.scenario-page .scenario-hero.brilliant-hero .passport-card div {
+  color: #24143d !important;
+}
+
+.scenario-page .scenario-hero.brilliant-hero .passport-card .text-muted-foreground,
+.scenario-page .scenario-hero.brilliant-hero .passport-card [class*="text-muted"] {
+  color: rgba(36, 20, 61, 0.62) !important;
+}
+
+.scenario-page .scenario-hero.brilliant-hero .passport-card .text-primary,
+.scenario-page .scenario-hero.brilliant-hero .passport-card [class*="text-primary"] {
+  color: #24143d !important;
+}
+
+.scenario-page .scenario-hero.brilliant-hero .passport-card .bg-background\/80,
+.scenario-page .scenario-hero.brilliant-hero .passport-card .bg-card {
+  background: rgba(36, 20, 61, 0.04) !important;
+  color: #24143d !important;
+  border-color: rgba(36, 20, 61, 0.12) !important;
+}

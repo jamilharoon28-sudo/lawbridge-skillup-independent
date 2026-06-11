@@ -1,11 +1,22 @@
 import { createFileRoute, useNavigate, Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
+import type { FormEvent } from "react";
 import { supabase } from "@/integrations/supabase/client";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Scale } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
+import {
+  BookOpen,
+  CheckCircle2,
+  FileText,
+  KeyRound,
+  Mail,
+  Scale,
+  ShieldCheck,
+  Sparkles,
+} from "lucide-react";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/auth")({
@@ -17,6 +28,7 @@ export const Route = createFileRoute("/auth")({
 function AuthPage() {
   const navigate = useNavigate();
   const [mode, setMode] = useState<"signin" | "signup">("signin");
+  const [authMethod, setAuthMethod] = useState<"password" | "magic">("password");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [name, setName] = useState("");
@@ -28,27 +40,59 @@ function AuthPage() {
     });
   }, [navigate]);
 
-  const handleEmail = async (e: React.FormEvent) => {
-    e.preventDefault();
+  const ensureProfile = async (fullName?: string) => {
+    const { data } = await supabase.auth.getUser();
+    if (!data.user) return;
+
+    await supabase.from("profiles").upsert(
+      {
+        id: data.user.id,
+        email: data.user.email,
+        full_name: fullName || data.user.user_metadata?.full_name || data.user.email,
+      },
+      { onConflict: "id" },
+    );
+  };
+
+  const handlePasswordAuth = async (event: FormEvent) => {
+    event.preventDefault();
     setLoading(true);
+
     try {
       if (mode === "signup") {
-        const { error } = await supabase.auth.signUp({
-          email,
+        const { data, error } = await supabase.auth.signUp({
+          email: email.trim(),
           password,
           options: {
-            data: { full_name: name },
+            data: { full_name: name.trim() },
             emailRedirectTo: `${window.location.origin}/dashboard`,
           },
         });
+
         if (error) throw error;
-        toast.success("Account created. You're signed in.");
-        navigate({ to: "/dashboard" });
-      } else {
-        const { error } = await supabase.auth.signInWithPassword({ email, password });
-        if (error) throw error;
-        navigate({ to: "/dashboard" });
+
+        if (data.session) {
+          await ensureProfile(name.trim());
+          toast.success("Account created. Welcome to LawBridge.");
+          navigate({ to: "/dashboard" });
+          return;
+        }
+
+        toast.success("Account created. Check your email to confirm your account, then sign in.");
+        setMode("signin");
+        return;
       }
+
+      const { error } = await supabase.auth.signInWithPassword({
+        email: email.trim(),
+        password,
+      });
+
+      if (error) throw error;
+
+      await ensureProfile();
+      toast.success("Signed in successfully.");
+      navigate({ to: "/dashboard" });
     } catch (err: any) {
       toast.error(err.message ?? "Authentication failed");
     } finally {
@@ -56,132 +100,217 @@ function AuthPage() {
     }
   };
 
-  const handleGoogle = async () => {
+  const handleMagicLink = async (event: FormEvent) => {
+    event.preventDefault();
     setLoading(true);
-    const { error } = await supabase.auth.signInWithOAuth({
-      provider: "google",
-      options: { redirectTo: `${window.location.origin}/dashboard` },
-    });
-    if (error) {
-      toast.error(error.message ?? "Google sign-in failed");
+
+    try {
+      const { error } = await supabase.auth.signInWithOtp({
+        email: email.trim(),
+        options: {
+          shouldCreateUser: true,
+          emailRedirectTo: `${window.location.origin}/dashboard`,
+        },
+      });
+
+      if (error) throw error;
+
+      toast.success("Magic link sent. Check your email and open the link to continue.");
+    } catch (err: any) {
+      toast.error(err.message ?? "Could not send magic link");
+    } finally {
       setLoading(false);
     }
   };
 
+  const isSignup = mode === "signup";
+  const isMagic = authMethod === "magic";
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background px-4">
-      <div className="w-full max-w-md">
-        <Link
-          to="/"
-          className="flex items-center justify-center gap-2 font-semibold text-primary mb-6"
-        >
-          <span className="w-8 h-8 rounded-md bg-primary text-primary-foreground flex items-center justify-center">
-            <Scale className="w-4 h-4" />
-          </span>
-          LawBridge Skills Portal
-        </Link>
-        <Card>
-          <CardHeader>
-            <CardTitle>{mode === "signin" ? "Welcome back" : "Create your account"}</CardTitle>
-            <CardDescription>
-              {mode === "signin"
-                ? "Sign in to access your scenarios and progress."
-                : "Set up your LawBridge student account."}
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="space-y-4">
-            <Button
-              type="button"
-              variant="outline"
-              className="w-full"
-              onClick={handleGoogle}
-              disabled={loading}
-            >
-              <svg className="w-4 h-4 mr-2" viewBox="0 0 24 24">
-                <path
-                  fill="#4285F4"
-                  d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
-                />
-                <path
-                  fill="#34A853"
-                  d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-                />
-                <path
-                  fill="#FBBC05"
-                  d="M5.84 14.1c-.22-.66-.35-1.36-.35-2.1s.13-1.44.35-2.1V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.83z"
-                />
-                <path
-                  fill="#EA4335"
-                  d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.83C6.71 7.31 9.14 5.38 12 5.38z"
-                />
-              </svg>
-              Continue with Google
-            </Button>
-            <div className="relative">
-              <div className="absolute inset-0 flex items-center">
-                <span className="w-full border-t border-border" />
+    <div className="auth-page min-h-screen bg-background px-4 py-8">
+      <div className="mx-auto grid min-h-[calc(100vh-4rem)] w-full max-w-6xl items-center gap-8 lg:grid-cols-[1fr_440px]">
+        <section className="hidden lg:block">
+          <Link to="/" className="mb-10 inline-flex items-center gap-3 font-semibold text-primary">
+            <span className="brand-mark flex h-11 w-11 items-center justify-center rounded-2xl text-primary-foreground shadow-sm">
+              <Scale className="h-5 w-5" />
+            </span>
+            <span>
+              <span className="block text-lg">LawBridge</span>
+              <span className="text-xs uppercase tracking-[0.18em] text-muted-foreground">Skills Portal</span>
+            </span>
+          </Link>
+
+          <Badge variant="outline" className="mb-4 rounded-full bg-white/50 px-3 py-1">
+            <Sparkles className="mr-1.5 h-3.5 w-3.5 text-accent" /> Interactive legal training
+          </Badge>
+          <h1 className="max-w-2xl text-4xl font-semibold tracking-tight sm:text-5xl">
+            Work realistic matter files with structured task workspaces.
+          </h1>
+          <p className="mt-5 max-w-xl text-muted-foreground">
+            Review exhibits, complete scenario-specific tasks, draft a final submission and track
+            your progress across the LawBridge skills library.
+          </p>
+
+          <div className="mt-8 grid max-w-2xl grid-cols-3 gap-3">
+            <AuthFeature icon={BookOpen} title="Exhibits" body="Matter files, documents and evidence." />
+            <AuthFeature icon={FileText} title="Tasks" body="Editable answers and final submissions." />
+            <AuthFeature icon={ShieldCheck} title="Tutor layer" body="Guides and review workflows." />
+          </div>
+        </section>
+
+        <div className="w-full">
+          <Link to="/" className="mb-6 flex items-center justify-center gap-2 font-semibold text-primary lg:hidden">
+            <span className="brand-mark flex h-9 w-9 items-center justify-center rounded-2xl text-primary-foreground">
+              <Scale className="h-4 w-4" />
+            </span>
+            LawBridge Skills Portal
+          </Link>
+
+          <Card className="auth-card overflow-hidden shadow-xl">
+            <CardHeader className="auth-card-header">
+              <CardTitle className="text-2xl">{isSignup ? "Create your account" : "Welcome back"}</CardTitle>
+              <CardDescription>
+                {isSignup
+                  ? "Create a learner account using email and password, or use a password-free magic link."
+                  : "Sign in to access your simulations, progress and submissions."}
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="space-y-5 p-6">
+              <div className="grid grid-cols-2 gap-2 rounded-2xl border border-border bg-muted/40 p-1">
+                <button
+                  type="button"
+                  onClick={() => setAuthMethod("password")}
+                  className={`rounded-xl px-3 py-2 text-sm font-semibold transition ${
+                    authMethod === "password" ? "bg-background text-primary shadow-sm" : "text-muted-foreground hover:text-foreground"
+                  }`}
+                >
+                  <KeyRound className="mr-1.5 inline h-4 w-4" /> Password
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setAuthMethod("magic")}
+                  className={`rounded-xl px-3 py-2 text-sm font-semibold transition ${
+                    authMethod === "magic" ? "bg-background text-primary shadow-sm" : "text-muted-foreground hover:text-foreground"
+                  }`}
+                >
+                  <Mail className="mr-1.5 inline h-4 w-4" /> Magic link
+                </button>
               </div>
-              <div className="relative flex justify-center text-xs">
-                <span className="bg-card px-2 text-muted-foreground">or</span>
-              </div>
-            </div>
-            <form onSubmit={handleEmail} className="space-y-3">
-              {mode === "signup" && (
-                <div>
-                  <Label htmlFor="name">Full name</Label>
-                  <Input
-                    id="name"
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
-                    required
-                  />
-                </div>
-              )}
-              <div>
-                <Label htmlFor="email">Email</Label>
-                <Input
-                  id="email"
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  required
-                />
-              </div>
-              <div>
-                <Label htmlFor="password">Password</Label>
-                <Input
-                  id="password"
-                  type="password"
-                  minLength={6}
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                  required
-                />
-              </div>
-              <Button type="submit" className="w-full" disabled={loading}>
-                {mode === "signin" ? "Sign in" : "Create account"}
-              </Button>
-            </form>
-            <p className="text-center text-sm text-muted-foreground">
-              {mode === "signin" ? (
-                <>
-                  New to LawBridge?{" "}
-                  <button className="text-accent hover:underline" onClick={() => setMode("signup")}>
-                    Create an account
-                  </button>
-                </>
+
+              {isMagic ? (
+                <form onSubmit={handleMagicLink} className="space-y-4">
+                  <div className="rounded-2xl border border-accent/20 bg-accent/5 p-4 text-sm text-muted-foreground">
+                    Enter your email and we will send you a secure sign-in link. No Google Cloud setup is needed.
+                  </div>
+                  <div>
+                    <Label htmlFor="magic-email">Email</Label>
+                    <Input
+                      id="magic-email"
+                      type="email"
+                      value={email}
+                      onChange={(event) => setEmail(event.target.value)}
+                      required
+                      placeholder="you@example.com"
+                    />
+                  </div>
+                  <Button type="submit" className="w-full" disabled={loading}>
+                    {loading ? "Sending link..." : "Send magic login link"}
+                  </Button>
+                </form>
               ) : (
-                <>
-                  Already have an account?{" "}
-                  <button className="text-accent hover:underline" onClick={() => setMode("signin")}>
-                    Sign in
-                  </button>
-                </>
+                <form onSubmit={handlePasswordAuth} className="space-y-4">
+                  {isSignup && (
+                    <div>
+                      <Label htmlFor="name">Full name</Label>
+                      <Input
+                        id="name"
+                        value={name}
+                        onChange={(event) => setName(event.target.value)}
+                        required
+                        placeholder="Your name"
+                      />
+                    </div>
+                  )}
+                  <div>
+                    <Label htmlFor="email">Email</Label>
+                    <Input
+                      id="email"
+                      type="email"
+                      value={email}
+                      onChange={(event) => setEmail(event.target.value)}
+                      required
+                      placeholder="you@example.com"
+                    />
+                  </div>
+                  <div>
+                    <Label htmlFor="password">Password</Label>
+                    <Input
+                      id="password"
+                      type="password"
+                      minLength={6}
+                      value={password}
+                      onChange={(event) => setPassword(event.target.value)}
+                      required
+                      placeholder="Minimum 6 characters"
+                    />
+                  </div>
+                  <Button type="submit" className="w-full" disabled={loading}>
+                    {loading ? "Please wait..." : isSignup ? "Create account" : "Sign in"}
+                  </Button>
+                </form>
               )}
-            </p>
-          </CardContent>
-        </Card>
+
+              <div className="rounded-2xl border border-dashed border-border bg-muted/25 p-4 text-sm text-muted-foreground">
+                <div className="flex items-start gap-3">
+                  <CheckCircle2 className="mt-0.5 h-4 w-4 text-accent" />
+                  <div>
+                    <p className="font-medium text-foreground">Google sign-in is disabled for now.</p>
+                    <p className="mt-1">
+                      Use email/password or magic link. Google can be added later when the OAuth setup is ready.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <p className="text-center text-sm text-muted-foreground">
+                {isSignup ? (
+                  <>
+                    Already have an account?{" "}
+                    <button
+                      type="button"
+                      className="font-medium text-accent hover:underline"
+                      onClick={() => setMode("signin")}
+                    >
+                      Sign in
+                    </button>
+                  </>
+                ) : (
+                  <>
+                    New to LawBridge?{" "}
+                    <button
+                      type="button"
+                      className="font-medium text-accent hover:underline"
+                      onClick={() => setMode("signup")}
+                    >
+                      Create an account
+                    </button>
+                  </>
+                )}
+              </p>
+            </CardContent>
+          </Card>
+        </div>
       </div>
+    </div>
+  );
+}
+
+function AuthFeature({ icon: Icon, title, body }: { icon: any; title: string; body: string }) {
+  return (
+    <div className="rounded-2xl border border-border/70 bg-white/55 p-4 shadow-sm backdrop-blur">
+      <Icon className="h-5 w-5 text-accent" />
+      <div className="mt-3 font-semibold">{title}</div>
+      <p className="mt-1 text-xs text-muted-foreground">{body}</p>
     </div>
   );
 }
