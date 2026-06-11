@@ -1,112 +1,123 @@
-# Exhibit 2 - Background Note
+<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
 
-Source path: `Practical Skills/Student Packs/Workplace Readiness/PS-WR-01 Student Pack/Exhibit 2 - Background Note.docx`
+**Exhibit 2 - Background Note**
 
-### Exhibit 2 - Background Note
-
-
-Student Exhibit Document | First Week in a Legal Team
-
-
-| ⚖ | Pack code | PS-WR-01 |
-| --- | --- | --- |
-| ▣ | Skill focus | Workplace Readiness |
-| ▥ | Exhibit number | 2 |
-| 👤 | Document type | Background Note |
-| ◷ | Status | Fictional training document - read with the full exhibit set |
-| ⚖ | Use of exhibit | Extract facts, identify uncertainty and decide what needs checking before producing the final output. |
-
-
-What This Exhibit Contains
+**What This Exhibit Contains**
 
 This is the background note. It gives the factual setting behind the matter, including the client or business context, the pressure points and the facts that may drive priority.
 
-Exhibit Content Map
+**How to Use This Exhibit**
 
+Read the exact wording rather than relying on the title.
 
-| Document format | Internal note / business briefing |
-| --- | --- |
-| What this exhibit contains | This is the background note. It gives the factual setting behind the matter, including the client or business context, the pressure points and the facts that may drive priority. |
-| How students should use it | Treat it like business context: separate commercial objectives from legal conclusions and evidence. |
-| Evidence caution | Do not treat this exhibit as the whole answer. Cross-check it against the instructions, other exhibits and any legal framework that requires verification. |
+Identify what is confirmed, what is uncertain and what is missing.
 
+Use the exhibit number and document title when citing evidence in your answer.
 
-Internal note / business briefing - Full Exhibit Content
+**Do not treat this exhibit alone as the full legal or commercial position.**
 
+Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-| Background item | Detail |
-| --- | --- |
-| Client / matter setting | A student is about to start a short legal placement and must understand communication, confidentiality, asking questions and reliability. |
-| Commercial or professional pressure | The student must produce a useful output despite incomplete information. |
-| Reader of final output | Supervisor, client, mentor or internal team depending on the required submission bundle. |
-| Quality risk | A confident but unsupported answer could mislead the recipient. |
+**Full Exhibit Content**
 
+| **Background item**                 | **Detail**                                                                                                                                |
+|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| Client / matter setting             | A student is about to start a short legal placement and must understand communication, confidentiality, asking questions and reliability. |
+| Commercial or professional pressure | The student must produce a useful output despite incomplete information.                                                                  |
+| Reader of final output              | Supervisor, client, mentor or internal team depending on the required submission bundle.                                                  |
+| Quality risk                        | A confident but unsupported answer could mislead the recipient.                                                                           |
 
-Detailed Background Points
+**Detailed Background Points**
 
-Start 9:30 bring laptop if available
+**Start 9:30 bring laptop if available**
 
-Shadow commercial team
+**Shadow commercial team**
 
-May sit near client files
+**May sit near client files**
 
-Draft question sounds entitled
+**Draft question sounds entitled**
 
-Review bundle for missing signatures
+**Review bundle for missing signatures**
 
-Do not discuss client matters outside authorised spaces
+**Do not discuss client matters outside authorised spaces**
 
+| **\#** | **File point**                                          | **How to treat it**                      | **Follow-up required**                              |
+|--------|---------------------------------------------------------|------------------------------------------|-----------------------------------------------------|
+| 1      | Start 9:30 bring laptop if available                    | Treat as a file point, not a conclusion. | Check against the exhibit set before relying on it. |
+| 2      | Shadow commercial team                                  | Treat as a file point, not a conclusion. | Check against the exhibit set before relying on it. |
+| 3      | May sit near client files                               | Treat as a file point, not a conclusion. | Check against the exhibit set before relying on it. |
+| 4      | Draft question sounds entitled                          | Treat as a file point, not a conclusion. | Check against the exhibit set before relying on it. |
+| 5      | Review bundle for missing signatures                    | Treat as a file point, not a conclusion. | Check against the exhibit set before relying on it. |
+| 6      | Do not discuss client matters outside authorised spaces | Treat as a file point, not a conclusion. | Check against the exhibit set before relying on it. |
 
-| # | File point | How to treat it | Follow-up required |
-| --- | --- | --- | --- |
-| 1 | Start 9:30 bring laptop if available | Treat as a file point, not a conclusion. | Check against the exhibit set before relying on it. |
-| 2 | Shadow commercial team | Treat as a file point, not a conclusion. | Check against the exhibit set before relying on it. |
-| 3 | May sit near client files | Treat as a file point, not a conclusion. | Check against the exhibit set before relying on it. |
-| 4 | Draft question sounds entitled | Treat as a file point, not a conclusion. | Check against the exhibit set before relying on it. |
-| 5 | Review bundle for missing signatures | Treat as a file point, not a conclusion. | Check against the exhibit set before relying on it. |
-| 6 | Do not discuss client matters outside authorised spaces | Treat as a file point, not a conclusion. | Check against the exhibit set before relying on it. |
+**Expanded Exhibit Detail**
 
+*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
 
-What This Exhibit Does and Does Not Prove
+**Source Status and Timing**
 
+> **•** Timing references appearing in this exhibit include: 9:30.
 
-| Point | Explanation |
-| --- | --- |
-| Confirmed by this exhibit | It gives training-file information relevant to First Week in a Legal Team and should be cited where used. |
-| Not confirmed by this exhibit alone | It does not prove the full legal position, final client instructions, complete chronology, or every missing document. |
-| Cross-check required | Read this alongside the other exhibits and the instructions before producing the final output. |
-| Student caution | Do not treat confident wording in a document as automatically accurate, complete or safe. |
+**Detailed Matter Points**
 
+> **•** Narrative point: Start 9:30 bring laptop if available
+>
+> **•** Source detail: Background item is recorded as Detail.
+>
+> **•** Source detail: Client / matter setting is recorded as A student is about to start a short legal placement and must understand communication, confidentiality, asking questions and reliability..
+>
+> **•** Source detail: Commercial or professional pressure is recorded as The student must produce a useful output despite incomplete information..
+>
+> **•** Source detail: Reader of final output is recorded as Supervisor, client, mentor or internal team depending on the required submission bundle..
+>
+> **•** Source detail: Quality risk is recorded as A confident but unsupported answer could mislead the recipient..
+>
+> **•** For \# '1', the exhibit records File point: Start 9:30 bring laptop if available; How to treat it: Treat as a file point, not a conclusion.; Follow-up required: Check against the exhibit set before relying on it..
+>
+> **•** For \# '2', the exhibit records File point: Shadow commercial team; How to treat it: Treat as a file point, not a conclusion.; Follow-up required: Check against the exhibit set before relying on it..
+>
+> **•** For \# '3', the exhibit records File point: May sit near client files; How to treat it: Treat as a file point, not a conclusion.; Follow-up required: Check against the exhibit set before relying on it..
+>
+> **•** For \# '4', the exhibit records File point: Draft question sounds entitled; How to treat it: Treat as a file point, not a conclusion.; Follow-up required: Check against the exhibit set before relying on it..
+>
+> **•** For \# '5', the exhibit records File point: Review bundle for missing signatures; How to treat it: Treat as a file point, not a conclusion.; Follow-up required: Check against the exhibit set before relying on it..
+>
+> **•** For \# '6', the exhibit records File point: Do not discuss client matters outside authorised spaces; How to treat it: Treat as a file point, not a conclusion.; Follow-up required: Check against the exhibit set before relying on it..
 
-Student Extraction Boxes
+**Uncertainty and Follow-Up Points Within This Exhibit**
 
-Box 1 - Key facts from this exhibit
+> **•** The wording 'may' in this exhibit uses possibility wording rather than confirmed fact; record it as a caveat or follow-up point, not as a final conclusion.
+>
+> **•** The wording 'draft' in this exhibit shows the wording or document may not have been approved; record it as a caveat or follow-up point, not as a final conclusion.
+>
+> **•** The wording 'missing' in this exhibit points to information that is not yet available; record it as a caveat or follow-up point, not as a final conclusion.
+>
+> **•** The wording 'incomplete' in this exhibit shows the underlying review or data picture is incomplete; record it as a caveat or follow-up point, not as a final conclusion.
+>
+> **•** The wording 'pending' in this exhibit records something still awaiting completion; record it as a caveat or follow-up point, not as a final conclusion.
+>
+> **•** The wording 'could' in this exhibit uses possibility wording rather than confirmed fact; record it as a caveat or follow-up point, not as a final conclusion.
+>
+> **•** Any date or time in this exhibit should be carried across exactly, because timing may affect awareness, notice, deadline or escalation analysis.
 
+**Student Extraction Boxes**
 
-| Type your answer here. |
-| --- |
+**Box 1 - Key facts from this exhibit**
 
+| *Type your answer here.* |
+|--------------------------|
 
-Box 2 - Risks, uncertainties or missing information
+**Box 2 - Risks, uncertainty or missing information**
 
+| *Type your answer here.* |
+|--------------------------|
 
-| Type your answer here. |
-| --- |
+**Box 3 - How this exhibit affects the final output**
 
+| *Type your answer here.* |
+|--------------------------|
 
-Box 3 - How this exhibit affects the task or final output
+**Box 4 - Follow-up questions to carry forward**
 
-
-| Type your answer here. |
-| --- |
-
-
-Questions to Carry Forward
-
-What exactly is confirmed by this exhibit?
-
-What is uncertain, incomplete or potentially misleading?
-
-Which other exhibit should be checked before relying on this point?
-
-What would you ask the client, supervisor, counterparty or internal team before finalising the output?
+| *Type your answer here.* |
+|--------------------------|

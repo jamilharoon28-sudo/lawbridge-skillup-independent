@@ -1,112 +1,115 @@
-# Exhibit 2 - Background Note
+<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
 
-Source path: `Practical Skills/Student Packs/Teamwork and Collaboration/PS-TAC-01 Student Pack/Exhibit 2 - Background Note.docx`
+**Exhibit 2 - Background Note**
 
-### Exhibit 2 - Background Note
-
-
-Student Exhibit Document | Working With a Busy Supervisor
-
-
-| ⚖ | Pack code | PS-TAC-01 |
-| --- | --- | --- |
-| ▣ | Skill focus | Teamwork and Collaboration |
-| ▥ | Exhibit number | 2 |
-| 👤 | Document type | Background Note |
-| ◷ | Status | Fictional training document - read with the full exhibit set |
-| ⚖ | Use of exhibit | Extract facts, identify uncertainty and decide what needs checking before producing the final output. |
-
-
-What This Exhibit Contains
+**What This Exhibit Contains**
 
 This is the background note. It gives the factual setting behind the matter, including the client or business context, the pressure points and the facts that may drive priority.
 
-Exhibit Content Map
+**How to Use This Exhibit**
 
+Read the exact wording rather than relying on the title.
 
-| Document format | Internal note / business briefing |
-| --- | --- |
-| What this exhibit contains | This is the background note. It gives the factual setting behind the matter, including the client or business context, the pressure points and the facts that may drive priority. |
-| How students should use it | Treat it like business context: separate commercial objectives from legal conclusions and evidence. |
-| Evidence caution | Do not treat this exhibit as the whole answer. Cross-check it against the instructions, other exhibits and any legal framework that requires verification. |
+Identify what is confirmed, what is uncertain and what is missing.
 
+Use the exhibit number and document title when citing evidence in your answer.
 
-Internal note / business briefing - Full Exhibit Content
+**Do not treat this exhibit alone as the full legal or commercial position.**
 
+Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-| Background item | Detail |
-| --- | --- |
-| Client / matter setting | The student has reviewed a short file but the supervisor has only five minutes before a client call. The update must separate issue, evidence, risk and next step. |
-| Commercial or professional pressure | The student must produce a useful output despite incomplete information. |
-| Reader of final output | Supervisor, client, mentor or internal team depending on the required submission bundle. |
-| Quality risk | A confident but unsupported answer could mislead the recipient. |
+**Full Exhibit Content**
 
+| **Background item**                 | **Detail**                                                                                                                                                         |
+|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Client / matter setting             | The student has reviewed a short file but the supervisor has only five minutes before a client call. The update must separate issue, evidence, risk and next step. |
+| Commercial or professional pressure | The student must produce a useful output despite incomplete information.                                                                                           |
+| Reader of final output              | Supervisor, client, mentor or internal team depending on the required submission bundle.                                                                           |
+| Quality risk                        | A confident but unsupported answer could mislead the recipient.                                                                                                    |
 
-Detailed Background Points
+**Detailed Background Points**
 
-Key points needed before 4pm
+**Key points needed before 4pm**
 
-Client complaint received
+**Client complaint received**
 
-One deadline uncertain
+**One deadline uncertain**
 
-Two documents missing
+**Two documents missing**
 
-Another team member takes over tomorrow
+**Another team member takes over tomorrow**
 
-Client wants to avoid public escalation
+**Client wants to avoid public escalation**
 
+| **\#** | **File point**                          | **How to treat it**                      | **Follow-up required**                              |
+|--------|-----------------------------------------|------------------------------------------|-----------------------------------------------------|
+| 1      | Key points needed before 4pm            | Treat as a file point, not a conclusion. | Check against the exhibit set before relying on it. |
+| 2      | Client complaint received               | Treat as a file point, not a conclusion. | Check against the exhibit set before relying on it. |
+| 3      | One deadline uncertain                  | Treat as a file point, not a conclusion. | Check against the exhibit set before relying on it. |
+| 4      | Two documents missing                   | Treat as a file point, not a conclusion. | Check against the exhibit set before relying on it. |
+| 5      | Another team member takes over tomorrow | Treat as a file point, not a conclusion. | Check against the exhibit set before relying on it. |
+| 6      | Client wants to avoid public escalation | Treat as a file point, not a conclusion. | Check against the exhibit set before relying on it. |
 
-| # | File point | How to treat it | Follow-up required |
-| --- | --- | --- | --- |
-| 1 | Key points needed before 4pm | Treat as a file point, not a conclusion. | Check against the exhibit set before relying on it. |
-| 2 | Client complaint received | Treat as a file point, not a conclusion. | Check against the exhibit set before relying on it. |
-| 3 | One deadline uncertain | Treat as a file point, not a conclusion. | Check against the exhibit set before relying on it. |
-| 4 | Two documents missing | Treat as a file point, not a conclusion. | Check against the exhibit set before relying on it. |
-| 5 | Another team member takes over tomorrow | Treat as a file point, not a conclusion. | Check against the exhibit set before relying on it. |
-| 6 | Client wants to avoid public escalation | Treat as a file point, not a conclusion. | Check against the exhibit set before relying on it. |
+**Expanded Exhibit Detail**
 
+*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
 
-What This Exhibit Does and Does Not Prove
+**Source Status and Timing**
 
+> **•** The exhibit should be treated as a matter-file source document rather than a complete legal conclusion.
 
-| Point | Explanation |
-| --- | --- |
-| Confirmed by this exhibit | It gives training-file information relevant to Working With a Busy Supervisor and should be cited where used. |
-| Not confirmed by this exhibit alone | It does not prove the full legal position, final client instructions, complete chronology, or every missing document. |
-| Cross-check required | Read this alongside the other exhibits and the instructions before producing the final output. |
-| Student caution | Do not treat confident wording in a document as automatically accurate, complete or safe. |
+**Detailed Matter Points**
 
+> **•** Source detail: Background item is recorded as Detail.
+>
+> **•** Source detail: Client / matter setting is recorded as The student has reviewed a short file but the supervisor has only five minutes before a client call. The update must separate issue, evidence, risk and next step..
+>
+> **•** Source detail: Commercial or professional pressure is recorded as The student must produce a useful output despite incomplete information..
+>
+> **•** Source detail: Reader of final output is recorded as Supervisor, client, mentor or internal team depending on the required submission bundle..
+>
+> **•** Source detail: Quality risk is recorded as A confident but unsupported answer could mislead the recipient..
+>
+> **•** For \# '1', the exhibit records File point: Key points needed before 4pm; How to treat it: Treat as a file point, not a conclusion.; Follow-up required: Check against the exhibit set before relying on it..
+>
+> **•** For \# '2', the exhibit records File point: Client complaint received; How to treat it: Treat as a file point, not a conclusion.; Follow-up required: Check against the exhibit set before relying on it..
+>
+> **•** For \# '3', the exhibit records File point: One deadline uncertain; How to treat it: Treat as a file point, not a conclusion.; Follow-up required: Check against the exhibit set before relying on it..
+>
+> **•** For \# '4', the exhibit records File point: Two documents missing; How to treat it: Treat as a file point, not a conclusion.; Follow-up required: Check against the exhibit set before relying on it..
+>
+> **•** For \# '5', the exhibit records File point: Another team member takes over tomorrow; How to treat it: Treat as a file point, not a conclusion.; Follow-up required: Check against the exhibit set before relying on it..
+>
+> **•** For \# '6', the exhibit records File point: Client wants to avoid public escalation; How to treat it: Treat as a file point, not a conclusion.; Follow-up required: Check against the exhibit set before relying on it..
 
-Student Extraction Boxes
+**Uncertainty and Follow-Up Points Within This Exhibit**
 
-Box 1 - Key facts from this exhibit
+> **•** The wording 'missing' in this exhibit points to information that is not yet available; record it as a caveat or follow-up point, not as a final conclusion.
+>
+> **•** The wording 'incomplete' in this exhibit shows the underlying review or data picture is incomplete; record it as a caveat or follow-up point, not as a final conclusion.
+>
+> **•** The wording 'pending' in this exhibit records something still awaiting completion; record it as a caveat or follow-up point, not as a final conclusion.
+>
+> **•** The wording 'could' in this exhibit uses possibility wording rather than confirmed fact; record it as a caveat or follow-up point, not as a final conclusion.
 
+**Student Extraction Boxes**
 
-| Type your answer here. |
-| --- |
+**Box 1 - Key facts from this exhibit**
 
+| *Type your answer here.* |
+|--------------------------|
 
-Box 2 - Risks, uncertainties or missing information
+**Box 2 - Risks, uncertainty or missing information**
 
+| *Type your answer here.* |
+|--------------------------|
 
-| Type your answer here. |
-| --- |
+**Box 3 - How this exhibit affects the final output**
 
+| *Type your answer here.* |
+|--------------------------|
 
-Box 3 - How this exhibit affects the task or final output
+**Box 4 - Follow-up questions to carry forward**
 
-
-| Type your answer here. |
-| --- |
-
-
-Questions to Carry Forward
-
-What exactly is confirmed by this exhibit?
-
-What is uncertain, incomplete or potentially misleading?
-
-Which other exhibit should be checked before relying on this point?
-
-What would you ask the client, supervisor, counterparty or internal team before finalising the output?
+| *Type your answer here.* |
+|--------------------------|

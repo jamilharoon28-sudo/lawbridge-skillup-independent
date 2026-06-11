@@ -1,28 +1,12 @@
-# Exhibit 2 - Dismissal Letter
+<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
 
-Source path: `Legal Skills/Student Packs/CI/CI-02 Student Pack/Exhibit 2 - Dismissal Letter.docx`
+**Exhibit 2 - Dismissal Letter**
 
-### Exhibit 2 - Dismissal Letter
+**What This Exhibit Contains**
 
+This exhibit contains the source material for 'Dismissal Letter'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: From \| HR Business Partner To \| Amira Saleh Subject \| Termination of employment
 
-Student Exhibit Document | The Employee Who Was Dismissed After Raising a Concern
-
-
-| ⚖ | Pack code | CI-02 |
-| --- | --- | --- |
-| ▣ | Skill focus | Client Interviewing |
-| ▥ | Scenario | The Employee Who Was Dismissed After Raising a Concern |
-| 👤 | Exhibit number | 2 |
-| ◷ | Document title | Dismissal Letter |
-| ⚖ | Status | Fictional training document - read with the full exhibit set |
-| v | Use of exhibit | Extract facts, identify uncertainty and decide what needs checking before producing the final output. |
-
-
-What This Exhibit Contains
-
-This exhibit contains the source material for 'Dismissal Letter'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: From | HR Business Partner To | Amira Saleh Subject | Termination of employment
-
-How to Use This Exhibit
+**How to Use This Exhibit**
 
 Read the exact wording rather than relying on the title.
 
@@ -30,90 +14,83 @@ Identify what is confirmed, what is uncertain and what is missing.
 
 Use the exhibit number and document title when citing evidence in your answer.
 
-Do not treat this exhibit alone as the full legal or commercial position.
+**Do not treat this exhibit alone as the full legal or commercial position.**
 
 Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-Exhibit Content Map
+**Full Exhibit Content**
 
-
-| Document format | Matter file exhibit |
-| --- | --- |
-| What this exhibit contains | This exhibit contains the source material for 'Dismissal Letter'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: From \| HR Business Partner To \| Amira Saleh Subject \| Termination of employment |
-| How students should use it | Treat it as one part of the file: extract what it proves, what it does not prove, and what must be cross-checked. |
-| Evidence caution | Do not treat this exhibit as the whole answer. Cross-check it against the instructions, other exhibits and any legal framework that requires verification. |
-
-
-Matter file exhibit - Full Exhibit Content
-
-
-| Date | 16 June |
-| --- | --- |
-| From | HR Business Partner |
-| To | Amira Saleh |
-| Subject | Termination of employment |
-
+| **Date** | **16 June**               |
+|----------|---------------------------|
+| From     | HR Business Partner       |
+| To       | Amira Saleh               |
+| Subject  | Termination of employment |
 
 Due to operational restructuring, your employment will terminate with immediate effect. Final pay will include salary to date of termination and any accrued holiday pay. Please return company property by 20 June.
 
+| **Check item**                               | **Evidence in exhibit** | **Student note** |
+|----------------------------------------------|-------------------------|------------------|
+| Does the letter give a specific reason?      |                         |                  |
+| Does it mention notice or payment in lieu?   |                         |                  |
+| Does it address the earlier safety concern?  |                         |                  |
+| Does it refer to appeal or internal process? |                         |                  |
 
-| Check item | Evidence in exhibit | Student note |
-| --- | --- | --- |
-| Does the letter give a specific reason? |  |  |
-| Does it mention notice or payment in lieu? |  |  |
-| Does it address the earlier safety concern? |  |  |
-| Does it refer to appeal or internal process? |  |  |
+**Expanded Exhibit Detail**
 
+*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
 
-Expanded Exhibit Reading Guide
+**Source Status and Timing**
 
+> **•** Date: 16 June.
+>
+> **•** From: HR Business Partner.
+>
+> **•** To: Amira Saleh.
+>
+> **•** Subject: Termination of employment.
 
-| # | Specific content in this exhibit | Why it matters | What to check next |
-| --- | --- | --- | --- |
-| 1 | From \| HR Business Partner | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 2 | To \| Amira Saleh | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 3 | Subject \| Termination of employment | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 4 | Due to operational restructuring, your employment will terminate with immediate effect. Final pay will include salary to date of termination and any accrued holiday pay. Please return company property by 20 June. | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 5 | Does the letter give a specific reason? | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 6 | Does it mention notice or payment in lieu? | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
+**Detailed Matter Points**
 
+> **•** Narrative point: Due to operational restructuring, your employment will terminate with immediate effect. Final pay will include salary to date of termination and any accrued holiday pay. Please return company property by 20 June.
+>
+> **•** Source detail: Date is recorded as 16 June.
+>
+> **•** Source detail: From is recorded as HR Business Partner.
+>
+> **•** Source detail: To is recorded as Amira Saleh.
+>
+> **•** Source detail: Subject is recorded as Termination of employment.
+>
+> **•** The exhibit records Check item: Does the letter give a specific reason?.
+>
+> **•** The exhibit records Check item: Does it mention notice or payment in lieu?.
+>
+> **•** The exhibit records Check item: Does it address the earlier safety concern?.
+>
+> **•** The exhibit records Check item: Does it refer to appeal or internal process?.
 
-What This Exhibit Does and Does Not Prove
+**Uncertainty and Follow-Up Points Within This Exhibit**
 
+> **•** Any date or time in this exhibit should be carried across exactly, because timing may affect awareness, notice, deadline or escalation analysis.
 
-| Point | Explanation |
-| --- | --- |
-| Confirmed by this exhibit | The wording, facts, figures or message content shown in the exhibit itself. |
-| Not confirmed by this exhibit alone | The full legal answer, final client instructions, complete chronology, causation, loss, regulatory position or settlement value. |
-| Cross-check required | Read with the instruction document, any agreement or policy wording, chronology, emails, technical records and the source quality guidance. |
-| Student caution | Confident wording in a document may still be incomplete, inaccurate, biased, outdated or non-lawyer commentary. |
+**Student Extraction Boxes**
 
+**Box 1 - Key facts from this exhibit**
 
-Student Extraction Boxes
+| *Type your answer here.* |
+|--------------------------|
 
-Box 1 - Key facts from this exhibit
+**Box 2 - Risks, uncertainty or missing information**
 
+| *Type your answer here.* |
+|--------------------------|
 
-| Type your answer here. |
-| --- |
+**Box 3 - How this exhibit affects the final output**
 
+| *Type your answer here.* |
+|--------------------------|
 
-Box 2 - Risks, uncertainty or missing information
+**Box 4 - Follow-up questions to carry forward**
 
-
-| Type your answer here. |
-| --- |
-
-
-Box 3 - How this exhibit affects the final output
-
-
-| Type your answer here. |
-| --- |
-
-
-Box 4 - Follow-up questions to carry forward
-
-
-| Type your answer here. |
-| --- |
+| *Type your answer here.* |
+|--------------------------|

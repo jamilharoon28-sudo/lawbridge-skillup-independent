@@ -1,100 +1,77 @@
-# Exhibit 3 - Relevant Document or Record
+<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
 
-Source path: `Practical Skills/Student Packs/Client Care/PS-CC-02 Student Pack/Exhibit 3 - Relevant Document or Record.docx`
+**Exhibit 3 - Relevant Document or Record**
 
-### Exhibit 3 - Relevant Document or Record
-
-
-Student Exhibit Document | The Dissatisfied Client After a Missed Call
-
-
-| ⚖ | Pack code | PS-CC-02 |
-| --- | --- | --- |
-| ▣ | Skill focus | Client Care |
-| ▥ | Exhibit number | 3 |
-| 👤 | Document type | Relevant Document or Record |
-| ◷ | Status | Fictional training document - read with the full exhibit set |
-| ⚖ | Use of exhibit | Extract facts, identify uncertainty and decide what needs checking before producing the final output. |
-
-
-What This Exhibit Contains
+**What This Exhibit Contains**
 
 This is the key document or record. It contains the wording, data, note, clause or file extract that students must read carefully instead of relying on the exhibit title.
 
-Exhibit Content Map
+**How to Use This Exhibit**
 
+Read the exact wording rather than relying on the title.
 
-| Document format | Technical, data or business record |
-| --- | --- |
-| What this exhibit contains | This is the key document or record. It contains the wording, data, note, clause or file extract that students must read carefully instead of relying on the exhibit title. |
-| How students should use it | Treat it like evidence: check timestamp, status, source, incompleteness and what the record does not prove. |
-| Evidence caution | Do not treat this exhibit as the whole answer. Cross-check it against the instructions, other exhibits and any legal framework that requires verification. |
+Identify what is confirmed, what is uncertain and what is missing.
 
+Use the exhibit number and document title when citing evidence in your answer.
 
-Technical, data or business record - Full Exhibit Content
+**Do not treat this exhibit alone as the full legal or commercial position.**
 
-Extract from the relevant document or record
+Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
+**Full Exhibit Content**
 
-| Reference | Record content | Why it matters | Student caution |
-| --- | --- | --- | --- |
+**Extract from the relevant document or record**
+
+| **Reference** | **Record content**                    | **Why it matters**                              | **Student caution**                             |
+|---------------|---------------------------------------|-------------------------------------------------|-------------------------------------------------|
 | Record item 1 | Missed call due to wrong phone number | Shows a practical/professional issue to address | Check tone, timing and escalation before acting |
-| Record item 2 | Client lost time from work | Shows a practical/professional issue to address | Check tone, timing and escalation before acting |
-| Record item 3 | Case diary shows no successful call | Shows a practical/professional issue to address | Check tone, timing and escalation before acting |
-| Record item 4 | Contact preferences need confirming | Shows a practical/professional issue to address | Check tone, timing and escalation before acting |
-| Record item 5 | Call plan must rebuild trust | Shows a practical/professional issue to address | Check tone, timing and escalation before acting |
+| Record item 2 | Client lost time from work            | Shows a practical/professional issue to address | Check tone, timing and escalation before acting |
+| Record item 3 | Case diary shows no successful call   | Shows a practical/professional issue to address | Check tone, timing and escalation before acting |
+| Record item 4 | Contact preferences need confirming   | Shows a practical/professional issue to address | Check tone, timing and escalation before acting |
+| Record item 5 | Call plan must rebuild trust          | Shows a practical/professional issue to address | Check tone, timing and escalation before acting |
 
+**Expanded Exhibit Detail**
 
-Document Reading Notes
+*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
 
-Read the exact wording before deciding what the issue is.
+**Source Status and Timing**
 
-Ask whether the document is complete, partial, draft, internal or client-facing.
+> **•** The exhibit should be treated as a matter-file source document rather than a complete legal conclusion.
 
-Identify whether the wording creates a practical risk, legal verification point or communication issue.
+**Detailed Matter Points**
 
-Do not overstate what the extract proves.
+> **•** For Reference 'Record item 1', the exhibit records Record content: Missed call due to wrong phone number; Why it matters: Shows a practical/professional issue to address; Student caution: Check tone, timing and escalation before acting.
+>
+> **•** For Reference 'Record item 2', the exhibit records Record content: Client lost time from work; Why it matters: Shows a practical/professional issue to address; Student caution: Check tone, timing and escalation before acting.
+>
+> **•** For Reference 'Record item 3', the exhibit records Record content: Case diary shows no successful call; Why it matters: Shows a practical/professional issue to address; Student caution: Check tone, timing and escalation before acting.
+>
+> **•** For Reference 'Record item 4', the exhibit records Record content: Contact preferences need confirming; Why it matters: Shows a practical/professional issue to address; Student caution: Check tone, timing and escalation before acting.
+>
+> **•** For Reference 'Record item 5', the exhibit records Record content: Call plan must rebuild trust; Why it matters: Shows a practical/professional issue to address; Student caution: Check tone, timing and escalation before acting.
 
-What This Exhibit Does and Does Not Prove
+**Uncertainty and Follow-Up Points Within This Exhibit**
 
+> **•** No express uncertainty wording was extracted from this exhibit, but the document should still be cross-checked against the other exhibits before it is used as proof of the full position.
 
-| Point | Explanation |
-| --- | --- |
-| Confirmed by this exhibit | It gives training-file information relevant to The Dissatisfied Client After a Missed Call and should be cited where used. |
-| Not confirmed by this exhibit alone | It does not prove the full legal position, final client instructions, complete chronology, or every missing document. |
-| Cross-check required | Read this alongside the other exhibits and the instructions before producing the final output. |
-| Student caution | Do not treat confident wording in a document as automatically accurate, complete or safe. |
+**Student Extraction Boxes**
 
+**Box 1 - Key facts from this exhibit**
 
-Student Extraction Boxes
+| *Type your answer here.* |
+|--------------------------|
 
-Box 1 - Key facts from this exhibit
+**Box 2 - Risks, uncertainty or missing information**
 
+| *Type your answer here.* |
+|--------------------------|
 
-| Type your answer here. |
-| --- |
+**Box 3 - How this exhibit affects the final output**
 
+| *Type your answer here.* |
+|--------------------------|
 
-Box 2 - Risks, uncertainties or missing information
+**Box 4 - Follow-up questions to carry forward**
 
-
-| Type your answer here. |
-| --- |
-
-
-Box 3 - How this exhibit affects the task or final output
-
-
-| Type your answer here. |
-| --- |
-
-
-Questions to Carry Forward
-
-What exactly is confirmed by this exhibit?
-
-What is uncertain, incomplete or potentially misleading?
-
-Which other exhibit should be checked before relying on this point?
-
-What would you ask the client, supervisor, counterparty or internal team before finalising the output?
+| *Type your answer here.* |
+|--------------------------|

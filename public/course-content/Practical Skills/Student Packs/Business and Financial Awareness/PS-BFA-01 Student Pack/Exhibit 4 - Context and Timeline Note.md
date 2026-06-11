@@ -1,49 +1,34 @@
-# Exhibit 4 - Context and Timeline Note
+<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
 
-Source path: `Practical Skills/Student Packs/Business and Financial Awareness/PS-BFA-01 Student Pack/Exhibit 4 - Context and Timeline Note.docx`
+**Exhibit 4 - Context and Timeline Note**
 
-### Exhibit 4 - Context and Timeline Note
-
-
-Student Exhibit Document | Helping a Start-Up Prioritise Legal Spend
-
-
-| ⚖ | Pack code | PS-BFA-01 |
-| --- | --- | --- |
-| ▣ | Skill focus | Business and Financial Awareness |
-| ▥ | Exhibit number | 4 |
-| 👤 | Document type | Context and Timeline Note |
-| ◷ | Status | Fictional training document - read with the full exhibit set |
-| ⚖ | Use of exhibit | Extract facts, identify uncertainty and decide what needs checking before producing the final output. |
-
-
-What This Exhibit Contains
+**What This Exhibit Contains**
 
 This is the chronology and context note. It helps students understand timing, deadlines, dependencies and what may need urgent escalation.
 
-Exhibit Content Map
+**How to Use This Exhibit**
 
+Read the exact wording rather than relying on the title.
 
-| Document format | Timeline / chronology record |
-| --- | --- |
-| What this exhibit contains | This is the chronology and context note. It helps students understand timing, deadlines, dependencies and what may need urgent escalation. |
-| How students should use it | Treat it like a chronology: check sequence, gaps, disputed timing and the action needed at each point. |
-| Evidence caution | Do not treat this exhibit as the whole answer. Cross-check it against the instructions, other exhibits and any legal framework that requires verification. |
+Identify what is confirmed, what is uncertain and what is missing.
 
+Use the exhibit number and document title when citing evidence in your answer.
 
-Timeline / chronology record - Full Exhibit Content
+**Do not treat this exhibit alone as the full legal or commercial position.**
 
+Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-| Time point | Event | File detail | Why timing matters |
-| --- | --- | --- | --- |
-| Day 1 | Initial instruction received | £4,000 budget | Consider whether timing affects priority or escalation. |
-| Day 2 | Relevant documents or messages reviewed | Product launch in six weeks | Consider whether timing affects priority or escalation. |
-| Day 3 | Uncertainty identified | Supplier contracts drive revenue | Consider whether timing affects priority or escalation. |
-| Day 4 | Supervisor or client output required | Contractor becomes employee next month | Consider whether timing affects priority or escalation. |
-| Day 5 | Follow-up action needed | Investor may review documents in eight weeks | Consider whether timing affects priority or escalation. |
+**Full Exhibit Content**
 
+| **Time point** | **Event**                               | **File detail**                              | **Why timing matters**                                  |
+|----------------|-----------------------------------------|----------------------------------------------|---------------------------------------------------------|
+| Day 1          | Initial instruction received            | £4,000 budget                                | Consider whether timing affects priority or escalation. |
+| Day 2          | Relevant documents or messages reviewed | Product launch in six weeks                  | Consider whether timing affects priority or escalation. |
+| Day 3          | Uncertainty identified                  | Supplier contracts drive revenue             | Consider whether timing affects priority or escalation. |
+| Day 4          | Supervisor or client output required    | Contractor becomes employee next month       | Consider whether timing affects priority or escalation. |
+| Day 5          | Follow-up action needed                 | Investor may review documents in eight weeks | Consider whether timing affects priority or escalation. |
 
-Timing and Dependency Notes
+**Timing and Dependency Notes**
 
 Some tasks can be started immediately even where facts are incomplete.
 
@@ -53,46 +38,60 @@ Where the file includes a deadline or relationship pressure, communicate early.
 
 If a delay affects another person, identify who needs to know.
 
-What This Exhibit Does and Does Not Prove
+**Expanded Exhibit Detail**
 
+*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
 
-| Point | Explanation |
-| --- | --- |
-| Confirmed by this exhibit | It gives training-file information relevant to Helping a Start-Up Prioritise Legal Spend and should be cited where used. |
-| Not confirmed by this exhibit alone | It does not prove the full legal position, final client instructions, complete chronology, or every missing document. |
-| Cross-check required | Read this alongside the other exhibits and the instructions before producing the final output. |
-| Student caution | Do not treat confident wording in a document as automatically accurate, complete or safe. |
+**Source Status and Timing**
 
+> **•** The exhibit should be treated as a matter-file source document rather than a complete legal conclusion.
 
-Student Extraction Boxes
+**Detailed Matter Points**
 
-Box 1 - Key facts from this exhibit
+> **•** Narrative point: Some tasks can be started immediately even where facts are incomplete.
+>
+> **•** Narrative point: Students should identify what must be checked before finalising, not wait silently.
+>
+> **•** Narrative point: Where the file includes a deadline or relationship pressure, communicate early.
+>
+> **•** Narrative point: If a delay affects another person, identify who needs to know.
+>
+> **•** For Time point 'Day 1', the exhibit records Event: Initial instruction received; File detail: £4,000 budget; Why timing matters: Consider whether timing affects priority or escalation..
+>
+> **•** For Time point 'Day 2', the exhibit records Event: Relevant documents or messages reviewed; File detail: Product launch in six weeks; Why timing matters: Consider whether timing affects priority or escalation..
+>
+> **•** For Time point 'Day 3', the exhibit records Event: Uncertainty identified; File detail: Supplier contracts drive revenue; Why timing matters: Consider whether timing affects priority or escalation..
+>
+> **•** For Time point 'Day 4', the exhibit records Event: Supervisor or client output required; File detail: Contractor becomes employee next month; Why timing matters: Consider whether timing affects priority or escalation..
+>
+> **•** For Time point 'Day 5', the exhibit records Event: Follow-up action needed; File detail: Investor may review documents in eight weeks; Why timing matters: Consider whether timing affects priority or escalation..
 
+**Uncertainty and Follow-Up Points Within This Exhibit**
 
-| Type your answer here. |
-| --- |
+> **•** The wording 'incomplete' in this exhibit shows the underlying review or data picture is incomplete; record it as a caveat or follow-up point, not as a final conclusion.
+>
+> **•** The wording 'may' in this exhibit uses possibility wording rather than confirmed fact; record it as a caveat or follow-up point, not as a final conclusion.
+>
+> **•** Any figure, percentage or monetary amount in this exhibit should be reproduced exactly and checked against the other financial or operational records.
 
+**Student Extraction Boxes**
 
-Box 2 - Risks, uncertainties or missing information
+**Box 1 - Key facts from this exhibit**
 
+| *Type your answer here.* |
+|--------------------------|
 
-| Type your answer here. |
-| --- |
+**Box 2 - Risks, uncertainty or missing information**
 
+| *Type your answer here.* |
+|--------------------------|
 
-Box 3 - How this exhibit affects the task or final output
+**Box 3 - How this exhibit affects the final output**
 
+| *Type your answer here.* |
+|--------------------------|
 
-| Type your answer here. |
-| --- |
+**Box 4 - Follow-up questions to carry forward**
 
-
-Questions to Carry Forward
-
-What exactly is confirmed by this exhibit?
-
-What is uncertain, incomplete or potentially misleading?
-
-Which other exhibit should be checked before relying on this point?
-
-What would you ask the client, supervisor, counterparty or internal team before finalising the output?
+| *Type your answer here.* |
+|--------------------------|

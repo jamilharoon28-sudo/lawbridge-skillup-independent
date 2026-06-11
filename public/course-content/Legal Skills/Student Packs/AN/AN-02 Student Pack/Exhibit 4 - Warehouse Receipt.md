@@ -1,28 +1,12 @@
-# Exhibit 4 - Warehouse Receipt
+<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
 
-Source path: `Legal Skills/Student Packs/AN/AN-02 Student Pack/Exhibit 4 - Warehouse Receipt.docx`
+**Exhibit 4 - Warehouse Receipt**
 
-### Exhibit 4 - Warehouse Receipt
+**What This Exhibit Contains**
 
+This exhibit contains the source material for 'Warehouse Receipt'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Prepared by \| Logistics provider Status \| Signed receipt scan Batch A \| 5,000 \| Accepted \| No reservation noted
 
-Student Exhibit Document | Analysing a Contract Dispute With Missing Evidence
-
-
-| ⚖ | Pack code | AN-02 |
-| --- | --- | --- |
-| ▣ | Skill focus | Attendance Notes and Legal Analysis |
-| ▥ | Scenario | Analysing a Contract Dispute With Missing Evidence |
-| 👤 | Exhibit number | 4 |
-| ◷ | Document title | Warehouse Receipt |
-| ⚖ | Status | Fictional training document - read with the full exhibit set |
-| v | Use of exhibit | Extract facts, identify uncertainty and decide what needs checking before producing the final output. |
-
-
-What This Exhibit Contains
-
-This exhibit contains the source material for 'Warehouse Receipt'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Prepared by | Logistics provider Status | Signed receipt scan Batch A | 5,000 | Accepted | No reservation noted
-
-How to Use This Exhibit
+**How to Use This Exhibit**
 
 Read the exact wording rather than relying on the title.
 
@@ -30,84 +14,81 @@ Identify what is confirmed, what is uncertain and what is missing.
 
 Use the exhibit number and document title when citing evidence in your answer.
 
-Do not treat this exhibit alone as the full legal or commercial position.
+**Do not treat this exhibit alone as the full legal or commercial position.**
 
 Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-Exhibit Content Map
+**Full Exhibit Content**
 
+| **Date**    | **7 July**          |
+|-------------|---------------------|
+| Prepared by | Logistics provider  |
+| Status      | Signed receipt scan |
 
-| Document format | Matter file exhibit |
-| --- | --- |
-| What this exhibit contains | This exhibit contains the source material for 'Warehouse Receipt'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Prepared by \| Logistics provider Status \| Signed receipt scan Batch A \| 5,000 \| Accepted \| No reservation noted |
-| How students should use it | Treat it as one part of the file: extract what it proves, what it does not prove, and what must be cross-checked. |
-| Evidence caution | Do not treat this exhibit as the whole answer. Cross-check it against the instructions, other exhibits and any legal framework that requires verification. |
+| **Delivery** | **Quantity received** | **Condition**       | **Issue**            |
+|--------------|-----------------------|---------------------|----------------------|
+| Batch A      | 5,000                 | Accepted            | No reservation noted |
+| Batch B      | 0                     | Not delivered       | Pending              |
+| Accessories  | Partial               | Two cartons damaged | Photos not supplied  |
 
+**Expanded Exhibit Detail**
 
-Matter file exhibit - Full Exhibit Content
+*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
 
+**Source Status and Timing**
 
-| Date | 7 July |
-| --- | --- |
-| Prepared by | Logistics provider |
-| Status | Signed receipt scan |
+> **•** Date: 7 July.
+>
+> **•** Prepared by: Logistics provider.
+>
+> **•** Status: Signed receipt scan.
 
+**Detailed Matter Points**
 
-| Delivery | Quantity received | Condition | Issue |
-| --- | --- | --- | --- |
-| Batch A | 5,000 | Accepted | No reservation noted |
-| Batch B | 0 | Not delivered | Pending |
-| Accessories | Partial | Two cartons damaged | Photos not supplied |
+> **•** Source detail: Date is recorded as 7 July.
+>
+> **•** Source detail: Prepared by is recorded as Logistics provider.
+>
+> **•** Source detail: Status is recorded as Signed receipt scan.
+>
+> **•** For Delivery 'Batch A', the exhibit records Quantity received: 5,000; Condition: Accepted; Issue: No reservation noted.
+>
+> **•** For Delivery 'Batch B', the exhibit records Quantity received: 0; Condition: Not delivered; Issue: Pending.
+>
+> **•** For Delivery 'Accessories', the exhibit records Quantity received: Partial; Condition: Two cartons damaged; Issue: Photos not supplied.
 
+**Uncertainty and Follow-Up Points Within This Exhibit**
 
-Expanded Exhibit Reading Guide
+> **•** The wording 'reservation' in this exhibit signals a caveat or qualification; record it as a caveat or follow-up point, not as a final conclusion.
+>
+> **•** The wording 'pending' in this exhibit records something still awaiting completion; record it as a caveat or follow-up point, not as a final conclusion.
+>
+> **•** Any date or time in this exhibit should be carried across exactly, because timing may affect awareness, notice, deadline or escalation analysis.
 
+**Additional Evidence-Use Detail**
 
-| # | Specific content in this exhibit | Why it matters | What to check next |
-| --- | --- | --- | --- |
-| 1 | Prepared by \| Logistics provider | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 2 | Status \| Signed receipt scan | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 3 | Batch A \| 5,000 \| Accepted \| No reservation noted | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 4 | Batch B \| 0 \| Not delivered \| Pending | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 5 | Accessories \| Partial \| Two cartons damaged \| Photos not supplied | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
+> **•** This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
+>
+> **•** Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
 
+**Student Extraction Boxes**
 
-What This Exhibit Does and Does Not Prove
+**Box 1 - Key facts from this exhibit**
 
+| *Type your answer here.* |
+|--------------------------|
 
-| Point | Explanation |
-| --- | --- |
-| Confirmed by this exhibit | The wording, facts, figures or message content shown in the exhibit itself. |
-| Not confirmed by this exhibit alone | The full legal answer, final client instructions, complete chronology, causation, loss, regulatory position or settlement value. |
-| Cross-check required | Read with the instruction document, any agreement or policy wording, chronology, emails, technical records and the source quality guidance. |
-| Student caution | Confident wording in a document may still be incomplete, inaccurate, biased, outdated or non-lawyer commentary. |
+**Box 2 - Risks, uncertainty or missing information**
 
+| *Type your answer here.* |
+|--------------------------|
 
-Student Extraction Boxes
+**Box 3 - How this exhibit affects the final output**
 
-Box 1 - Key facts from this exhibit
+| *Type your answer here.* |
+|--------------------------|
 
+**Box 4 - Follow-up questions to carry forward**
 
-| Type your answer here. |
-| --- |
-
-
-Box 2 - Risks, uncertainty or missing information
-
-
-| Type your answer here. |
-| --- |
-
-
-Box 3 - How this exhibit affects the final output
-
-
-| Type your answer here. |
-| --- |
-
-
-Box 4 - Follow-up questions to carry forward
-
-
-| Type your answer here. |
-| --- |
+| *Type your answer here.* |
+|--------------------------|

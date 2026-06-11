@@ -1,28 +1,12 @@
-# Exhibit 4 - Open-Source Scan
+<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
 
-Source path: `Legal Skills/Student Packs/CMA/CMA-01 Student Pack/Exhibit 4 - Open-Source Scan.docx`
+**Exhibit 4 - Open-Source Scan**
 
-### Exhibit 4 - Open-Source Scan
+**What This Exhibit Contains**
 
+This exhibit contains the source material for 'Open-Source Scan'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status \| Summary Analytics library \| Embedded in dashboard \| Licence review needed Encryption package \| Server-side dependency \| Version outdated
 
-Student Exhibit Document | Analysing Red Flags in a Tech Company Acquisition
-
-
-| ⚖ | Pack code | CMA-01 |
-| --- | --- | --- |
-| ▣ | Skill focus | Case and Matter Analysis |
-| ▥ | Scenario | Analysing Red Flags in a Tech Company Acquisition |
-| 👤 | Exhibit number | 4 |
-| ◷ | Document title | Open-Source Scan |
-| ⚖ | Status | Fictional training document - read with the full exhibit set |
-| v | Use of exhibit | Extract facts, identify uncertainty and decide what needs checking before producing the final output. |
-
-
-What This Exhibit Contains
-
-This exhibit contains the source material for 'Open-Source Scan'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status | Summary Analytics library | Embedded in dashboard | Licence review needed Encryption package | Server-side dependency | Version outdated
-
-How to Use This Exhibit
+**How to Use This Exhibit**
 
 Read the exact wording rather than relying on the title.
 
@@ -30,84 +14,77 @@ Identify what is confirmed, what is uncertain and what is missing.
 
 Use the exhibit number and document title when citing evidence in your answer.
 
-Do not treat this exhibit alone as the full legal or commercial position.
+**Do not treat this exhibit alone as the full legal or commercial position.**
 
 Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-Exhibit Content Map
+**Full Exhibit Content**
 
+| **Prepared by** | **Technical diligence provider** |
+|-----------------|----------------------------------|
+| Status          | Summary                          |
 
-| Document format | Matter file exhibit |
-| --- | --- |
-| What this exhibit contains | This exhibit contains the source material for 'Open-Source Scan'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status \| Summary Analytics library \| Embedded in dashboard \| Licence review needed Encryption package \| Server-side dependency \| Version outdated |
-| How students should use it | Treat it as one part of the file: extract what it proves, what it does not prove, and what must be cross-checked. |
-| Evidence caution | Do not treat this exhibit as the whole answer. Cross-check it against the instructions, other exhibits and any legal framework that requires verification. |
+| **Component**      | **Use**                | **Risk**                            |
+|--------------------|------------------------|-------------------------------------|
+| Analytics library  | Embedded in dashboard  | Licence review needed               |
+| Encryption package | Server-side dependency | Version outdated                    |
+| Template UI kit    | Customer interface     | Commercial use restriction possible |
+| AI model wrapper   | Recommendation engine  | Terms unknown                       |
 
+**Expanded Exhibit Detail**
 
-Matter file exhibit - Full Exhibit Content
+*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
 
+**Source Status and Timing**
 
-| Prepared by | Technical diligence provider |
-| --- | --- |
-| Status | Summary |
+> **•** Prepared by: Technical diligence provider.
+>
+> **•** Status: Summary.
 
+**Detailed Matter Points**
 
-| Component | Use | Risk |
-| --- | --- | --- |
-| Analytics library | Embedded in dashboard | Licence review needed |
-| Encryption package | Server-side dependency | Version outdated |
-| Template UI kit | Customer interface | Commercial use restriction possible |
-| AI model wrapper | Recommendation engine | Terms unknown |
+> **•** Source detail: Prepared by is recorded as Technical diligence provider.
+>
+> **•** Source detail: Status is recorded as Summary.
+>
+> **•** For Component 'Analytics library', the exhibit records Use: Embedded in dashboard; Risk: Licence review needed.
+>
+> **•** For Component 'Encryption package', the exhibit records Use: Server-side dependency; Risk: Version outdated.
+>
+> **•** For Component 'Template UI kit', the exhibit records Use: Customer interface; Risk: Commercial use restriction possible.
+>
+> **•** For Component 'AI model wrapper', the exhibit records Use: Recommendation engine; Risk: Terms unknown.
 
+**Uncertainty and Follow-Up Points Within This Exhibit**
 
-Expanded Exhibit Reading Guide
+> **•** The wording 'late' in this exhibit may affect timing, escalation or reliability of the record; record it as a caveat or follow-up point, not as a final conclusion.
+>
+> **•** The wording 'unknown' in this exhibit marks a fact that still needs to be established; record it as a caveat or follow-up point, not as a final conclusion.
 
+**Additional Evidence-Use Detail**
 
-| # | Specific content in this exhibit | Why it matters | What to check next |
-| --- | --- | --- | --- |
-| 1 | Status \| Summary | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 2 | Analytics library \| Embedded in dashboard \| Licence review needed | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 3 | Encryption package \| Server-side dependency \| Version outdated | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 4 | Template UI kit \| Customer interface \| Commercial use restriction possible | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 5 | AI model wrapper \| Recommendation engine \| Terms unknown | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
+> **•** This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
+>
+> **•** Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
 
+**Student Extraction Boxes**
 
-What This Exhibit Does and Does Not Prove
+**Box 1 - Key facts from this exhibit**
 
+| *Type your answer here.* |
+|--------------------------|
 
-| Point | Explanation |
-| --- | --- |
-| Confirmed by this exhibit | The wording, facts, figures or message content shown in the exhibit itself. |
-| Not confirmed by this exhibit alone | The full legal answer, final client instructions, complete chronology, causation, loss, regulatory position or settlement value. |
-| Cross-check required | Read with the instruction document, any agreement or policy wording, chronology, emails, technical records and the source quality guidance. |
-| Student caution | Confident wording in a document may still be incomplete, inaccurate, biased, outdated or non-lawyer commentary. |
+**Box 2 - Risks, uncertainty or missing information**
 
+| *Type your answer here.* |
+|--------------------------|
 
-Student Extraction Boxes
+**Box 3 - How this exhibit affects the final output**
 
-Box 1 - Key facts from this exhibit
+| *Type your answer here.* |
+|--------------------------|
 
+**Box 4 - Follow-up questions to carry forward**
 
-| Type your answer here. |
-| --- |
-
-
-Box 2 - Risks, uncertainty or missing information
-
-
-| Type your answer here. |
-| --- |
-
-
-Box 3 - How this exhibit affects the final output
-
-
-| Type your answer here. |
-| --- |
-
-
-Box 4 - Follow-up questions to carry forward
-
-
-| Type your answer here. |
-| --- |
+| *Type your answer here.* |
+|--------------------------|

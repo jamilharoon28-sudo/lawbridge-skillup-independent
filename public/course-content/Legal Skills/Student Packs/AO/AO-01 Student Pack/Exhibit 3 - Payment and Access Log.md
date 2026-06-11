@@ -1,28 +1,12 @@
-# Exhibit 3 - Payment and Access Log
+<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
 
-Source path: `Legal Skills/Student Packs/AO/AO-01 Student Pack/Exhibit 3 - Payment and Access Log.docx`
+**Exhibit 3 - Payment and Access Log**
 
-### Exhibit 3 - Payment and Access Log
+**What This Exhibit Contains**
 
+This exhibit contains the source material for 'Payment and Access Log'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status \| Internal log 2 Dec 09:22 \| Payment sent \| Bank confirmation available 2 Dec 10:03 \| Activation email received \| Supplier says access active
 
-Student Exhibit Document | Oral Submission in a Technology Payment Dispute
-
-
-| ⚖ | Pack code | AO-01 |
-| --- | --- | --- |
-| ▣ | Skill focus | Advocacy and Oral Presentation |
-| ▥ | Scenario | Oral Submission in a Technology Payment Dispute |
-| 👤 | Exhibit number | 3 |
-| ◷ | Document title | Payment and Access Log |
-| ⚖ | Status | Fictional training document - read with the full exhibit set |
-| v | Use of exhibit | Extract facts, identify uncertainty and decide what needs checking before producing the final output. |
-
-
-What This Exhibit Contains
-
-This exhibit contains the source material for 'Payment and Access Log'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status | Internal log 2 Dec 09:22 | Payment sent | Bank confirmation available 2 Dec 10:03 | Activation email received | Supplier says access active
-
-How to Use This Exhibit
+**How to Use This Exhibit**
 
 Read the exact wording rather than relying on the title.
 
@@ -30,86 +14,80 @@ Identify what is confirmed, what is uncertain and what is missing.
 
 Use the exhibit number and document title when citing evidence in your answer.
 
-Do not treat this exhibit alone as the full legal or commercial position.
+**Do not treat this exhibit alone as the full legal or commercial position.**
 
 Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-Exhibit Content Map
+**Full Exhibit Content**
 
+| **Prepared by** | **CoreMed IT** |
+|-----------------|----------------|
+| Status          | Internal log   |
 
-| Document format | Technical, data or business record |
-| --- | --- |
-| What this exhibit contains | This exhibit contains the source material for 'Payment and Access Log'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status \| Internal log 2 Dec 09:22 \| Payment sent \| Bank confirmation available 2 Dec 10:03 \| Activation email received \| Supplier says access active |
-| How students should use it | Treat it like evidence: check timestamp, status, source, incompleteness and what the record does not prove. |
-| Evidence caution | Do not treat this exhibit as the whole answer. Cross-check it against the instructions, other exhibits and any legal framework that requires verification. |
+| **Date/time** | **Event**                 | **Evidence point**          |
+|---------------|---------------------------|-----------------------------|
+| 2 Dec 09:22   | Payment sent              | Bank confirmation available |
+| 2 Dec 10:03   | Activation email received | Supplier says access active |
+| 2 Dec 10:21   | Admin login error         | Screenshot retained         |
+| 3 Dec 14:10   | Support ticket raised     | No response for 36 hours    |
+| 5 Dec 11:00   | Partial access granted    | Reports blank               |
 
+**Expanded Exhibit Detail**
 
-Technical, data or business record - Full Exhibit Content
+*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
 
+**Source Status and Timing**
 
-| Prepared by | CoreMed IT |
-| --- | --- |
-| Status | Internal log |
+> **•** Prepared by: CoreMed IT.
+>
+> **•** Status: Internal log.
+>
+> **•** Timing references appearing in this exhibit include: 2 Dec, 09:22, 10:03, 10:21, 3 Dec, 14:10.
 
+**Detailed Matter Points**
 
-| Date/time | Event | Evidence point |
-| --- | --- | --- |
-| 2 Dec 09:22 | Payment sent | Bank confirmation available |
-| 2 Dec 10:03 | Activation email received | Supplier says access active |
-| 2 Dec 10:21 | Admin login error | Screenshot retained |
-| 3 Dec 14:10 | Support ticket raised | No response for 36 hours |
-| 5 Dec 11:00 | Partial access granted | Reports blank |
+> **•** Source detail: Prepared by is recorded as CoreMed IT.
+>
+> **•** Source detail: Status is recorded as Internal log.
+>
+> **•** For Date/time '2 Dec 09:22', the exhibit records Event: Payment sent; Evidence point: Bank confirmation available.
+>
+> **•** For Date/time '2 Dec 10:03', the exhibit records Event: Activation email received; Evidence point: Supplier says access active.
+>
+> **•** For Date/time '2 Dec 10:21', the exhibit records Event: Admin login error; Evidence point: Screenshot retained.
+>
+> **•** For Date/time '3 Dec 14:10', the exhibit records Event: Support ticket raised; Evidence point: No response for 36 hours.
+>
+> **•** For Date/time '5 Dec 11:00', the exhibit records Event: Partial access granted; Evidence point: Reports blank.
 
+**Uncertainty and Follow-Up Points Within This Exhibit**
 
-Expanded Exhibit Reading Guide
+> **•** Any date or time in this exhibit should be carried across exactly, because timing may affect awareness, notice, deadline or escalation analysis.
 
+**Additional Evidence-Use Detail**
 
-| # | Specific content in this exhibit | Why it matters | What to check next |
-| --- | --- | --- | --- |
-| 1 | Status \| Internal log | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 2 | 2 Dec 09:22 \| Payment sent \| Bank confirmation available | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 3 | 2 Dec 10:03 \| Activation email received \| Supplier says access active | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 4 | 2 Dec 10:21 \| Admin login error \| Screenshot retained | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 5 | 3 Dec 14:10 \| Support ticket raised \| No response for 36 hours | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 6 | 5 Dec 11:00 \| Partial access granted \| Reports blank | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
+> **•** This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
+>
+> **•** Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
 
+**Student Extraction Boxes**
 
-What This Exhibit Does and Does Not Prove
+**Box 1 - Key facts from this exhibit**
 
+| *Type your answer here.* |
+|--------------------------|
 
-| Point | Explanation |
-| --- | --- |
-| Confirmed by this exhibit | The wording, facts, figures or message content shown in the exhibit itself. |
-| Not confirmed by this exhibit alone | The full legal answer, final client instructions, complete chronology, causation, loss, regulatory position or settlement value. |
-| Cross-check required | Read with the instruction document, any agreement or policy wording, chronology, emails, technical records and the source quality guidance. |
-| Student caution | Confident wording in a document may still be incomplete, inaccurate, biased, outdated or non-lawyer commentary. |
+**Box 2 - Risks, uncertainty or missing information**
 
+| *Type your answer here.* |
+|--------------------------|
 
-Student Extraction Boxes
+**Box 3 - How this exhibit affects the final output**
 
-Box 1 - Key facts from this exhibit
+| *Type your answer here.* |
+|--------------------------|
 
+**Box 4 - Follow-up questions to carry forward**
 
-| Type your answer here. |
-| --- |
-
-
-Box 2 - Risks, uncertainty or missing information
-
-
-| Type your answer here. |
-| --- |
-
-
-Box 3 - How this exhibit affects the final output
-
-
-| Type your answer here. |
-| --- |
-
-
-Box 4 - Follow-up questions to carry forward
-
-
-| Type your answer here. |
-| --- |
+| *Type your answer here.* |
+|--------------------------|

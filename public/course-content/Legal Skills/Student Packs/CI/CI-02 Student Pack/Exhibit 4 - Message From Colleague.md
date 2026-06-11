@@ -1,28 +1,12 @@
-# Exhibit 4 - Message From Colleague
+<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
 
-Source path: `Legal Skills/Student Packs/CI/CI-02 Student Pack/Exhibit 4 - Message From Colleague.docx`
+**Exhibit 4 - Message From Colleague**
 
-### Exhibit 4 - Message From Colleague
+**What This Exhibit Contains**
 
+This exhibit contains the source material for 'Message From Colleague'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Source \| Screenshot copied by client Status \| Unverified They told us not to discuss your dismissal. Jordan is covering your shifts this week and the supervisor said the restructure story was 'for HR paperwork'.
 
-Student Exhibit Document | The Employee Who Was Dismissed After Raising a Concern
-
-
-| ⚖ | Pack code | CI-02 |
-| --- | --- | --- |
-| ▣ | Skill focus | Client Interviewing |
-| ▥ | Scenario | The Employee Who Was Dismissed After Raising a Concern |
-| 👤 | Exhibit number | 4 |
-| ◷ | Document title | Message From Colleague |
-| ⚖ | Status | Fictional training document - read with the full exhibit set |
-| v | Use of exhibit | Extract facts, identify uncertainty and decide what needs checking before producing the final output. |
-
-
-What This Exhibit Contains
-
-This exhibit contains the source material for 'Message From Colleague'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Source | Screenshot copied by client Status | Unverified They told us not to discuss your dismissal. Jordan is covering your shifts this week and the supervisor said the restructure story was 'for HR paperwork'.
-
-How to Use This Exhibit
+**How to Use This Exhibit**
 
 Read the exact wording rather than relying on the title.
 
@@ -30,88 +14,83 @@ Identify what is confirmed, what is uncertain and what is missing.
 
 Use the exhibit number and document title when citing evidence in your answer.
 
-Do not treat this exhibit alone as the full legal or commercial position.
+**Do not treat this exhibit alone as the full legal or commercial position.**
 
 Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-Exhibit Content Map
+**Full Exhibit Content**
 
-
-| Document format | Internal message or chat extract |
-| --- | --- |
-| What this exhibit contains | This exhibit contains the source material for 'Message From Colleague'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Source \| Screenshot copied by client Status \| Unverified They told us not to discuss your dismissal. Jordan is covering your shifts this week and the supervisor said the restructure story was 'for HR paperwork'. |
-| How students should use it | Treat it like informal communications: distinguish quick comments from verified facts or approved instructions. |
-| Evidence caution | Do not treat this exhibit as the whole answer. Cross-check it against the instructions, other exhibits and any legal framework that requires verification. |
-
-
-Internal message or chat extract - Full Exhibit Content
-
-
-| Date | 17 June |
-| --- | --- |
-| Source | Screenshot copied by client |
-| Status | Unverified |
-
+| **Date** | **17 June**                 |
+|----------|-----------------------------|
+| Source   | Screenshot copied by client |
+| Status   | Unverified                  |
 
 They told us not to discuss your dismissal. Jordan is covering your shifts this week and the supervisor said the restructure story was 'for HR paperwork'.
 
+| **Check item**                              | **Evidence in exhibit** | **Student note** |
+|---------------------------------------------|-------------------------|------------------|
+| Can the colleague give a statement?         |                         |                  |
+| Is the message complete?                    |                         |                  |
+| Could the wording have another explanation? |                         |                  |
 
-| Check item | Evidence in exhibit | Student note |
-| --- | --- | --- |
-| Can the colleague give a statement? |  |  |
-| Is the message complete? |  |  |
-| Could the wording have another explanation? |  |  |
+**Expanded Exhibit Detail**
 
+*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
 
-Expanded Exhibit Reading Guide
+**Source Status and Timing**
 
+> **•** Date: 17 June.
+>
+> **•** Status: Unverified.
+>
+> **•** Source: Screenshot copied by client.
 
-| # | Specific content in this exhibit | Why it matters | What to check next |
-| --- | --- | --- | --- |
-| 1 | Source \| Screenshot copied by client | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 2 | Status \| Unverified | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 3 | They told us not to discuss your dismissal. Jordan is covering your shifts this week and the supervisor said the restructure story was 'for HR paperwork'. | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 4 | Can the colleague give a statement? | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 5 | Is the message complete? | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 6 | Could the wording have another explanation? | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
+**Detailed Matter Points**
 
+> **•** Narrative point: They told us not to discuss your dismissal. Jordan is covering your shifts this week and the supervisor said the restructure story was 'for HR paperwork'.
+>
+> **•** Source detail: Date is recorded as 17 June.
+>
+> **•** Source detail: Source is recorded as Screenshot copied by client.
+>
+> **•** Source detail: Status is recorded as Unverified.
+>
+> **•** The exhibit records Check item: Can the colleague give a statement?.
+>
+> **•** The exhibit records Check item: Is the message complete?.
+>
+> **•** The exhibit records Check item: Could the wording have another explanation?.
 
-What This Exhibit Does and Does Not Prove
+**Uncertainty and Follow-Up Points Within This Exhibit**
 
+> **•** The wording 'could' in this exhibit uses possibility wording rather than confirmed fact; record it as a caveat or follow-up point, not as a final conclusion.
+>
+> **•** Any date or time in this exhibit should be carried across exactly, because timing may affect awareness, notice, deadline or escalation analysis.
 
-| Point | Explanation |
-| --- | --- |
-| Confirmed by this exhibit | The wording, facts, figures or message content shown in the exhibit itself. |
-| Not confirmed by this exhibit alone | The full legal answer, final client instructions, complete chronology, causation, loss, regulatory position or settlement value. |
-| Cross-check required | Read with the instruction document, any agreement or policy wording, chronology, emails, technical records and the source quality guidance. |
-| Student caution | Confident wording in a document may still be incomplete, inaccurate, biased, outdated or non-lawyer commentary. |
+**Additional Evidence-Use Detail**
 
+> **•** This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
+>
+> **•** Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
 
-Student Extraction Boxes
+**Student Extraction Boxes**
 
-Box 1 - Key facts from this exhibit
+**Box 1 - Key facts from this exhibit**
 
+| *Type your answer here.* |
+|--------------------------|
 
-| Type your answer here. |
-| --- |
+**Box 2 - Risks, uncertainty or missing information**
 
+| *Type your answer here.* |
+|--------------------------|
 
-Box 2 - Risks, uncertainty or missing information
+**Box 3 - How this exhibit affects the final output**
 
+| *Type your answer here.* |
+|--------------------------|
 
-| Type your answer here. |
-| --- |
+**Box 4 - Follow-up questions to carry forward**
 
-
-Box 3 - How this exhibit affects the final output
-
-
-| Type your answer here. |
-| --- |
-
-
-Box 4 - Follow-up questions to carry forward
-
-
-| Type your answer here. |
-| --- |
+| *Type your answer here.* |
+|--------------------------|

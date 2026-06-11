@@ -1,28 +1,12 @@
-# Exhibit 5 - Investor Update Draft
+<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
 
-Source path: `Legal Skills/Student Packs/CI/CI-01 Student Pack/Exhibit 5 - Investor Update Draft.docx`
+**Exhibit 5 - Investor Update Draft**
 
-### Exhibit 5 - Investor Update Draft
+**What This Exhibit Contains**
 
+This exhibit contains the source material for 'Investor Update Draft'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status \| Not sent Purpose \| Commercial pressure evidence We have suffered a major supplier failure and expect to pursue full compensation. We will relaunch within seven days after forcing the supplier to resolve all defects.
 
-Student Exhibit Document | The Startup Founder With a Failed Software Launch
-
-
-| ⚖ | Pack code | CI-01 |
-| --- | --- | --- |
-| ▣ | Skill focus | Client Interviewing |
-| ▥ | Scenario | The Startup Founder With a Failed Software Launch |
-| 👤 | Exhibit number | 5 |
-| ◷ | Document title | Investor Update Draft |
-| ⚖ | Status | Fictional training document - read with the full exhibit set |
-| v | Use of exhibit | Extract facts, identify uncertainty and decide what needs checking before producing the final output. |
-
-
-What This Exhibit Contains
-
-This exhibit contains the source material for 'Investor Update Draft'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status | Not sent Purpose | Commercial pressure evidence We have suffered a major supplier failure and expect to pursue full compensation. We will relaunch within seven days after forcing the supplier to resolve all defects.
-
-How to Use This Exhibit
+**How to Use This Exhibit**
 
 Read the exact wording rather than relying on the title.
 
@@ -30,88 +14,81 @@ Identify what is confirmed, what is uncertain and what is missing.
 
 Use the exhibit number and document title when citing evidence in your answer.
 
-Do not treat this exhibit alone as the full legal or commercial position.
+**Do not treat this exhibit alone as the full legal or commercial position.**
 
 Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-Exhibit Content Map
+**Full Exhibit Content**
 
-
-| Document format | Matter file exhibit |
-| --- | --- |
-| What this exhibit contains | This exhibit contains the source material for 'Investor Update Draft'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status \| Not sent Purpose \| Commercial pressure evidence We have suffered a major supplier failure and expect to pursue full compensation. We will relaunch within seven days after forcing the supplier to resolve all defects. |
-| How students should use it | Treat it as one part of the file: extract what it proves, what it does not prove, and what must be cross-checked. |
-| Evidence caution | Do not treat this exhibit as the whole answer. Cross-check it against the instructions, other exhibits and any legal framework that requires verification. |
-
-
-Matter file exhibit - Full Exhibit Content
-
-
-| Prepared by | Founder |
-| --- | --- |
-| Status | Not sent |
-| Purpose | Commercial pressure evidence |
-
+| **Prepared by** | **Founder**                  |
+|-----------------|------------------------------|
+| Status          | Not sent                     |
+| Purpose         | Commercial pressure evidence |
 
 We have suffered a major supplier failure and expect to pursue full compensation. We will relaunch within seven days after forcing the supplier to resolve all defects.
 
+| **Check item**                                                  | **Evidence in exhibit** | **Student note** |
+|-----------------------------------------------------------------|-------------------------|------------------|
+| Is this wording safe before legal review?                       |                         |                  |
+| Does it overstate supplier responsibility?                      |                         |                  |
+| Does it create pressure to relaunch before technical assurance? |                         |                  |
 
-| Check item | Evidence in exhibit | Student note |
-| --- | --- | --- |
-| Is this wording safe before legal review? |  |  |
-| Does it overstate supplier responsibility? |  |  |
-| Does it create pressure to relaunch before technical assurance? |  |  |
+**Expanded Exhibit Detail**
 
+*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
 
-Expanded Exhibit Reading Guide
+**Source Status and Timing**
 
+> **•** Prepared by: Founder.
+>
+> **•** Status: Not sent.
+>
+> **•** Purpose: Commercial pressure evidence.
 
-| # | Specific content in this exhibit | Why it matters | What to check next |
-| --- | --- | --- | --- |
-| 1 | Status \| Not sent | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 2 | Purpose \| Commercial pressure evidence | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 3 | We have suffered a major supplier failure and expect to pursue full compensation. We will relaunch within seven days after forcing the supplier to resolve all defects. | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 4 | Is this wording safe before legal review? | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 5 | Does it overstate supplier responsibility? | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 6 | Does it create pressure to relaunch before technical assurance? | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
+**Detailed Matter Points**
 
+> **•** Narrative point: We have suffered a major supplier failure and expect to pursue full compensation. We will relaunch within seven days after forcing the supplier to resolve all defects.
+>
+> **•** Source detail: Prepared by is recorded as Founder.
+>
+> **•** Source detail: Status is recorded as Not sent.
+>
+> **•** Source detail: Purpose is recorded as Commercial pressure evidence.
+>
+> **•** The exhibit records Check item: Is this wording safe before legal review?.
+>
+> **•** The exhibit records Check item: Does it overstate supplier responsibility?.
+>
+> **•** The exhibit records Check item: Does it create pressure to relaunch before technical assurance?.
 
-What This Exhibit Does and Does Not Prove
+**Uncertainty and Follow-Up Points Within This Exhibit**
 
+> **•** No express uncertainty wording was extracted from this exhibit, but the document should still be cross-checked against the other exhibits before it is used as proof of the full position.
 
-| Point | Explanation |
-| --- | --- |
-| Confirmed by this exhibit | The wording, facts, figures or message content shown in the exhibit itself. |
-| Not confirmed by this exhibit alone | The full legal answer, final client instructions, complete chronology, causation, loss, regulatory position or settlement value. |
-| Cross-check required | Read with the instruction document, any agreement or policy wording, chronology, emails, technical records and the source quality guidance. |
-| Student caution | Confident wording in a document may still be incomplete, inaccurate, biased, outdated or non-lawyer commentary. |
+**Additional Evidence-Use Detail**
 
+> **•** This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
+>
+> **•** Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
 
-Student Extraction Boxes
+**Student Extraction Boxes**
 
-Box 1 - Key facts from this exhibit
+**Box 1 - Key facts from this exhibit**
 
+| *Type your answer here.* |
+|--------------------------|
 
-| Type your answer here. |
-| --- |
+**Box 2 - Risks, uncertainty or missing information**
 
+| *Type your answer here.* |
+|--------------------------|
 
-Box 2 - Risks, uncertainty or missing information
+**Box 3 - How this exhibit affects the final output**
 
+| *Type your answer here.* |
+|--------------------------|
 
-| Type your answer here. |
-| --- |
+**Box 4 - Follow-up questions to carry forward**
 
-
-Box 3 - How this exhibit affects the final output
-
-
-| Type your answer here. |
-| --- |
-
-
-Box 4 - Follow-up questions to carry forward
-
-
-| Type your answer here. |
-| --- |
+| *Type your answer here.* |
+|--------------------------|

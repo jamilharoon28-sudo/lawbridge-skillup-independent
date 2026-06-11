@@ -1,28 +1,12 @@
-# Exhibit 3 - Jurisdiction and Market Snapshot
+<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
 
-Source path: `Legal Skills/Student Packs/LR/LR-01 Student Pack/Exhibit 3 - Jurisdiction and Market Snapshot.docx`
+**Exhibit 3 - Jurisdiction and Market Snapshot**
 
-### Exhibit 3 - Jurisdiction and Market Snapshot
+**What This Exhibit Contains**
 
+This exhibit contains the source material for 'Jurisdiction and Market Snapshot'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status \| Internal Head office \| One country \| Controller/entity location check Clients \| Multiple regions \| Cross-border notification check
 
-Student Exhibit Document | Researching Data Breach Reporting Duties
-
-
-| ⚖ | Pack code | LR-01 |
-| --- | --- | --- |
-| ▣ | Skill focus | Legal Research |
-| ▥ | Scenario | Researching Data Breach Reporting Duties |
-| 👤 | Exhibit number | 3 |
-| ◷ | Document title | Jurisdiction and Market Snapshot |
-| ⚖ | Status | Fictional training document - read with the full exhibit set |
-| v | Use of exhibit | Extract facts, identify uncertainty and decide what needs checking before producing the final output. |
-
-
-What This Exhibit Contains
-
-This exhibit contains the source material for 'Jurisdiction and Market Snapshot'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status | Internal Head office | One country | Controller/entity location check Clients | Multiple regions | Cross-border notification check
-
-How to Use This Exhibit
+**How to Use This Exhibit**
 
 Read the exact wording rather than relying on the title.
 
@@ -30,84 +14,75 @@ Identify what is confirmed, what is uncertain and what is missing.
 
 Use the exhibit number and document title when citing evidence in your answer.
 
-Do not treat this exhibit alone as the full legal or commercial position.
+**Do not treat this exhibit alone as the full legal or commercial position.**
 
 Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-Exhibit Content Map
+**Full Exhibit Content**
 
+| **Prepared by** | **Client operations** |
+|-----------------|-----------------------|
+| Status          | Internal              |
 
-| Document format | Technical, data or business record |
-| --- | --- |
-| What this exhibit contains | This exhibit contains the source material for 'Jurisdiction and Market Snapshot'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status \| Internal Head office \| One country \| Controller/entity location check Clients \| Multiple regions \| Cross-border notification check |
-| How students should use it | Treat it like evidence: check timestamp, status, source, incompleteness and what the record does not prove. |
-| Evidence caution | Do not treat this exhibit as the whole answer. Cross-check it against the instructions, other exhibits and any legal framework that requires verification. |
+| **Location factor** | **Known fact**        | **Research implication**         |
+|---------------------|-----------------------|----------------------------------|
+| Head office         | One country           | Controller/entity location check |
+| Clients             | Multiple regions      | Cross-border notification check  |
+| Employees           | Remote workforce      | Employee data rules check        |
+| Processor/vendor    | Cloud provider abroad | Contract and transfer check      |
 
+**Expanded Exhibit Detail**
 
-Technical, data or business record - Full Exhibit Content
+*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
 
+**Source Status and Timing**
 
-| Prepared by | Client operations |
-| --- | --- |
-| Status | Internal |
+> **•** Prepared by: Client operations.
+>
+> **•** Status: Internal.
 
+**Detailed Matter Points**
 
-| Location factor | Known fact | Research implication |
-| --- | --- | --- |
-| Head office | One country | Controller/entity location check |
-| Clients | Multiple regions | Cross-border notification check |
-| Employees | Remote workforce | Employee data rules check |
-| Processor/vendor | Cloud provider abroad | Contract and transfer check |
+> **•** Source detail: Prepared by is recorded as Client operations.
+>
+> **•** Source detail: Status is recorded as Internal.
+>
+> **•** For Location factor 'Head office', the exhibit records Known fact: One country; Research implication: Controller/entity location check.
+>
+> **•** For Location factor 'Clients', the exhibit records Known fact: Multiple regions; Research implication: Cross-border notification check.
+>
+> **•** For Location factor 'Employees', the exhibit records Known fact: Remote workforce; Research implication: Employee data rules check.
+>
+> **•** For Location factor 'Processor/vendor', the exhibit records Known fact: Cloud provider abroad; Research implication: Contract and transfer check.
 
+**Uncertainty and Follow-Up Points Within This Exhibit**
 
-Expanded Exhibit Reading Guide
+> **•** No express uncertainty wording was extracted from this exhibit, but the document should still be cross-checked against the other exhibits before it is used as proof of the full position.
 
+**Additional Evidence-Use Detail**
 
-| # | Specific content in this exhibit | Why it matters | What to check next |
-| --- | --- | --- | --- |
-| 1 | Status \| Internal | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 2 | Head office \| One country \| Controller/entity location check | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 3 | Clients \| Multiple regions \| Cross-border notification check | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 4 | Employees \| Remote workforce \| Employee data rules check | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 5 | Processor/vendor \| Cloud provider abroad \| Contract and transfer check | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
+> **•** This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
+>
+> **•** Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
 
+**Student Extraction Boxes**
 
-What This Exhibit Does and Does Not Prove
+**Box 1 - Key facts from this exhibit**
 
+| *Type your answer here.* |
+|--------------------------|
 
-| Point | Explanation |
-| --- | --- |
-| Confirmed by this exhibit | The wording, facts, figures or message content shown in the exhibit itself. |
-| Not confirmed by this exhibit alone | The full legal answer, final client instructions, complete chronology, causation, loss, regulatory position or settlement value. |
-| Cross-check required | Read with the instruction document, any agreement or policy wording, chronology, emails, technical records and the source quality guidance. |
-| Student caution | Confident wording in a document may still be incomplete, inaccurate, biased, outdated or non-lawyer commentary. |
+**Box 2 - Risks, uncertainty or missing information**
 
+| *Type your answer here.* |
+|--------------------------|
 
-Student Extraction Boxes
+**Box 3 - How this exhibit affects the final output**
 
-Box 1 - Key facts from this exhibit
+| *Type your answer here.* |
+|--------------------------|
 
+**Box 4 - Follow-up questions to carry forward**
 
-| Type your answer here. |
-| --- |
-
-
-Box 2 - Risks, uncertainty or missing information
-
-
-| Type your answer here. |
-| --- |
-
-
-Box 3 - How this exhibit affects the final output
-
-
-| Type your answer here. |
-| --- |
-
-
-Box 4 - Follow-up questions to carry forward
-
-
-| Type your answer here. |
-| --- |
+| *Type your answer here.* |
+|--------------------------|

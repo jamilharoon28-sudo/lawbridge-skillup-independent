@@ -1,49 +1,34 @@
-# Exhibit 1 - Instruction Email
+<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
 
-Source path: `Practical Skills/Student Packs/Reflective Practice/PS-RP-01 Student Pack/Exhibit 1 - Instruction Email.docx`
+**Exhibit 1 - Instruction Email**
 
-### Exhibit 1 - Instruction Email
-
-
-Student Exhibit Document | Learning From Feedback on a Draft Email
-
-
-| ⚖ | Pack code | PS-RP-01 |
-| --- | --- | --- |
-| ▣ | Skill focus | Reflective Practice |
-| ▥ | Exhibit number | 1 |
-| 👤 | Document type | Instruction Email |
-| ◷ | Status | Fictional training document - read with the full exhibit set |
-| ⚖ | Use of exhibit | Extract facts, identify uncertainty and decide what needs checking before producing the final output. |
-
-
-What This Exhibit Contains
+**What This Exhibit Contains**
 
 This is the instruction document. It explains who is asking for the work, what the student has been asked to produce, what must not be assumed, and what the immediate professional task is.
 
-Exhibit Content Map
+**How to Use This Exhibit**
 
+Read the exact wording rather than relying on the title.
 
-| Document format | Email / instruction record |
-| --- | --- |
-| What this exhibit contains | This is the instruction document. It explains who is asking for the work, what the student has been asked to produce, what must not be assumed, and what the immediate professional task is. |
-| How students should use it | Treat it like an email: check sender, recipient, date, subject, request and any limits on the task. |
-| Evidence caution | Do not treat this exhibit as the whole answer. Cross-check it against the instructions, other exhibits and any legal framework that requires verification. |
+Identify what is confirmed, what is uncertain and what is missing.
 
+Use the exhibit number and document title when citing evidence in your answer.
 
-Email / instruction record - Full Exhibit Content
+**Do not treat this exhibit alone as the full legal or commercial position.**
 
+Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-| Email field | Details |
-| --- | --- |
-| Date | 3 February |
-| From | Supervising lawyer / training supervisor |
-| To | Student |
-| Subject | PS-RP-01 - Learning From Feedback on a Draft Email |
-| Priority | Medium to high - prepare a practical trainee-style output |
+**Full Exhibit Content**
 
+| **Email field** | **Details**                                               |
+|-----------------|-----------------------------------------------------------|
+| Date            | 3 February                                                |
+| From            | Supervising lawyer / training supervisor                  |
+| To              | Student                                                   |
+| Subject         | PS-RP-01 - Learning From Feedback on a Draft Email        |
+| Priority        | Medium to high - prepare a practical trainee-style output |
 
-Email body
+**Email body**
 
 Please review the attached training file for Learning From Feedback on a Draft Email. The client or internal team needs a practical output, not an academic essay. Do not assume facts that are not in the exhibits. Do not give a final legal conclusion where the applicable framework or source has not been verified. Your task is to identify the core issue, extract the evidence, flag uncertainty, and produce a clear next step.
 
@@ -57,46 +42,70 @@ Use every exhibit before finalising your answer.
 
 Where the file contains uncertainty, say so clearly and explain what you would check.
 
-What This Exhibit Does and Does Not Prove
+**Expanded Exhibit Detail**
 
+*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
 
-| Point | Explanation |
-| --- | --- |
-| Confirmed by this exhibit | It gives training-file information relevant to Learning From Feedback on a Draft Email and should be cited where used. |
-| Not confirmed by this exhibit alone | It does not prove the full legal position, final client instructions, complete chronology, or every missing document. |
-| Cross-check required | Read this alongside the other exhibits and the instructions before producing the final output. |
-| Student caution | Do not treat confident wording in a document as automatically accurate, complete or safe. |
+**Source Status and Timing**
 
+> **•** Date: 3 February.
+>
+> **•** From: Supervising lawyer / training supervisor.
+>
+> **•** To: Student.
+>
+> **•** Subject: PS-RP-01 - Learning From Feedback on a Draft Email.
 
-Student Extraction Boxes
+**Detailed Matter Points**
 
-Box 1 - Key facts from this exhibit
+> **•** Narrative point: Please review the attached training file for Learning From Feedback on a Draft Email. The client or internal team needs a practical output, not an academic essay. Do not assume facts that are not in the exhibits. Do not give a final legal conclusion where the...
+>
+> **•** Narrative point: Primary skill focus: Reflective Practice.
+>
+> **•** Narrative point: Matter type: Feedback and improvement.
+>
+> **•** Narrative point: Core scenario: A supervisor says a draft advice email was too long, too technical and did not answer the client question directly. The student must rewrite and reflect constructively.
+>
+> **•** Narrative point: Use every exhibit before finalising your answer.
+>
+> **•** Narrative point: Where the file contains uncertainty, say so clearly and explain what you would check.
+>
+> **•** Source detail: Email field is recorded as Details.
+>
+> **•** Source detail: Date is recorded as 3 February.
+>
+> **•** Source detail: From is recorded as Supervising lawyer / training supervisor.
+>
+> **•** Source detail: To is recorded as Student.
+>
+> **•** Source detail: Subject is recorded as PS-RP-01 - Learning From Feedback on a Draft Email.
+>
+> **•** Source detail: Priority is recorded as Medium to high - prepare a practical trainee-style output.
 
+**Uncertainty and Follow-Up Points Within This Exhibit**
 
-| Type your answer here. |
-| --- |
+> **•** The wording 'draft' in this exhibit shows the wording or document may not have been approved; record it as a caveat or follow-up point, not as a final conclusion.
+>
+> **•** Any date or time in this exhibit should be carried across exactly, because timing may affect awareness, notice, deadline or escalation analysis.
 
+**Student Extraction Boxes**
 
-Box 2 - Risks, uncertainties or missing information
+**Box 1 - Key facts from this exhibit**
 
+| *Type your answer here.* |
+|--------------------------|
 
-| Type your answer here. |
-| --- |
+**Box 2 - Risks, uncertainty or missing information**
 
+| *Type your answer here.* |
+|--------------------------|
 
-Box 3 - How this exhibit affects the task or final output
+**Box 3 - How this exhibit affects the final output**
 
+| *Type your answer here.* |
+|--------------------------|
 
-| Type your answer here. |
-| --- |
+**Box 4 - Follow-up questions to carry forward**
 
-
-Questions to Carry Forward
-
-What exactly is confirmed by this exhibit?
-
-What is uncertain, incomplete or potentially misleading?
-
-Which other exhibit should be checked before relying on this point?
-
-What would you ask the client, supervisor, counterparty or internal team before finalising the output?
+| *Type your answer here.* |
+|--------------------------|

@@ -1,28 +1,12 @@
-# Exhibit 2 - Endpoint Alert Summary
+<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
 
-Source path: `Legal Skills/Student Packs/AN/AN-01 Student Pack/Exhibit 2 - Endpoint Alert Summary.docx`
+**Exhibit 2 - Endpoint Alert Summary**
 
-### Exhibit 2 - Endpoint Alert Summary
+**What This Exhibit Contains**
 
+This exhibit contains the source material for 'Endpoint Alert Summary'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Date \| 21 July, 23:40 Status \| Preliminary 20 Jul 16:11 \| Suspicious link opened \| Finance mailbox \| User reported late
 
-Student Exhibit Document | Analysing a Cyberattack After a Client Interview
-
-
-| ⚖ | Pack code | AN-01 |
-| --- | --- | --- |
-| ▣ | Skill focus | Attendance Notes and Legal Analysis |
-| ▥ | Scenario | Analysing a Cyberattack After a Client Interview |
-| 👤 | Exhibit number | 2 |
-| ◷ | Document title | Endpoint Alert Summary |
-| ⚖ | Status | Fictional training document - read with the full exhibit set |
-| v | Use of exhibit | Extract facts, identify uncertainty and decide what needs checking before producing the final output. |
-
-
-What This Exhibit Contains
-
-This exhibit contains the source material for 'Endpoint Alert Summary'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Date | 21 July, 23:40 Status | Preliminary 20 Jul 16:11 | Suspicious link opened | Finance mailbox | User reported late
-
-How to Use This Exhibit
+**How to Use This Exhibit**
 
 Read the exact wording rather than relying on the title.
 
@@ -30,87 +14,89 @@ Identify what is confirmed, what is uncertain and what is missing.
 
 Use the exhibit number and document title when citing evidence in your answer.
 
-Do not treat this exhibit alone as the full legal or commercial position.
+**Do not treat this exhibit alone as the full legal or commercial position.**
 
 Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-Exhibit Content Map
+**Full Exhibit Content**
 
+| **Prepared by** | **Internal IT** |
+|-----------------|-----------------|
+| Date            | 21 July, 23:40  |
+| Status          | Preliminary     |
 
-| Document format | Technical, data or business record |
-| --- | --- |
-| What this exhibit contains | This exhibit contains the source material for 'Endpoint Alert Summary'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Date \| 21 July, 23:40 Status \| Preliminary 20 Jul 16:11 \| Suspicious link opened \| Finance mailbox \| User reported late |
-| How students should use it | Treat it like evidence: check timestamp, status, source, incompleteness and what the record does not prove. |
-| Evidence caution | Do not treat this exhibit as the whole answer. Cross-check it against the instructions, other exhibits and any legal framework that requires verification. |
+| **Time**     | **Event**                 | **System**        | **Notes**            |
+|--------------|---------------------------|-------------------|----------------------|
+| 20 Jul 16:11 | Suspicious link opened    | Finance mailbox   | User reported late   |
+| 20 Jul 16:19 | Credential use            | Remote login      | Foreign IP address   |
+| 20 Jul 18:54 | Mailbox export            | Finance mailbox   | Volume unknown       |
+| 21 Jul 10:15 | Shared drive access       | Client folders    | Read access detected |
+| 21 Jul 22:50 | Password resets completed | All finance users | Containment step     |
 
+**Expanded Exhibit Detail**
 
-Technical, data or business record - Full Exhibit Content
+*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
 
+**Source Status and Timing**
 
-| Prepared by | Internal IT |
-| --- | --- |
-| Date | 21 July, 23:40 |
-| Status | Preliminary |
+> **•** Date: 21 July, 23:40.
+>
+> **•** Prepared by: Internal IT.
+>
+> **•** Status: Preliminary.
 
+**Detailed Matter Points**
 
-| Time | Event | System | Notes |
-| --- | --- | --- | --- |
-| 20 Jul 16:11 | Suspicious link opened | Finance mailbox | User reported late |
-| 20 Jul 16:19 | Credential use | Remote login | Foreign IP address |
-| 20 Jul 18:54 | Mailbox export | Finance mailbox | Volume unknown |
-| 21 Jul 10:15 | Shared drive access | Client folders | Read access detected |
-| 21 Jul 22:50 | Password resets completed | All finance users | Containment step |
+> **•** Source detail: Prepared by is recorded as Internal IT.
+>
+> **•** Source detail: Date is recorded as 21 July, 23:40.
+>
+> **•** Source detail: Status is recorded as Preliminary.
+>
+> **•** For Time '20 Jul 16:11', the exhibit records Event: Suspicious link opened; System: Finance mailbox; Notes: User reported late.
+>
+> **•** For Time '20 Jul 16:19', the exhibit records Event: Credential use; System: Remote login; Notes: Foreign IP address.
+>
+> **•** For Time '20 Jul 18:54', the exhibit records Event: Mailbox export; System: Finance mailbox; Notes: Volume unknown.
+>
+> **•** For Time '21 Jul 10:15', the exhibit records Event: Shared drive access; System: Client folders; Notes: Read access detected.
+>
+> **•** For Time '21 Jul 22:50', the exhibit records Event: Password resets completed; System: All finance users; Notes: Containment step.
 
+**Uncertainty and Follow-Up Points Within This Exhibit**
 
-Expanded Exhibit Reading Guide
+> **•** The wording 'preliminary' in this exhibit is expressly preliminary and should not be treated as final; record it as a caveat or follow-up point, not as a final conclusion.
+>
+> **•** The wording 'late' in this exhibit may affect timing, escalation or reliability of the record; record it as a caveat or follow-up point, not as a final conclusion.
+>
+> **•** The wording 'unknown' in this exhibit marks a fact that still needs to be established; record it as a caveat or follow-up point, not as a final conclusion.
+>
+> **•** Any date or time in this exhibit should be carried across exactly, because timing may affect awareness, notice, deadline or escalation analysis.
 
+**Additional Evidence-Use Detail**
 
-| # | Specific content in this exhibit | Why it matters | What to check next |
-| --- | --- | --- | --- |
-| 1 | Date \| 21 July, 23:40 | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 2 | Status \| Preliminary | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 3 | 20 Jul 16:11 \| Suspicious link opened \| Finance mailbox \| User reported late | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 4 | 20 Jul 16:19 \| Credential use \| Remote login \| Foreign IP address | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 5 | 20 Jul 18:54 \| Mailbox export \| Finance mailbox \| Volume unknown | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
-| 6 | 21 Jul 10:15 \| Shared drive access \| Client folders \| Read access detected | This may affect the output, risk ranking, evidence analysis or follow-up questions. | Check whether the point is confirmed elsewhere, disputed, incomplete or requires legal framework verification. |
+> **•** This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
+>
+> **•** Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
 
+**Student Extraction Boxes**
 
-What This Exhibit Does and Does Not Prove
+**Box 1 - Key facts from this exhibit**
 
+| *Type your answer here.* |
+|--------------------------|
 
-| Point | Explanation |
-| --- | --- |
-| Confirmed by this exhibit | The wording, facts, figures or message content shown in the exhibit itself. |
-| Not confirmed by this exhibit alone | The full legal answer, final client instructions, complete chronology, causation, loss, regulatory position or settlement value. |
-| Cross-check required | Read with the instruction document, any agreement or policy wording, chronology, emails, technical records and the source quality guidance. |
-| Student caution | Confident wording in a document may still be incomplete, inaccurate, biased, outdated or non-lawyer commentary. |
+**Box 2 - Risks, uncertainty or missing information**
 
+| *Type your answer here.* |
+|--------------------------|
 
-Student Extraction Boxes
+**Box 3 - How this exhibit affects the final output**
 
-Box 1 - Key facts from this exhibit
+| *Type your answer here.* |
+|--------------------------|
 
+**Box 4 - Follow-up questions to carry forward**
 
-| Type your answer here. |
-| --- |
-
-
-Box 2 - Risks, uncertainty or missing information
-
-
-| Type your answer here. |
-| --- |
-
-
-Box 3 - How this exhibit affects the final output
-
-
-| Type your answer here. |
-| --- |
-
-
-Box 4 - Follow-up questions to carry forward
-
-
-| Type your answer here. |
-| --- |
+| *Type your answer here.* |
+|--------------------------|
