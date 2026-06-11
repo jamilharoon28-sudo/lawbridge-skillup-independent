@@ -1,5 +1,5 @@
 -- Generated from public/course-content/manifest.json
--- Re-run with: npm run course:files-sql
+-- Clean markdown conversion: no raw HTML tables/images
 
 CREATE UNIQUE INDEX IF NOT EXISTS scenario_files_unique_storage_path
 ON public.scenario_files (scenario_id, storage_path);

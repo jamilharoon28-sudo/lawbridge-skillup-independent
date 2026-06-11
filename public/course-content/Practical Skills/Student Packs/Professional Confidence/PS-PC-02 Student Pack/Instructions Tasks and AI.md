@@ -1,151 +1,113 @@
-<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
+### Case Simulation 02 | PS-PC-02
 
-**Case Simulation 02 \| PS-PC-02**
+## Preparing for a Mentor Conversation With Purpose
 
-**Preparing for a Mentor Conversation With Purpose**
+## Learning Outcomes
 
-**Learning Outcomes**
+- Prepare concise contributions.
 
-> **•** Prepare concise contributions.
->
-> **•** Raise uncertainty professionally.
->
-> **•** Ask evidence-based questions.
->
-> **•** Build confidence without overclaiming.
->
-> **•** Support team quality.
+- Raise uncertainty professionally.
 
-**Student Task Brief**
+- Ask evidence-based questions.
+
+- Build confidence without overclaiming.
+
+- Support team quality.
+
+### Student Task Brief
 
 Sara has a 20-minute mentor session with a commercial disputes associate experienced in technology clients. She wants specific, respectful questions.
 
-**Student Practice Tasks**
+### Student Practice Tasks
 
 Complete the following practice tasks as a trainee-style matter file review. Your answers must cite the relevant exhibit, clause, date, email, log entry, policy wording or document reference where available. Do not give broad commentary where a specific document reference is available.
 
-**Detailed Practice Tasks**
+## Detailed Practice Tasks
 
-> **01** Identify the practical issue raised by the file.
->
-> **02** Extract the facts that matter and cite the relevant exhibit.
->
-> **03** Separate known facts, assumptions, missing information and points requiring supervisor input.
->
-> **04** Prepare the required practical output in clear plain English.
->
-> **05** Identify what must be escalated before any message is sent.
->
-> **06** Prepare a short note or message that could realistically be used in practice.
->
-> **07** Reflect on what professional judgment was required.
+1. Identify the practical issue raised by the file.
 
-**Working Method**
+2. Extract the facts that matter and cite the relevant exhibit.
 
-> **•** Start with the exhibit index, but do not treat it as a summary of the answer.
->
-> **•** Read every separate exhibit before drafting the final output.
->
-> **•** Mark every clause, date, figure, message and disputed factual point that affects advice, drafting or judgment.
->
-> **•** Separate confirmed facts, disputed facts, assumptions, missing information and points requiring further checking.
->
-> **•** Keep supervisor-facing outputs concise: lead with the practical risk, then the evidence, then the next step.
+3. Separate known facts, assumptions, missing information and points requiring supervisor input.
 
-**Final Student Submission Checklist**
+4. Prepare the required practical output in clear plain English.
 
-> ☐ I have identified the relevant clauses, documents and factual evidence.
->
-> ☐ I have distinguished agreed facts from disputed facts.
->
-> ☐ I have identified missing information and practical follow-up questions.
->
-> ☐ I have considered commercial, ethical, client-care and reputational risks.
->
-> ☐ I have avoided giving applicable law conclusions without checking the applicable legal framework.
->
-> ☐ I have prepared a concise, practical and professional output.
+5. Identify what must be escalated before any message is sent.
 
-**Reflection Questions**
+6. Prepare a short note or message that could realistically be used in practice.
 
-**Draft your primary practical output or legal skills output here.**
+7. Reflect on what professional judgment was required.
 
-| *Type your answer here.* |
-|--------------------------|
+## Working Method
 
-**List the points you would escalate to a supervisor before sending anything externally.**
+- Start with the exhibit index, but do not treat it as a summary of the answer.
 
-| *Type your answer here.* |
-|--------------------------|
+- Read every separate exhibit before drafting the final output.
 
-**Reflection: what changed your view, and what would you do differently next time?**
+- Mark every clause, date, figure, message and disputed factual point that affects advice, drafting or judgment.
 
-| *Type your answer here.* |
-|--------------------------|
+- Separate confirmed facts, disputed facts, assumptions, missing information and points requiring further checking.
 
-| **Fundamental AI Skills Extension** |                                                                                                                                                                                                                                                                     |
-|-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Purpose of this AI section**      | **The aim is not to let AI complete Professional Confidence for you. Build the human skill first, use AI only as a tool, then supervise the output with professional judgment. You remain responsible for the final answer, evidence use, caveats and escalation.** |
+- Keep supervisor-facing outputs concise: lead with the practical risk, then the evidence, then the next step.
 
-**AI Ground Rules for This Professional Confidence Simulation**
+### Final Student Submission Checklist
 
-• Use only the fictional scenario materials and separated exhibits. Do not add real client facts or confidential information.
+- [ ] I have identified the relevant clauses, documents and factual evidence.
 
-• Treat AI as an assistant, not an authority, lawyer, tutor or decision-maker.
+- [ ] I have distinguished agreed facts from disputed facts.
 
-• Check AI statements against the exhibits and any source that needs legal verification.
+- [ ] I have identified missing information and practical follow-up questions.
 
-• Do not let polished wording hide uncertainty, missing facts or supervisor approval points.
+- [ ] I have considered commercial, ethical, client-care and reputational risks.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p><strong>● AI Task 1 - Human Skill First</strong></p>
-<p><strong>Using only the exhibits in this file, identify the key facts, risks and missing information you must address in the final Professional Confidence output for PS-PC-02 - Preparing for a Mentor Conversation With Purpose. Your answer must use Exhibit 1 (Instruction Email); Exhibit 2 (Background Note); Exhibit 3 (Relevant Document or Record); Exhibit 4 (Context and Timeline Note); Exhibit 5 (Draft Message or Risk Note), separate confirmed facts from uncertainty, and state what you would check or escalate before using AI.</strong></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><em>Type your answer here.</em></td>
-</tr>
-</tbody>
-</table>
+- [ ] I have avoided giving applicable law conclusions without checking the applicable legal framework.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p><strong>● AI Task 2 - AI Tool Usage and Critique</strong></p>
-<p><strong>Use AI to help structure the required output (the required student output) for PS-PC-02 - Preparing for a Mentor Conversation With Purpose. What single safe prompt would you use, and how would you critique the result against the exhibits so it does not invent facts, assume law or hide missing information?</strong></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><em>Type your answer here.</em></td>
-</tr>
-</tbody>
-</table>
+- [ ] I have prepared a concise, practical and professional output.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p><strong>● AI Task 3 - Judgment and AI Supervision Under Pressure</strong></p>
-<p><strong>You receive a polished AI draft for PS-PC-02 - Preparing for a Mentor Conversation With Purpose. What would you accept, change or reject before sending it to a supervisor or client team, and how would you explain your decision using human judgment and the scenario evidence?</strong></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><em>Type your answer here.</em></td>
-</tr>
-</tbody>
-</table>
+## Reflection Questions
 
-**AI Section Completion Standard: The section is complete only if all three answers are linked to the actual scenario material, not generic AI commentary.**
+Draft your primary practical output or legal skills output here.
+
+> _Type your answer here._
+
+List the points you would escalate to a supervisor before sending anything externally.
+
+> _Type your answer here._
+
+Reflection: what changed your view, and what would you do differently next time?
+
+> _Type your answer here._
+
+## Fundamental AI Skills Extension
+
+**Purpose of this AI section:** The aim is not to let AI complete Professional Confidence for you. Build the human skill first, use AI only as a tool, then supervise the output with professional judgment. You remain responsible for the final answer, evidence use, caveats and escalation.
+
+## AI Ground Rules for This Professional Confidence Simulation
+
+- Use only the fictional scenario materials and separated exhibits. Do not add real client facts or confidential information.
+
+- Treat AI as an assistant, not an authority, lawyer, tutor or decision-maker.
+
+- Check AI statements against the exhibits and any source that needs legal verification.
+
+- Do not let polished wording hide uncertainty, missing facts or supervisor approval points.
+
+### AI Task 1 - Human Skill First
+
+Using only the exhibits in this file, identify the key facts, risks and missing information you must address in the final Professional Confidence output for PS-PC-02 - Preparing for a Mentor Conversation With Purpose. Your answer must use Exhibit 1 (Instruction Email); Exhibit 2 (Background Note); Exhibit 3 (Relevant Document or Record); Exhibit 4 (Context and Timeline Note); Exhibit 5 (Draft Message or Risk Note), separate confirmed facts from uncertainty, and state what you would check or escalate before using AI.
+
+> _Type your answer here._
+
+### AI Task 2 - AI Tool Usage and Critique
+
+Use AI to help structure the required output (the required student output) for PS-PC-02 - Preparing for a Mentor Conversation With Purpose. What single safe prompt would you use, and how would you critique the result against the exhibits so it does not invent facts, assume law or hide missing information?
+
+> _Type your answer here._
+
+### AI Task 3 - Judgment and AI Supervision Under Pressure
+
+You receive a polished AI draft for PS-PC-02 - Preparing for a Mentor Conversation With Purpose. What would you accept, change or reject before sending it to a supervisor or client team, and how would you explain your decision using human judgment and the scenario evidence?
+
+> _Type your answer here._
+
+AI Section Completion Standard: The section is complete only if all three answers are linked to the actual scenario material, not generic AI commentary.

@@ -1,12 +1,10 @@
-<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
+### Exhibit 1 - Supervisor Instruction
 
-**Exhibit 1 - Supervisor Instruction**
+### What This Exhibit Contains
 
-**What This Exhibit Contains**
+This exhibit contains the source material for 'Supervisor Instruction'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: From | Insurance disputes supervisor To | Student Prepare a six-minute oral submission for a coverage conference. We act for Meridian Retail Group. The insurer has reserved rights and may rely on cybersecurity exclusions.
 
-This exhibit contains the source material for 'Supervisor Instruction'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: From \| Insurance disputes supervisor To \| Student Prepare a six-minute oral submission for a coverage conference. We act for Meridian Retail Group. The insurer has reserved rights and may rely on cybersecurity exclusions.
-
-**How to Use This Exhibit**
+### How to Use This Exhibit
 
 Read the exact wording rather than relying on the title.
 
@@ -14,71 +12,68 @@ Identify what is confirmed, what is uncertain and what is missing.
 
 Use the exhibit number and document title when citing evidence in your answer.
 
-**Do not treat this exhibit alone as the full legal or commercial position.**
+Do not treat this exhibit alone as the full legal or commercial position.
 
 Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-**Full Exhibit Content**
+### Full Exhibit Content
 
-| **Date** | **19 January**                |
-|----------|-------------------------------|
-| From     | Insurance disputes supervisor |
-| To       | Student                       |
+**Date:** 19. January
+
+**From:** Insurance disputes supervisor
+
+**To:** Student
 
 Prepare a six-minute oral submission for a coverage conference. We act for Meridian Retail Group. The insurer has reserved rights and may rely on cybersecurity exclusions.
 
-**Expanded Exhibit Detail**
+### Expanded Exhibit Detail
 
-*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
+The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.
 
-**Source Status and Timing**
+## Source Status and Timing
 
-> **•** Date: 19 January.
->
-> **•** From: Insurance disputes supervisor.
->
-> **•** To: Student.
+- Date: 19 January.
 
-**Detailed Matter Points**
+- From: Insurance disputes supervisor.
 
-> **•** Narrative point: Prepare a six-minute oral submission for a coverage conference. We act for Meridian Retail Group. The insurer has reserved rights and may rely on cybersecurity exclusions.
->
-> **•** Source detail: Date is recorded as 19 January.
->
-> **•** Source detail: From is recorded as Insurance disputes supervisor.
->
-> **•** Source detail: To is recorded as Student.
+- To: Student.
 
-**Uncertainty and Follow-Up Points Within This Exhibit**
+## Detailed Matter Points
 
-> **•** The wording 'may' in this exhibit uses possibility wording rather than confirmed fact; record it as a caveat or follow-up point, not as a final conclusion.
->
-> **•** Any date or time in this exhibit should be carried across exactly, because timing may affect awareness, notice, deadline or escalation analysis.
+- Narrative point: Prepare a six-minute oral submission for a coverage conference. We act for Meridian Retail Group. The insurer has reserved rights and may rely on cybersecurity exclusions.
 
-**Additional Evidence-Use Detail**
+- Source detail: Date is recorded as 19 January.
 
-> **•** This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
->
-> **•** Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
+- Source detail: From is recorded as Insurance disputes supervisor.
 
-**Student Extraction Boxes**
+- Source detail: To is recorded as Student.
 
-**Box 1 - Key facts from this exhibit**
+### Uncertainty and Follow-Up Points Within This Exhibit
 
-| *Type your answer here.* |
-|--------------------------|
+- The wording 'may' in this exhibit uses possibility wording rather than confirmed fact; record it as a caveat or follow-up point, not as a final conclusion.
 
-**Box 2 - Risks, uncertainty or missing information**
+- Any date or time in this exhibit should be carried across exactly, because timing may affect awareness, notice, deadline or escalation analysis.
 
-| *Type your answer here.* |
-|--------------------------|
+## Additional Evidence-Use Detail
 
-**Box 3 - How this exhibit affects the final output**
+- This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
 
-| *Type your answer here.* |
-|--------------------------|
+- Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
 
-**Box 4 - Follow-up questions to carry forward**
+### Student Extraction Boxes
 
-| *Type your answer here.* |
-|--------------------------|
+### Box 1 - Key facts from this exhibit
+
+> _Type your answer here._
+
+## Box 2 - Risks, uncertainty or missing information
+
+> _Type your answer here._
+
+### Box 3 - How this exhibit affects the final output
+
+> _Type your answer here._
+
+## Box 4 - Follow-up questions to carry forward
+
+> _Type your answer here._

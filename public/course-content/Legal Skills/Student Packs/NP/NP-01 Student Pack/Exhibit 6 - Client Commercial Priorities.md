@@ -1,12 +1,10 @@
-<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
+### Exhibit 6 - Client Commercial Priorities
 
-**Exhibit 6 - Client Commercial Priorities**
-
-**What This Exhibit Contains**
+### What This Exhibit Contains
 
 This exhibit contains the source material for 'Client Commercial Priorities'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Client can accept some price increase if support, data and exit terms improve.
 
-**How to Use This Exhibit**
+### How to Use This Exhibit
 
 Read the exact wording rather than relying on the title.
 
@@ -14,54 +12,50 @@ Identify what is confirmed, what is uncertain and what is missing.
 
 Use the exhibit number and document title when citing evidence in your answer.
 
-**Do not treat this exhibit alone as the full legal or commercial position.**
+Do not treat this exhibit alone as the full legal or commercial position.
 
 Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-**Full Exhibit Content**
+### Full Exhibit Content
 
 Client can accept some price increase if support, data and exit terms improve.
 
-**Expanded Exhibit Detail**
+### Expanded Exhibit Detail
 
-*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
+The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.
 
-**Source Status and Timing**
+## Source Status and Timing
 
-> **•** The exhibit should be treated as a matter-file source document rather than a complete legal conclusion.
+- The exhibit should be treated as a matter-file source document rather than a complete legal conclusion.
 
-**Detailed Matter Points**
+## Detailed Matter Points
 
-> **•** Narrative point: Client can accept some price increase if support, data and exit terms improve.
+- Narrative point: Client can accept some price increase if support, data and exit terms improve.
 
-**Uncertainty and Follow-Up Points Within This Exhibit**
+### Uncertainty and Follow-Up Points Within This Exhibit
 
-> **•** No express uncertainty wording was extracted from this exhibit, but the document should still be cross-checked against the other exhibits before it is used as proof of the full position.
+- No express uncertainty wording was extracted from this exhibit, but the document should still be cross-checked against the other exhibits before it is used as proof of the full position.
 
-**Additional Evidence-Use Detail**
+## Additional Evidence-Use Detail
 
-> **•** This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
->
-> **•** Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
+- This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
 
-**Student Extraction Boxes**
+- Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
 
-**Box 1 - Key facts from this exhibit**
+### Student Extraction Boxes
 
-| *Type your answer here.* |
-|--------------------------|
+### Box 1 - Key facts from this exhibit
 
-**Box 2 - Risks, uncertainty or missing information**
+> _Type your answer here._
 
-| *Type your answer here.* |
-|--------------------------|
+## Box 2 - Risks, uncertainty or missing information
 
-**Box 3 - How this exhibit affects the final output**
+> _Type your answer here._
 
-| *Type your answer here.* |
-|--------------------------|
+### Box 3 - How this exhibit affects the final output
 
-**Box 4 - Follow-up questions to carry forward**
+> _Type your answer here._
 
-| *Type your answer here.* |
-|--------------------------|
+## Box 4 - Follow-up questions to carry forward
+
+> _Type your answer here._

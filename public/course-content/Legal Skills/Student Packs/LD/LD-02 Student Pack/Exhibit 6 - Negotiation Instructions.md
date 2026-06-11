@@ -1,12 +1,10 @@
-<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
+### Exhibit 6 - Negotiation Instructions
 
-**Exhibit 6 - Negotiation Instructions**
+### What This Exhibit Contains
 
-**What This Exhibit Contains**
+This exhibit contains the source material for 'Negotiation Instructions'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status | Internal Do not promise that AI outputs are free from all claims. Offer to keep prompt records for key deliverables.
 
-This exhibit contains the source material for 'Negotiation Instructions'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status \| Internal Do not promise that AI outputs are free from all claims. Offer to keep prompt records for key deliverables.
-
-**How to Use This Exhibit**
+### How to Use This Exhibit
 
 Read the exact wording rather than relying on the title.
 
@@ -14,15 +12,15 @@ Identify what is confirmed, what is uncertain and what is missing.
 
 Use the exhibit number and document title when citing evidence in your answer.
 
-**Do not treat this exhibit alone as the full legal or commercial position.**
+Do not treat this exhibit alone as the full legal or commercial position.
 
 Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-**Full Exhibit Content**
+### Full Exhibit Content
 
-| **From** | **Commercial lead** |
-|----------|---------------------|
-| Status   | Internal            |
+**From:** Commercial lead
+
+**Status:** Internal
 
 Do not promise that AI outputs are free from all claims.
 
@@ -32,58 +30,54 @@ Reserve right to use AI only where suitable for the project.
 
 Client wants disclosure if AI materially contributes to final deliverable.
 
-**Expanded Exhibit Detail**
+### Expanded Exhibit Detail
 
-*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
+The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.
 
-**Source Status and Timing**
+## Source Status and Timing
 
-> **•** Status: Internal.
->
-> **•** From: Commercial lead.
+- Status: Internal.
 
-**Detailed Matter Points**
+- From: Commercial lead.
 
-> **•** Narrative point: Do not promise that AI outputs are free from all claims.
->
-> **•** Narrative point: Offer to keep prompt records for key deliverables.
->
-> **•** Narrative point: Reserve right to use AI only where suitable for the project.
->
-> **•** Narrative point: Client wants disclosure if AI materially contributes to final deliverable.
->
-> **•** Source detail: From is recorded as Commercial lead.
->
-> **•** Source detail: Status is recorded as Internal.
+## Detailed Matter Points
 
-**Uncertainty and Follow-Up Points Within This Exhibit**
+- Narrative point: Do not promise that AI outputs are free from all claims.
 
-> **•** No express uncertainty wording was extracted from this exhibit, but the document should still be cross-checked against the other exhibits before it is used as proof of the full position.
+- Narrative point: Offer to keep prompt records for key deliverables.
 
-**Additional Evidence-Use Detail**
+- Narrative point: Reserve right to use AI only where suitable for the project.
 
-> **•** This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
->
-> **•** Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
+- Narrative point: Client wants disclosure if AI materially contributes to final deliverable.
 
-**Student Extraction Boxes**
+- Source detail: From is recorded as Commercial lead.
 
-**Box 1 - Key facts from this exhibit**
+- Source detail: Status is recorded as Internal.
 
-| *Type your answer here.* |
-|--------------------------|
+### Uncertainty and Follow-Up Points Within This Exhibit
 
-**Box 2 - Risks, uncertainty or missing information**
+- No express uncertainty wording was extracted from this exhibit, but the document should still be cross-checked against the other exhibits before it is used as proof of the full position.
 
-| *Type your answer here.* |
-|--------------------------|
+## Additional Evidence-Use Detail
 
-**Box 3 - How this exhibit affects the final output**
+- This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
 
-| *Type your answer here.* |
-|--------------------------|
+- Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
 
-**Box 4 - Follow-up questions to carry forward**
+### Student Extraction Boxes
 
-| *Type your answer here.* |
-|--------------------------|
+### Box 1 - Key facts from this exhibit
+
+> _Type your answer here._
+
+## Box 2 - Risks, uncertainty or missing information
+
+> _Type your answer here._
+
+### Box 3 - How this exhibit affects the final output
+
+> _Type your answer here._
+
+## Box 4 - Follow-up questions to carry forward
+
+> _Type your answer here._

@@ -1,12 +1,10 @@
-<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
+### Exhibit 4 - Client Concern Summary
 
-**Exhibit 4 - Client Concern Summary**
+### What This Exhibit Contains
 
-**What This Exhibit Contains**
+This exhibit contains the source material for 'Client Concern Summary'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status | Client feedback log Ownership | We need to own final campaign assets | Use rights/assignment wording Confidentiality | Do not put our product roadmap into AI | Input restriction
 
-This exhibit contains the source material for 'Client Concern Summary'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status \| Client feedback log Ownership \| We need to own final campaign assets \| Use rights/assignment wording Confidentiality \| Do not put our product roadmap into AI \| Input restriction
-
-**How to Use This Exhibit**
+### How to Use This Exhibit
 
 Read the exact wording rather than relying on the title.
 
@@ -14,77 +12,73 @@ Identify what is confirmed, what is uncertain and what is missing.
 
 Use the exhibit number and document title when citing evidence in your answer.
 
-**Do not treat this exhibit alone as the full legal or commercial position.**
+Do not treat this exhibit alone as the full legal or commercial position.
 
 Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-**Full Exhibit Content**
+### Full Exhibit Content
 
-| **Prepared by** | **Sales team**      |
-|-----------------|---------------------|
-| Status          | Client feedback log |
+**Prepared by:** Sales team
 
-| **Concern**        | **Client wording**                     | **Drafting implication**         |
-|--------------------|----------------------------------------|----------------------------------|
-| Ownership          | We need to own final campaign assets   | Use rights/assignment wording    |
-| Confidentiality    | Do not put our product roadmap into AI | Input restriction                |
-| Accuracy           | AI copy may invent claims              | Human review duty                |
-| Third-party rights | We cannot be sued for copied images    | Warranties/indemnity/cooperation |
+**Status:** Client feedback log
 
-**Expanded Exhibit Detail**
+| Concern | Client wording | Drafting implication |
+| --- | --- | --- |
+| Ownership | We need to own final campaign assets | Use rights/assignment wording |
+| Confidentiality | Do not put our product roadmap into AI | Input restriction |
+| Accuracy | AI copy may invent claims | Human review duty |
+| Third-party rights | We cannot be sued for copied images | Warranties/indemnity/cooperation |
 
-*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
+### Expanded Exhibit Detail
 
-**Source Status and Timing**
+The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.
 
-> **•** Prepared by: Sales team.
->
-> **•** Status: Client feedback log.
+## Source Status and Timing
 
-**Detailed Matter Points**
+- Prepared by: Sales team.
 
-> **•** Source detail: Prepared by is recorded as Sales team.
->
-> **•** Source detail: Status is recorded as Client feedback log.
->
-> **•** For Concern 'Ownership', the exhibit records Client wording: We need to own final campaign assets; Drafting implication: Use rights/assignment wording.
->
-> **•** For Concern 'Confidentiality', the exhibit records Client wording: Do not put our product roadmap into AI; Drafting implication: Input restriction.
->
-> **•** For Concern 'Accuracy', the exhibit records Client wording: AI copy may invent claims; Drafting implication: Human review duty.
->
-> **•** For Concern 'Third-party rights', the exhibit records Client wording: We cannot be sued for copied images; Drafting implication: Warranties/indemnity/cooperation.
+- Status: Client feedback log.
 
-**Uncertainty and Follow-Up Points Within This Exhibit**
+## Detailed Matter Points
 
-> **•** The wording 'draft' in this exhibit shows the wording or document may not have been approved; record it as a caveat or follow-up point, not as a final conclusion.
->
-> **•** The wording 'may' in this exhibit uses possibility wording rather than confirmed fact; record it as a caveat or follow-up point, not as a final conclusion.
+- Source detail: Prepared by is recorded as Sales team.
 
-**Additional Evidence-Use Detail**
+- Source detail: Status is recorded as Client feedback log.
 
-> **•** This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
->
-> **•** Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
+- For Concern 'Ownership', the exhibit records Client wording: We need to own final campaign assets; Drafting implication: Use rights/assignment wording.
 
-**Student Extraction Boxes**
+- For Concern 'Confidentiality', the exhibit records Client wording: Do not put our product roadmap into AI; Drafting implication: Input restriction.
 
-**Box 1 - Key facts from this exhibit**
+- For Concern 'Accuracy', the exhibit records Client wording: AI copy may invent claims; Drafting implication: Human review duty.
 
-| *Type your answer here.* |
-|--------------------------|
+- For Concern 'Third-party rights', the exhibit records Client wording: We cannot be sued for copied images; Drafting implication: Warranties/indemnity/cooperation.
 
-**Box 2 - Risks, uncertainty or missing information**
+### Uncertainty and Follow-Up Points Within This Exhibit
 
-| *Type your answer here.* |
-|--------------------------|
+- The wording 'draft' in this exhibit shows the wording or document may not have been approved; record it as a caveat or follow-up point, not as a final conclusion.
 
-**Box 3 - How this exhibit affects the final output**
+- The wording 'may' in this exhibit uses possibility wording rather than confirmed fact; record it as a caveat or follow-up point, not as a final conclusion.
 
-| *Type your answer here.* |
-|--------------------------|
+## Additional Evidence-Use Detail
 
-**Box 4 - Follow-up questions to carry forward**
+- This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
 
-| *Type your answer here.* |
-|--------------------------|
+- Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
+
+### Student Extraction Boxes
+
+### Box 1 - Key facts from this exhibit
+
+> _Type your answer here._
+
+## Box 2 - Risks, uncertainty or missing information
+
+> _Type your answer here._
+
+### Box 3 - How this exhibit affects the final output
+
+> _Type your answer here._
+
+## Box 4 - Follow-up questions to carry forward
+
+> _Type your answer here._

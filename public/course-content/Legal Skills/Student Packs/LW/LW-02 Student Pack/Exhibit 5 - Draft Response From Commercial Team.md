@@ -1,12 +1,10 @@
-<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
+### Exhibit 5 - Draft Response From Commercial Team
 
-**Exhibit 5 - Draft Response From Commercial Team**
+### What This Exhibit Contains
 
-**What This Exhibit Contains**
+This exhibit contains the source material for 'Draft Response From Commercial Team'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status | Draft for legal review We accept responsibility for yesterday’s outage and will compensate you for your lost sales. Our platform failure was the sole cause of the problem. Which statements are unsafe?
 
-This exhibit contains the source material for 'Draft Response From Commercial Team'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status \| Draft for legal review We accept responsibility for yesterday’s outage and will compensate you for your lost sales. Our platform failure was the sole cause of the problem. Which statements are unsafe?
-
-**How to Use This Exhibit**
+### How to Use This Exhibit
 
 Read the exact wording rather than relying on the title.
 
@@ -14,78 +12,74 @@ Identify what is confirmed, what is uncertain and what is missing.
 
 Use the exhibit number and document title when citing evidence in your answer.
 
-**Do not treat this exhibit alone as the full legal or commercial position.**
+Do not treat this exhibit alone as the full legal or commercial position.
 
 Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-**Full Exhibit Content**
+### Full Exhibit Content
 
-| **Prepared by** | **Commercial team**    |
-|-----------------|------------------------|
-| Status          | Draft for legal review |
+**Prepared by:** Commercial team
+
+**Status:** Draft for legal review
 
 We accept responsibility for yesterday’s outage and will compensate you for your lost sales. Our platform failure was the sole cause of the problem.
 
-| **Check item**                        | **Evidence in exhibit** | **Student note** |
-|---------------------------------------|-------------------------|------------------|
-| Which statements are unsafe?          |                         |                  |
-| What should be softened or qualified? |                         |                  |
-| What facts are not yet proven?        |                         |                  |
+| Check item | Evidence in exhibit | Student note |
+| --- | --- | --- |
+| Which statements are unsafe? |  |  |
+| What should be softened or qualified? |  |  |
+| What facts are not yet proven? |  |  |
 
-**Expanded Exhibit Detail**
+### Expanded Exhibit Detail
 
-*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
+The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.
 
-**Source Status and Timing**
+## Source Status and Timing
 
-> **•** Prepared by: Commercial team.
->
-> **•** Status: Draft for legal review.
+- Prepared by: Commercial team.
 
-**Detailed Matter Points**
+- Status: Draft for legal review.
 
-> **•** Narrative point: We accept responsibility for yesterday’s outage and will compensate you for your lost sales. Our platform failure was the sole cause of the problem.
->
-> **•** Source detail: Prepared by is recorded as Commercial team.
->
-> **•** Source detail: Status is recorded as Draft for legal review.
->
-> **•** The exhibit records Check item: Which statements are unsafe?.
->
-> **•** The exhibit records Check item: What should be softened or qualified?.
->
-> **•** The exhibit records Check item: What facts are not yet proven?.
+## Detailed Matter Points
 
-**Uncertainty and Follow-Up Points Within This Exhibit**
+- Narrative point: We accept responsibility for yesterday’s outage and will compensate you for your lost sales. Our platform failure was the sole cause of the problem.
 
-> **•** The wording 'draft' in this exhibit shows the wording or document may not have been approved; record it as a caveat or follow-up point, not as a final conclusion.
->
-> **•** The wording 'not yet' in this exhibit records a step that remains outstanding; record it as a caveat or follow-up point, not as a final conclusion.
+- Source detail: Prepared by is recorded as Commercial team.
 
-**Additional Evidence-Use Detail**
+- Source detail: Status is recorded as Draft for legal review.
 
-> **•** This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
->
-> **•** Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
+- The exhibit records Check item: Which statements are unsafe?.
 
-**Student Extraction Boxes**
+- The exhibit records Check item: What should be softened or qualified?.
 
-**Box 1 - Key facts from this exhibit**
+- The exhibit records Check item: What facts are not yet proven?.
 
-| *Type your answer here.* |
-|--------------------------|
+### Uncertainty and Follow-Up Points Within This Exhibit
 
-**Box 2 - Risks, uncertainty or missing information**
+- The wording 'draft' in this exhibit shows the wording or document may not have been approved; record it as a caveat or follow-up point, not as a final conclusion.
 
-| *Type your answer here.* |
-|--------------------------|
+- The wording 'not yet' in this exhibit records a step that remains outstanding; record it as a caveat or follow-up point, not as a final conclusion.
 
-**Box 3 - How this exhibit affects the final output**
+## Additional Evidence-Use Detail
 
-| *Type your answer here.* |
-|--------------------------|
+- This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
 
-**Box 4 - Follow-up questions to carry forward**
+- Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
 
-| *Type your answer here.* |
-|--------------------------|
+### Student Extraction Boxes
+
+### Box 1 - Key facts from this exhibit
+
+> _Type your answer here._
+
+## Box 2 - Risks, uncertainty or missing information
+
+> _Type your answer here._
+
+### Box 3 - How this exhibit affects the final output
+
+> _Type your answer here._
+
+## Box 4 - Follow-up questions to carry forward
+
+> _Type your answer here._

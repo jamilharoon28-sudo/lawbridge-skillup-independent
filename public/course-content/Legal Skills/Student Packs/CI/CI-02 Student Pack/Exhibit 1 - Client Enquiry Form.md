@@ -1,12 +1,10 @@
-<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
+### Exhibit 1 - Client Enquiry Form
 
-**Exhibit 1 - Client Enquiry Form**
+### What This Exhibit Contains
 
-**What This Exhibit Contains**
+This exhibit contains the source material for 'Client Enquiry Form'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Client | Amira Saleh Former employer | MetroWorks Logistics Status | Online enquiry
 
-This exhibit contains the source material for 'Client Enquiry Form'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Client \| Amira Saleh Former employer \| MetroWorks Logistics Status \| Online enquiry
-
-**How to Use This Exhibit**
+### How to Use This Exhibit
 
 Read the exact wording rather than relying on the title.
 
@@ -14,17 +12,19 @@ Identify what is confirmed, what is uncertain and what is missing.
 
 Use the exhibit number and document title when citing evidence in your answer.
 
-**Do not treat this exhibit alone as the full legal or commercial position.**
+Do not treat this exhibit alone as the full legal or commercial position.
 
 Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-**Full Exhibit Content**
+### Full Exhibit Content
 
-| **Date**        | **18 June**          |
-|-----------------|----------------------|
-| Client          | Amira Saleh          |
-| Former employer | MetroWorks Logistics |
-| Status          | Online enquiry       |
+**Date:** 18. June
+
+**Client:** Amira Saleh
+
+**Former employer:** MetroWorks Logistics
+
+**Status:** Online enquiry
 
 I was dismissed one week after I raised concerns that warehouse staff were being asked to use damaged lifting equipment. My manager said my role was being removed, but a colleague told me someone else is doing my job now.
 
@@ -34,64 +34,60 @@ Client has screenshots but has not uploaded them yet.
 
 Client wants an apology, compensation and a clean reference.
 
-**Expanded Exhibit Detail**
+### Expanded Exhibit Detail
 
-*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
+The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.
 
-**Source Status and Timing**
+## Source Status and Timing
 
-> **•** Date: 18 June.
->
-> **•** Status: Online enquiry.
->
-> **•** Client: Amira Saleh.
+- Date: 18 June.
 
-**Detailed Matter Points**
+- Status: Online enquiry.
 
-> **•** Narrative point: I was dismissed one week after I raised concerns that warehouse staff were being asked to use damaged lifting equipment. My manager said my role was being removed, but a colleague told me someone else is doing my job now.
->
-> **•** Narrative point: Client is upset and worried about references.
->
-> **•** Narrative point: Client has screenshots but has not uploaded them yet.
->
-> **•** Narrative point: Client wants an apology, compensation and a clean reference.
->
-> **•** Source detail: Date is recorded as 18 June.
->
-> **•** Source detail: Client is recorded as Amira Saleh.
->
-> **•** Source detail: Former employer is recorded as MetroWorks Logistics.
->
-> **•** Source detail: Status is recorded as Online enquiry.
+- Client: Amira Saleh.
 
-**Uncertainty and Follow-Up Points Within This Exhibit**
+## Detailed Matter Points
 
-> **•** Any date or time in this exhibit should be carried across exactly, because timing may affect awareness, notice, deadline or escalation analysis.
+- Narrative point: I was dismissed one week after I raised concerns that warehouse staff were being asked to use damaged lifting equipment. My manager said my role was being removed, but a colleague told me someone else is doing my job now.
 
-**Additional Evidence-Use Detail**
+- Narrative point: Client is upset and worried about references.
 
-> **•** This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
->
-> **•** Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
+- Narrative point: Client has screenshots but has not uploaded them yet.
 
-**Student Extraction Boxes**
+- Narrative point: Client wants an apology, compensation and a clean reference.
 
-**Box 1 - Key facts from this exhibit**
+- Source detail: Date is recorded as 18 June.
 
-| *Type your answer here.* |
-|--------------------------|
+- Source detail: Client is recorded as Amira Saleh.
 
-**Box 2 - Risks, uncertainty or missing information**
+- Source detail: Former employer is recorded as MetroWorks Logistics.
 
-| *Type your answer here.* |
-|--------------------------|
+- Source detail: Status is recorded as Online enquiry.
 
-**Box 3 - How this exhibit affects the final output**
+### Uncertainty and Follow-Up Points Within This Exhibit
 
-| *Type your answer here.* |
-|--------------------------|
+- Any date or time in this exhibit should be carried across exactly, because timing may affect awareness, notice, deadline or escalation analysis.
 
-**Box 4 - Follow-up questions to carry forward**
+## Additional Evidence-Use Detail
 
-| *Type your answer here.* |
-|--------------------------|
+- This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
+
+- Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
+
+### Student Extraction Boxes
+
+### Box 1 - Key facts from this exhibit
+
+> _Type your answer here._
+
+## Box 2 - Risks, uncertainty or missing information
+
+> _Type your answer here._
+
+### Box 3 - How this exhibit affects the final output
+
+> _Type your answer here._
+
+## Box 4 - Follow-up questions to carry forward
+
+> _Type your answer here._

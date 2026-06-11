@@ -1,165 +1,125 @@
-<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
+### Case Simulation 04 | AN-02
 
-**Case Simulation 04 \| AN-02**
+## Analysing a Contract Dispute With Missing Evidence
 
-**Analysing a Contract Dispute With Missing Evidence**
+## Learning Outcomes
 
-**Learning Outcomes**
+- Record a messy client account accurately and neutrally.
 
-> **•** Record a messy client account accurately and neutrally.
->
-> **•** Identify conflicts between the client narrative, emails and delivery records.
->
-> **•** Create a missing-information list that supports practical next steps.
->
-> **•** Analyse commercial options without overclaiming.
->
-> **•** Prepare a concise supervisor update.
+- Identify conflicts between the client narrative, emails and delivery records.
 
-**Student Task Brief**
+- Create a missing-information list that supports practical next steps.
+
+- Analyse commercial options without overclaiming.
+
+- Prepare a concise supervisor update.
+
+### Student Task Brief
 
 A client says a supplier failed to deliver key components on time, but the available emails and delivery records are incomplete. Prepare an attendance note and legal analysis that identifies the disputed facts and evidence gaps.
 
-**Student Practice Tasks**
+### Student Practice Tasks
 
 Complete the following practice tasks as a trainee-style matter file review. Your answers must cite the relevant exhibit, clause, date, email, log entry or policy wording. Do not give broad commentary where a specific document reference is available.
 
-**Detailed Practice Tasks**
+## Detailed Practice Tasks
 
-> **01** Prepare a neutral attendance note from the intake call notes.
->
-> **02** Build a chronology of order, delay notices, partial delivery and complaints.
->
-> **03** Identify contractual terms that need checking.
->
-> **04** Extract evidence supporting the client’s position.
->
-> **05** Extract evidence that weakens or complicates the client’s position.
->
-> **06** Identify loss categories and evidential weaknesses.
->
-> **07** Prepare questions for the supplier and logistics provider.
->
-> **08** Identify commercial risks of aggressive termination.
->
-> **09** Draft a supervisor update.
->
-> **10** Reflect on which fact would change the advice most.
+1. Prepare a neutral attendance note from the intake call notes.
 
-**Working Method**
+2. Build a chronology of order, delay notices, partial delivery and complaints.
 
-> **•** Start with the exhibit index, but do not treat it as a summary of the answer.
->
-> **•** Mark every clause, date, figure and disputed factual point that affects advice or drafting.
->
-> **•** Separate confirmed facts, disputed facts, assumptions, missing information and legal points requiring further checking.
->
-> **•** Keep supervisor-facing outputs concise: lead with the practical risk, then the evidence, then the next step.
+3. Identify contractual terms that need checking.
 
-**Final Student Submission Checklist**
+4. Extract evidence supporting the client’s position.
 
-> ☐ I have identified the relevant clauses, documents and factual evidence.
->
-> ☐ I have distinguished agreed facts from disputed facts.
->
-> ☐ I have identified missing information and practical follow-up questions.
->
-> ☐ I have considered commercial, ethical, client-care and reputational risks.
->
-> ☐ I have avoided giving applicable law conclusions without checking the applicable legal framework.
->
-> ☐ I have prepared a concise, practical and professional output.
+5. Extract evidence that weakens or complicates the client’s position.
 
-**Reflection Questions**
+6. Identify loss categories and evidential weaknesses.
 
-**Which exhibit changed your initial view of the case the most?**
+7. Prepare questions for the supplier and logistics provider.
 
-| *Type your answer here.* |
-|--------------------------|
+8. Identify commercial risks of aggressive termination.
 
-**Which clause or document was easiest to miss?**
+9. Draft a supervisor update.
 
-| *Type your answer here.* |
-|--------------------------|
+10. Reflect on which fact would change the advice most.
 
-**What information would you request before advising the client?**
+## Working Method
 
-| *Type your answer here.* |
-|--------------------------|
+- Start with the exhibit index, but do not treat it as a summary of the answer.
 
-**What would you escalate to a supervisor and why?**
+- Mark every clause, date, figure and disputed factual point that affects advice or drafting.
 
-| *Type your answer here.* |
-|--------------------------|
+- Separate confirmed facts, disputed facts, assumptions, missing information and legal points requiring further checking.
 
-**How would your approach change if the client had urgent commercial pressure?**
+- Keep supervisor-facing outputs concise: lead with the practical risk, then the evidence, then the next step.
 
-| *Type your answer here.* |
-|--------------------------|
+### Final Student Submission Checklist
 
-| **Fundamental AI Skills Extension** |                                                                                                                                                                                                                                                                                 |
-|-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Purpose of this AI section**      | **The aim is not to let AI complete Attendance Notes and Legal Analysis for you. Build the human skill first, use AI only as a tool, then supervise the output with professional judgment. You remain responsible for the final answer, evidence use, caveats and escalation.** |
+- [ ] I have identified the relevant clauses, documents and factual evidence.
 
-**AI Ground Rules for This Attendance Notes and Legal Analysis Simulation**
+- [ ] I have distinguished agreed facts from disputed facts.
 
-• Use only the fictional scenario materials and separated exhibits. Do not add real client facts or confidential information.
+- [ ] I have identified missing information and practical follow-up questions.
 
-• Treat AI as an assistant, not an authority, lawyer, tutor or decision-maker.
+- [ ] I have considered commercial, ethical, client-care and reputational risks.
 
-• Check AI statements against the exhibits and any source that needs legal verification.
+- [ ] I have avoided giving applicable law conclusions without checking the applicable legal framework.
 
-• Do not let polished wording hide uncertainty, missing facts or supervisor approval points.
+- [ ] I have prepared a concise, practical and professional output.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p><strong>● AI Task 1 - Human Skill First</strong></p>
-<p><strong>Using only the exhibits in this file, identify the key facts, risks and missing information you must address in the final Attendance Notes and Legal Analysis output for AN-02 - Analysing a Contract Dispute With Missing Evidence. Your answer must use Exhibit 1 (Client Call Note); Exhibit 2 (Purchase Order Extract); Exhibit 3 (Supplier Email Chain); Exhibit 4 (Warehouse Receipt); Exhibit 5 (Factory Downtime Summary); Exhibit 6 (Draft Board Note), separate confirmed facts from uncertainty, and state what you would check or escalate before using AI.</strong></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><em>Type your answer here.</em></td>
-</tr>
-</tbody>
-</table>
+## Reflection Questions
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p><strong>● AI Task 2 - AI Tool Usage and Critique</strong></p>
-<p><strong>Use AI to help structure the required output (the required student output) for AN-02 - Analysing a Contract Dispute With Missing Evidence. What single safe prompt would you use, and how would you critique the result against the exhibits so it does not invent facts, assume law or hide missing information?</strong></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><em>Type your answer here.</em></td>
-</tr>
-</tbody>
-</table>
+### Which exhibit changed your initial view of the case the most?
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p><strong>● AI Task 3 - Judgment and AI Supervision Under Pressure</strong></p>
-<p><strong>You receive a polished AI draft for AN-02 - Analysing a Contract Dispute With Missing Evidence. What would you accept, change or reject before sending it to a supervisor or client team, and how would you explain your decision using human judgment and the scenario evidence?</strong></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><em>Type your answer here.</em></td>
-</tr>
-</tbody>
-</table>
+> _Type your answer here._
 
-**AI Section Completion Standard: The section is complete only if all three answers are linked to the actual scenario material, not generic AI commentary.**
+## Which clause or document was easiest to miss?
+
+> _Type your answer here._
+
+## What information would you request before advising the client?
+
+> _Type your answer here._
+
+## What would you escalate to a supervisor and why?
+
+> _Type your answer here._
+
+How would your approach change if the client had urgent commercial pressure?
+
+> _Type your answer here._
+
+## Fundamental AI Skills Extension
+
+**Purpose of this AI section:** The aim is not to let AI complete Attendance Notes and Legal Analysis for you. Build the human skill first, use AI only as a tool, then supervise the output with professional judgment. You remain responsible for the final answer, evidence use, caveats and escalation.
+
+## AI Ground Rules for This Attendance Notes and Legal Analysis Simulation
+
+- Use only the fictional scenario materials and separated exhibits. Do not add real client facts or confidential information.
+
+- Treat AI as an assistant, not an authority, lawyer, tutor or decision-maker.
+
+- Check AI statements against the exhibits and any source that needs legal verification.
+
+- Do not let polished wording hide uncertainty, missing facts or supervisor approval points.
+
+### AI Task 1 - Human Skill First
+
+Using only the exhibits in this file, identify the key facts, risks and missing information you must address in the final Attendance Notes and Legal Analysis output for AN-02 - Analysing a Contract Dispute With Missing Evidence. Your answer must use Exhibit 1 (Client Call Note); Exhibit 2 (Purchase Order Extract); Exhibit 3 (Supplier Email Chain); Exhibit 4 (Warehouse Receipt); Exhibit 5 (Factory Downtime Summary); Exhibit 6 (Draft Board Note), separate confirmed facts from uncertainty, and state what you would check or escalate before using AI.
+
+> _Type your answer here._
+
+### AI Task 2 - AI Tool Usage and Critique
+
+Use AI to help structure the required output (the required student output) for AN-02 - Analysing a Contract Dispute With Missing Evidence. What single safe prompt would you use, and how would you critique the result against the exhibits so it does not invent facts, assume law or hide missing information?
+
+> _Type your answer here._
+
+### AI Task 3 - Judgment and AI Supervision Under Pressure
+
+You receive a polished AI draft for AN-02 - Analysing a Contract Dispute With Missing Evidence. What would you accept, change or reject before sending it to a supervisor or client team, and how would you explain your decision using human judgment and the scenario evidence?
+
+> _Type your answer here._
+
+AI Section Completion Standard: The section is complete only if all three answers are linked to the actual scenario material, not generic AI commentary.

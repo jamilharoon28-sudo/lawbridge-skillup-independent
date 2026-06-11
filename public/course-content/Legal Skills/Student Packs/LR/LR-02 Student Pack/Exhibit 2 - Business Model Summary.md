@@ -1,12 +1,10 @@
-<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
+### Exhibit 2 - Business Model Summary
 
-**Exhibit 2 - Business Model Summary**
+### What This Exhibit Contains
 
-**What This Exhibit Contains**
+This exhibit contains the source material for 'Business Model Summary'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status | Pitch deck extract Mobile wallet | Users store value and pay merchants | Stored value/licensing Merchant gateway | Processes card and alternative payments | Payment service provider rules
 
-This exhibit contains the source material for 'Business Model Summary'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status \| Pitch deck extract Mobile wallet \| Users store value and pay merchants \| Stored value/licensing Merchant gateway \| Processes card and alternative payments \| Payment service provider rules
-
-**How to Use This Exhibit**
+### How to Use This Exhibit
 
 Read the exact wording rather than relying on the title.
 
@@ -14,75 +12,71 @@ Identify what is confirmed, what is uncertain and what is missing.
 
 Use the exhibit number and document title when citing evidence in your answer.
 
-**Do not treat this exhibit alone as the full legal or commercial position.**
+Do not treat this exhibit alone as the full legal or commercial position.
 
 Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-**Full Exhibit Content**
+### Full Exhibit Content
 
-| **Prepared by** | **Product team**   |
-|-----------------|--------------------|
-| Status          | Pitch deck extract |
+**Prepared by:** Product team
 
-| **Product**            | **Function**                            | **Research issue**             |
-|------------------------|-----------------------------------------|--------------------------------|
-| Mobile wallet          | Users store value and pay merchants     | Stored value/licensing         |
-| Merchant gateway       | Processes card and alternative payments | Payment service provider rules |
-| Cross-border transfers | Transfers to family abroad              | Remittance/AML                 |
-| API for platforms      | Embedded payment functionality          | Outsourcing/agent model        |
+**Status:** Pitch deck extract
 
-**Expanded Exhibit Detail**
+| Product | Function | Research issue |
+| --- | --- | --- |
+| Mobile wallet | Users store value and pay merchants | Stored value/licensing |
+| Merchant gateway | Processes card and alternative payments | Payment service provider rules |
+| Cross-border transfers | Transfers to family abroad | Remittance/AML |
+| API for platforms | Embedded payment functionality | Outsourcing/agent model |
 
-*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
+### Expanded Exhibit Detail
 
-**Source Status and Timing**
+The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.
 
-> **•** Prepared by: Product team.
->
-> **•** Status: Pitch deck extract.
+## Source Status and Timing
 
-**Detailed Matter Points**
+- Prepared by: Product team.
 
-> **•** Source detail: Prepared by is recorded as Product team.
->
-> **•** Source detail: Status is recorded as Pitch deck extract.
->
-> **•** For Product 'Mobile wallet', the exhibit records Function: Users store value and pay merchants; Research issue: Stored value/licensing.
->
-> **•** For Product 'Merchant gateway', the exhibit records Function: Processes card and alternative payments; Research issue: Payment service provider rules.
->
-> **•** For Product 'Cross-border transfers', the exhibit records Function: Transfers to family abroad; Research issue: Remittance/AML.
->
-> **•** For Product 'API for platforms', the exhibit records Function: Embedded payment functionality; Research issue: Outsourcing/agent model.
+- Status: Pitch deck extract.
 
-**Uncertainty and Follow-Up Points Within This Exhibit**
+## Detailed Matter Points
 
-> **•** No express uncertainty wording was extracted from this exhibit, but the document should still be cross-checked against the other exhibits before it is used as proof of the full position.
+- Source detail: Prepared by is recorded as Product team.
 
-**Additional Evidence-Use Detail**
+- Source detail: Status is recorded as Pitch deck extract.
 
-> **•** This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
->
-> **•** Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
+- For Product 'Mobile wallet', the exhibit records Function: Users store value and pay merchants; Research issue: Stored value/licensing.
 
-**Student Extraction Boxes**
+- For Product 'Merchant gateway', the exhibit records Function: Processes card and alternative payments; Research issue: Payment service provider rules.
 
-**Box 1 - Key facts from this exhibit**
+- For Product 'Cross-border transfers', the exhibit records Function: Transfers to family abroad; Research issue: Remittance/AML.
 
-| *Type your answer here.* |
-|--------------------------|
+- For Product 'API for platforms', the exhibit records Function: Embedded payment functionality; Research issue: Outsourcing/agent model.
 
-**Box 2 - Risks, uncertainty or missing information**
+### Uncertainty and Follow-Up Points Within This Exhibit
 
-| *Type your answer here.* |
-|--------------------------|
+- No express uncertainty wording was extracted from this exhibit, but the document should still be cross-checked against the other exhibits before it is used as proof of the full position.
 
-**Box 3 - How this exhibit affects the final output**
+## Additional Evidence-Use Detail
 
-| *Type your answer here.* |
-|--------------------------|
+- This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
 
-**Box 4 - Follow-up questions to carry forward**
+- Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
 
-| *Type your answer here.* |
-|--------------------------|
+### Student Extraction Boxes
+
+### Box 1 - Key facts from this exhibit
+
+> _Type your answer here._
+
+## Box 2 - Risks, uncertainty or missing information
+
+> _Type your answer here._
+
+### Box 3 - How this exhibit affects the final output
+
+> _Type your answer here._
+
+## Box 4 - Follow-up questions to carry forward
+
+> _Type your answer here._

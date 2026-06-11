@@ -1,12 +1,10 @@
-<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
+### Exhibit 4 - Delivery Evidence Bundle
 
-**Exhibit 4 - Delivery Evidence Bundle**
+### What This Exhibit Contains
 
-**What This Exhibit Contains**
+This exhibit contains the source material for 'Delivery Evidence Bundle'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status | Mixed evidence Supplier email | Download link sent | Link expired by review date Server log | No successful download by buyer IP | IP mapping uncertain
 
-This exhibit contains the source material for 'Delivery Evidence Bundle'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status \| Mixed evidence Supplier email \| Download link sent \| Link expired by review date Server log \| No successful download by buyer IP \| IP mapping uncertain
-
-**How to Use This Exhibit**
+### How to Use This Exhibit
 
 Read the exact wording rather than relying on the title.
 
@@ -14,73 +12,69 @@ Identify what is confirmed, what is uncertain and what is missing.
 
 Use the exhibit number and document title when citing evidence in your answer.
 
-**Do not treat this exhibit alone as the full legal or commercial position.**
+Do not treat this exhibit alone as the full legal or commercial position.
 
 Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-**Full Exhibit Content**
+### Full Exhibit Content
 
-| **Compiled by** | **Operations team** |
-|-----------------|---------------------|
-| Status          | Mixed evidence      |
+**Compiled by:** Operations team
 
-| **Document**          | **What it shows**                  | **Issue**                   |
-|-----------------------|------------------------------------|-----------------------------|
-| Supplier email        | Download link sent                 | Link expired by review date |
-| Server log            | No successful download by buyer IP | IP mapping uncertain        |
-| Buyer ticket          | Access denied message              | Screenshot cropped          |
-| Supplier confirmation | Files uploaded to portal           | No file hash supplied       |
+**Status:** Mixed evidence
 
-**Expanded Exhibit Detail**
+| Document | What it shows | Issue |
+| --- | --- | --- |
+| Supplier email | Download link sent | Link expired by review date |
+| Server log | No successful download by buyer IP | IP mapping uncertain |
+| Buyer ticket | Access denied message | Screenshot cropped |
+| Supplier confirmation | Files uploaded to portal | No file hash supplied |
 
-*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
+### Expanded Exhibit Detail
 
-**Source Status and Timing**
+The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.
 
-> **•** Status: Mixed evidence.
+## Source Status and Timing
 
-**Detailed Matter Points**
+- Status: Mixed evidence.
 
-> **•** Source detail: Compiled by is recorded as Operations team.
->
-> **•** Source detail: Status is recorded as Mixed evidence.
->
-> **•** For Document 'Supplier email', the exhibit records What it shows: Download link sent; Issue: Link expired by review date.
->
-> **•** For Document 'Server log', the exhibit records What it shows: No successful download by buyer IP; Issue: IP mapping uncertain.
->
-> **•** For Document 'Buyer ticket', the exhibit records What it shows: Access denied message; Issue: Screenshot cropped.
->
-> **•** For Document 'Supplier confirmation', the exhibit records What it shows: Files uploaded to portal; Issue: No file hash supplied.
+## Detailed Matter Points
 
-**Uncertainty and Follow-Up Points Within This Exhibit**
+- Source detail: Compiled by is recorded as Operations team.
 
-> **•** No express uncertainty wording was extracted from this exhibit, but the document should still be cross-checked against the other exhibits before it is used as proof of the full position.
+- Source detail: Status is recorded as Mixed evidence.
 
-**Additional Evidence-Use Detail**
+- For Document 'Supplier email', the exhibit records What it shows: Download link sent; Issue: Link expired by review date.
 
-> **•** This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
->
-> **•** Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
+- For Document 'Server log', the exhibit records What it shows: No successful download by buyer IP; Issue: IP mapping uncertain.
 
-**Student Extraction Boxes**
+- For Document 'Buyer ticket', the exhibit records What it shows: Access denied message; Issue: Screenshot cropped.
 
-**Box 1 - Key facts from this exhibit**
+- For Document 'Supplier confirmation', the exhibit records What it shows: Files uploaded to portal; Issue: No file hash supplied.
 
-| *Type your answer here.* |
-|--------------------------|
+### Uncertainty and Follow-Up Points Within This Exhibit
 
-**Box 2 - Risks, uncertainty or missing information**
+- No express uncertainty wording was extracted from this exhibit, but the document should still be cross-checked against the other exhibits before it is used as proof of the full position.
 
-| *Type your answer here.* |
-|--------------------------|
+## Additional Evidence-Use Detail
 
-**Box 3 - How this exhibit affects the final output**
+- This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
 
-| *Type your answer here.* |
-|--------------------------|
+- Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
 
-**Box 4 - Follow-up questions to carry forward**
+### Student Extraction Boxes
 
-| *Type your answer here.* |
-|--------------------------|
+### Box 1 - Key facts from this exhibit
+
+> _Type your answer here._
+
+## Box 2 - Risks, uncertainty or missing information
+
+> _Type your answer here._
+
+### Box 3 - How this exhibit affects the final output
+
+> _Type your answer here._
+
+## Box 4 - Follow-up questions to carry forward
+
+> _Type your answer here._

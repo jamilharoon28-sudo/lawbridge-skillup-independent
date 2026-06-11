@@ -1,12 +1,10 @@
-<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
+### Exhibit 4 - Open-Source Scan
 
-**Exhibit 4 - Open-Source Scan**
+### What This Exhibit Contains
 
-**What This Exhibit Contains**
+This exhibit contains the source material for 'Open-Source Scan'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status | Summary Analytics library | Embedded in dashboard | Licence review needed Encryption package | Server-side dependency | Version outdated
 
-This exhibit contains the source material for 'Open-Source Scan'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status \| Summary Analytics library \| Embedded in dashboard \| Licence review needed Encryption package \| Server-side dependency \| Version outdated
-
-**How to Use This Exhibit**
+### How to Use This Exhibit
 
 Read the exact wording rather than relying on the title.
 
@@ -14,77 +12,73 @@ Identify what is confirmed, what is uncertain and what is missing.
 
 Use the exhibit number and document title when citing evidence in your answer.
 
-**Do not treat this exhibit alone as the full legal or commercial position.**
+Do not treat this exhibit alone as the full legal or commercial position.
 
 Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-**Full Exhibit Content**
+### Full Exhibit Content
 
-| **Prepared by** | **Technical diligence provider** |
-|-----------------|----------------------------------|
-| Status          | Summary                          |
+**Prepared by:** Technical diligence provider
 
-| **Component**      | **Use**                | **Risk**                            |
-|--------------------|------------------------|-------------------------------------|
-| Analytics library  | Embedded in dashboard  | Licence review needed               |
-| Encryption package | Server-side dependency | Version outdated                    |
-| Template UI kit    | Customer interface     | Commercial use restriction possible |
-| AI model wrapper   | Recommendation engine  | Terms unknown                       |
+**Status:** Summary
 
-**Expanded Exhibit Detail**
+| Component | Use | Risk |
+| --- | --- | --- |
+| Analytics library | Embedded in dashboard | Licence review needed |
+| Encryption package | Server-side dependency | Version outdated |
+| Template UI kit | Customer interface | Commercial use restriction possible |
+| AI model wrapper | Recommendation engine | Terms unknown |
 
-*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
+### Expanded Exhibit Detail
 
-**Source Status and Timing**
+The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.
 
-> **•** Prepared by: Technical diligence provider.
->
-> **•** Status: Summary.
+## Source Status and Timing
 
-**Detailed Matter Points**
+- Prepared by: Technical diligence provider.
 
-> **•** Source detail: Prepared by is recorded as Technical diligence provider.
->
-> **•** Source detail: Status is recorded as Summary.
->
-> **•** For Component 'Analytics library', the exhibit records Use: Embedded in dashboard; Risk: Licence review needed.
->
-> **•** For Component 'Encryption package', the exhibit records Use: Server-side dependency; Risk: Version outdated.
->
-> **•** For Component 'Template UI kit', the exhibit records Use: Customer interface; Risk: Commercial use restriction possible.
->
-> **•** For Component 'AI model wrapper', the exhibit records Use: Recommendation engine; Risk: Terms unknown.
+- Status: Summary.
 
-**Uncertainty and Follow-Up Points Within This Exhibit**
+## Detailed Matter Points
 
-> **•** The wording 'late' in this exhibit may affect timing, escalation or reliability of the record; record it as a caveat or follow-up point, not as a final conclusion.
->
-> **•** The wording 'unknown' in this exhibit marks a fact that still needs to be established; record it as a caveat or follow-up point, not as a final conclusion.
+- Source detail: Prepared by is recorded as Technical diligence provider.
 
-**Additional Evidence-Use Detail**
+- Source detail: Status is recorded as Summary.
 
-> **•** This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
->
-> **•** Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
+- For Component 'Analytics library', the exhibit records Use: Embedded in dashboard; Risk: Licence review needed.
 
-**Student Extraction Boxes**
+- For Component 'Encryption package', the exhibit records Use: Server-side dependency; Risk: Version outdated.
 
-**Box 1 - Key facts from this exhibit**
+- For Component 'Template UI kit', the exhibit records Use: Customer interface; Risk: Commercial use restriction possible.
 
-| *Type your answer here.* |
-|--------------------------|
+- For Component 'AI model wrapper', the exhibit records Use: Recommendation engine; Risk: Terms unknown.
 
-**Box 2 - Risks, uncertainty or missing information**
+### Uncertainty and Follow-Up Points Within This Exhibit
 
-| *Type your answer here.* |
-|--------------------------|
+- The wording 'late' in this exhibit may affect timing, escalation or reliability of the record; record it as a caveat or follow-up point, not as a final conclusion.
 
-**Box 3 - How this exhibit affects the final output**
+- The wording 'unknown' in this exhibit marks a fact that still needs to be established; record it as a caveat or follow-up point, not as a final conclusion.
 
-| *Type your answer here.* |
-|--------------------------|
+## Additional Evidence-Use Detail
 
-**Box 4 - Follow-up questions to carry forward**
+- This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
 
-| *Type your answer here.* |
-|--------------------------|
+- Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
+
+### Student Extraction Boxes
+
+### Box 1 - Key facts from this exhibit
+
+> _Type your answer here._
+
+## Box 2 - Risks, uncertainty or missing information
+
+> _Type your answer here._
+
+### Box 3 - How this exhibit affects the final output
+
+> _Type your answer here._
+
+## Box 4 - Follow-up questions to carry forward
+
+> _Type your answer here._

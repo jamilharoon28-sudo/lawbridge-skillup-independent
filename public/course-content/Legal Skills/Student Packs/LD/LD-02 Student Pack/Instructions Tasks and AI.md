@@ -1,165 +1,125 @@
-<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
+### Case Simulation 08 | LD-02
 
-**Case Simulation 08 \| LD-02**
+## Drafting an AI Ownership Clause
 
-**Drafting an AI Ownership Clause**
+## Learning Outcomes
 
-**Learning Outcomes**
+- Draft clauses dealing with AI outputs, human review and responsibility.
 
-> **•** Draft clauses dealing with AI outputs, human review and responsibility.
->
-> **•** Address confidentiality and third-party rights risk.
->
-> **•** Use defined terms consistently.
->
-> **•** Explain legal uncertainty without relying on jurisdiction-specific conclusions.
->
-> **•** Prepare alternative drafting options for negotiation.
+- Address confidentiality and third-party rights risk.
 
-**Student Task Brief**
+- Use defined terms consistently.
+
+- Explain legal uncertainty without relying on jurisdiction-specific conclusions.
+
+- Prepare alternative drafting options for negotiation.
+
+### Student Task Brief
 
 A business wants to use AI tools to create marketing materials, reports and software-related content. You must draft contract wording that allocates risk and responsibility for AI-assisted outputs.
 
-**Student Practice Tasks**
+### Student Practice Tasks
 
 Complete the following practice tasks as a trainee-style matter file review. Your answers must cite the relevant exhibit, clause, date, email, log entry or policy wording. Do not give broad commentary where a specific document reference is available.
 
-**Detailed Practice Tasks**
+## Detailed Practice Tasks
 
-> **01** Identify what the client wants the clause to achieve.
->
-> **02** Define AI tool, AI output and input materials.
->
-> **03** Draft ownership or usage rights wording cautiously.
->
-> **04** Draft human review and approval obligations.
->
-> **05** Draft confidentiality and input restrictions.
->
-> **06** Draft third-party claim cooperation wording.
->
-> **07** Draft record-keeping obligations for prompts and outputs.
->
-> **08** Prepare a supplier-friendly fallback.
->
-> **09** Prepare a client-friendly fallback.
->
-> **10** Write a drafting rationale note.
+1. Identify what the client wants the clause to achieve.
 
-**Working Method**
+2. Define AI tool, AI output and input materials.
 
-> **•** Start with the exhibit index, but do not treat it as a summary of the answer.
->
-> **•** Mark every clause, date, figure and disputed factual point that affects advice or drafting.
->
-> **•** Separate confirmed facts, disputed facts, assumptions, missing information and legal points requiring further checking.
->
-> **•** Keep supervisor-facing outputs concise: lead with the practical risk, then the evidence, then the next step.
+3. Draft ownership or usage rights wording cautiously.
 
-**Final Student Submission Checklist**
+4. Draft human review and approval obligations.
 
-> ☐ I have identified the relevant clauses, documents and factual evidence.
->
-> ☐ I have distinguished agreed facts from disputed facts.
->
-> ☐ I have identified missing information and practical follow-up questions.
->
-> ☐ I have considered commercial, ethical, client-care and reputational risks.
->
-> ☐ I have avoided giving applicable law conclusions without checking the applicable legal framework.
->
-> ☐ I have prepared a concise, practical and professional output.
+5. Draft confidentiality and input restrictions.
 
-**Reflection Questions**
+6. Draft third-party claim cooperation wording.
 
-**Which exhibit changed your initial view of the case the most?**
+7. Draft record-keeping obligations for prompts and outputs.
 
-| *Type your answer here.* |
-|--------------------------|
+8. Prepare a supplier-friendly fallback.
 
-**Which clause or document was easiest to miss?**
+9. Prepare a client-friendly fallback.
 
-| *Type your answer here.* |
-|--------------------------|
+10. Write a drafting rationale note.
 
-**What information would you request before advising the client?**
+## Working Method
 
-| *Type your answer here.* |
-|--------------------------|
+- Start with the exhibit index, but do not treat it as a summary of the answer.
 
-**What would you escalate to a supervisor and why?**
+- Mark every clause, date, figure and disputed factual point that affects advice or drafting.
 
-| *Type your answer here.* |
-|--------------------------|
+- Separate confirmed facts, disputed facts, assumptions, missing information and legal points requiring further checking.
 
-**How would your approach change if the client had urgent commercial pressure?**
+- Keep supervisor-facing outputs concise: lead with the practical risk, then the evidence, then the next step.
 
-| *Type your answer here.* |
-|--------------------------|
+### Final Student Submission Checklist
 
-| **Fundamental AI Skills Extension** |                                                                                                                                                                                                                                                            |
-|-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Purpose of this AI section**      | **The aim is not to let AI complete Legal Drafting for you. Build the human skill first, use AI only as a tool, then supervise the output with professional judgment. You remain responsible for the final answer, evidence use, caveats and escalation.** |
+- [ ] I have identified the relevant clauses, documents and factual evidence.
 
-**AI Ground Rules for This Legal Drafting Simulation**
+- [ ] I have distinguished agreed facts from disputed facts.
 
-• Use only the fictional scenario materials and separated exhibits. Do not add real client facts or confidential information.
+- [ ] I have identified missing information and practical follow-up questions.
 
-• Treat AI as an assistant, not an authority, lawyer, tutor or decision-maker.
+- [ ] I have considered commercial, ethical, client-care and reputational risks.
 
-• Check AI statements against the exhibits and any source that needs legal verification.
+- [ ] I have avoided giving applicable law conclusions without checking the applicable legal framework.
 
-• Do not let polished wording hide uncertainty, missing facts or supervisor approval points.
+- [ ] I have prepared a concise, practical and professional output.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p><strong>● AI Task 1 - Human Skill First</strong></p>
-<p><strong>Using only the exhibits in this file, identify the key facts, risks and missing information you must address in the final Legal Drafting output for LD-02 - Drafting an AI Ownership Clause. Your answer must use Exhibit 1 (Client Instruction Email); Exhibit 2 (Current Contract Clause); Exhibit 3 (AI Tool Terms Extract); Exhibit 4 (Client Concern Summary); Exhibit 5 (Internal AI Workflow); Exhibit 6 (Negotiation Instructions), separate confirmed facts from uncertainty, and state what you would check or escalate before using AI.</strong></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><em>Type your answer here.</em></td>
-</tr>
-</tbody>
-</table>
+## Reflection Questions
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p><strong>● AI Task 2 - AI Tool Usage and Critique</strong></p>
-<p><strong>Use AI to help structure the required output (the required student output) for LD-02 - Drafting an AI Ownership Clause. What single safe prompt would you use, and how would you critique the result against the exhibits so it does not invent facts, assume law or hide missing information?</strong></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><em>Type your answer here.</em></td>
-</tr>
-</tbody>
-</table>
+### Which exhibit changed your initial view of the case the most?
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p><strong>● AI Task 3 - Judgment and AI Supervision Under Pressure</strong></p>
-<p><strong>You receive a polished AI draft for LD-02 - Drafting an AI Ownership Clause. What would you accept, change or reject before sending it to a supervisor or client team, and how would you explain your decision using human judgment and the scenario evidence?</strong></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><em>Type your answer here.</em></td>
-</tr>
-</tbody>
-</table>
+> _Type your answer here._
 
-**AI Section Completion Standard: The section is complete only if all three answers are linked to the actual scenario material, not generic AI commentary.**
+## Which clause or document was easiest to miss?
+
+> _Type your answer here._
+
+## What information would you request before advising the client?
+
+> _Type your answer here._
+
+## What would you escalate to a supervisor and why?
+
+> _Type your answer here._
+
+How would your approach change if the client had urgent commercial pressure?
+
+> _Type your answer here._
+
+## Fundamental AI Skills Extension
+
+**Purpose of this AI section:** The aim is not to let AI complete Legal Drafting for you. Build the human skill first, use AI only as a tool, then supervise the output with professional judgment. You remain responsible for the final answer, evidence use, caveats and escalation.
+
+## AI Ground Rules for This Legal Drafting Simulation
+
+- Use only the fictional scenario materials and separated exhibits. Do not add real client facts or confidential information.
+
+- Treat AI as an assistant, not an authority, lawyer, tutor or decision-maker.
+
+- Check AI statements against the exhibits and any source that needs legal verification.
+
+- Do not let polished wording hide uncertainty, missing facts or supervisor approval points.
+
+### AI Task 1 - Human Skill First
+
+Using only the exhibits in this file, identify the key facts, risks and missing information you must address in the final Legal Drafting output for LD-02 - Drafting an AI Ownership Clause. Your answer must use Exhibit 1 (Client Instruction Email); Exhibit 2 (Current Contract Clause); Exhibit 3 (AI Tool Terms Extract); Exhibit 4 (Client Concern Summary); Exhibit 5 (Internal AI Workflow); Exhibit 6 (Negotiation Instructions), separate confirmed facts from uncertainty, and state what you would check or escalate before using AI.
+
+> _Type your answer here._
+
+### AI Task 2 - AI Tool Usage and Critique
+
+Use AI to help structure the required output (the required student output) for LD-02 - Drafting an AI Ownership Clause. What single safe prompt would you use, and how would you critique the result against the exhibits so it does not invent facts, assume law or hide missing information?
+
+> _Type your answer here._
+
+### AI Task 3 - Judgment and AI Supervision Under Pressure
+
+You receive a polished AI draft for LD-02 - Drafting an AI Ownership Clause. What would you accept, change or reject before sending it to a supervisor or client team, and how would you explain your decision using human judgment and the scenario evidence?
+
+> _Type your answer here._
+
+AI Section Completion Standard: The section is complete only if all three answers are linked to the actual scenario material, not generic AI commentary.

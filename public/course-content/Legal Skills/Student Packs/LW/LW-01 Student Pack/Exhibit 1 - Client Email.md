@@ -1,12 +1,10 @@
-<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
+### Exhibit 1 - Client Email
 
-**Exhibit 1 - Client Email**
+### What This Exhibit Contains
 
-**What This Exhibit Contains**
+This exhibit contains the source material for 'Client Email'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: From | Marketing Director, BluePeak Foods To | LawBridge Commercial Team Subject | AI image complaint
 
-This exhibit contains the source material for 'Client Email'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: From \| Marketing Director, BluePeak Foods To \| LawBridge Commercial Team Subject \| AI image complaint
-
-**How to Use This Exhibit**
+### How to Use This Exhibit
 
 Read the exact wording rather than relying on the title.
 
@@ -14,17 +12,19 @@ Identify what is confirmed, what is uncertain and what is missing.
 
 Use the exhibit number and document title when citing evidence in your answer.
 
-**Do not treat this exhibit alone as the full legal or commercial position.**
+Do not treat this exhibit alone as the full legal or commercial position.
 
 Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-**Full Exhibit Content**
+### Full Exhibit Content
 
-| **Date** | **11 September**                   |
-|----------|------------------------------------|
-| From     | Marketing Director, BluePeak Foods |
-| To       | LawBridge Commercial Team          |
-| Subject  | AI image complaint                 |
+**Date:** 11. September
+
+**From:** Marketing Director, BluePeak Foods
+
+**To:** LawBridge Commercial Team
+
+**Subject:** AI image complaint
 
 We used an AI design tool for a product launch image. A photographer has sent a complaint saying the image copies her earlier work. The campaign is scheduled to go live tomorrow. Can we say the image is ours because the AI generated it?
 
@@ -34,62 +34,58 @@ Client has already shared draft images with retail partners.
 
 Client has not preserved all prompts.
 
-**Expanded Exhibit Detail**
+### Expanded Exhibit Detail
 
-*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
+The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.
 
-**Source Status and Timing**
+## Source Status and Timing
 
-> **•** Date: 11 September.
->
-> **•** From: Marketing Director, BluePeak Foods.
->
-> **•** To: LawBridge Commercial Team.
->
-> **•** Subject: AI image complaint.
+- Date: 11 September.
 
-**Detailed Matter Points**
+- From: Marketing Director, BluePeak Foods.
 
-> **•** Narrative point: We used an AI design tool for a product launch image. A photographer has sent a complaint saying the image copies her earlier work. The campaign is scheduled to go live tomorrow. Can we say the image is ours because the AI generated it?
->
-> **•** Narrative point: Client wants to avoid delaying launch.
->
-> **•** Narrative point: Client has already shared draft images with retail partners.
->
-> **•** Narrative point: Client has not preserved all prompts.
->
-> **•** Source detail: Date is recorded as 11 September.
->
-> **•** Source detail: From is recorded as Marketing Director, BluePeak Foods.
->
-> **•** Source detail: To is recorded as LawBridge Commercial Team.
->
-> **•** Source detail: Subject is recorded as AI image complaint.
+- To: LawBridge Commercial Team.
 
-**Uncertainty and Follow-Up Points Within This Exhibit**
+- Subject: AI image complaint.
 
-> **•** The wording 'draft' in this exhibit shows the wording or document may not have been approved; record it as a caveat or follow-up point, not as a final conclusion.
->
-> **•** Any date or time in this exhibit should be carried across exactly, because timing may affect awareness, notice, deadline or escalation analysis.
+## Detailed Matter Points
 
-**Student Extraction Boxes**
+- Narrative point: We used an AI design tool for a product launch image. A photographer has sent a complaint saying the image copies her earlier work. The campaign is scheduled to go live tomorrow. Can we say the image is ours because the AI generated it?
 
-**Box 1 - Key facts from this exhibit**
+- Narrative point: Client wants to avoid delaying launch.
 
-| *Type your answer here.* |
-|--------------------------|
+- Narrative point: Client has already shared draft images with retail partners.
 
-**Box 2 - Risks, uncertainty or missing information**
+- Narrative point: Client has not preserved all prompts.
 
-| *Type your answer here.* |
-|--------------------------|
+- Source detail: Date is recorded as 11 September.
 
-**Box 3 - How this exhibit affects the final output**
+- Source detail: From is recorded as Marketing Director, BluePeak Foods.
 
-| *Type your answer here.* |
-|--------------------------|
+- Source detail: To is recorded as LawBridge Commercial Team.
 
-**Box 4 - Follow-up questions to carry forward**
+- Source detail: Subject is recorded as AI image complaint.
 
-| *Type your answer here.* |
-|--------------------------|
+### Uncertainty and Follow-Up Points Within This Exhibit
+
+- The wording 'draft' in this exhibit shows the wording or document may not have been approved; record it as a caveat or follow-up point, not as a final conclusion.
+
+- Any date or time in this exhibit should be carried across exactly, because timing may affect awareness, notice, deadline or escalation analysis.
+
+### Student Extraction Boxes
+
+### Box 1 - Key facts from this exhibit
+
+> _Type your answer here._
+
+## Box 2 - Risks, uncertainty or missing information
+
+> _Type your answer here._
+
+### Box 3 - How this exhibit affects the final output
+
+> _Type your answer here._
+
+## Box 4 - Follow-up questions to carry forward
+
+> _Type your answer here._

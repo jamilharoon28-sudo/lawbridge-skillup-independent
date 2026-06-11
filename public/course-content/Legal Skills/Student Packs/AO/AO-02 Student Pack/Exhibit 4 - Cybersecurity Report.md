@@ -1,12 +1,10 @@
-<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
+### Exhibit 4 - Cybersecurity Report
 
-**Exhibit 4 - Cybersecurity Report**
+### What This Exhibit Contains
 
-**What This Exhibit Contains**
+This exhibit contains the source material for 'Cybersecurity Report'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status | Draft MFA | Not enabled for legacy admin account | Unfavourable Training | Annual training overdue by two months | Unfavourable but causation unclear
 
-This exhibit contains the source material for 'Cybersecurity Report'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status \| Draft MFA \| Not enabled for legacy admin account \| Unfavourable Training \| Annual training overdue by two months \| Unfavourable but causation unclear
-
-**How to Use This Exhibit**
+### How to Use This Exhibit
 
 Read the exact wording rather than relying on the title.
 
@@ -14,77 +12,73 @@ Identify what is confirmed, what is uncertain and what is missing.
 
 Use the exhibit number and document title when citing evidence in your answer.
 
-**Do not treat this exhibit alone as the full legal or commercial position.**
+Do not treat this exhibit alone as the full legal or commercial position.
 
 Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-**Full Exhibit Content**
+### Full Exhibit Content
 
-| **Prepared by** | **External consultant** |
-|-----------------|-------------------------|
-| Status          | Draft                   |
+**Prepared by:** External consultant
 
-| **Finding**  | **Detail**                                 | **Advocacy issue**                 |
-|--------------|--------------------------------------------|------------------------------------|
-| MFA          | Not enabled for legacy admin account       | Unfavourable                       |
-| Training     | Annual training overdue by two months      | Unfavourable but causation unclear |
-| Patch status | Known vulnerability patched after incident | Need link to attack vector         |
-| Backups      | Offline backup restored core systems       | Helpful mitigation point           |
+**Status:** Draft
 
-**Expanded Exhibit Detail**
+| Finding | Detail | Advocacy issue |
+| --- | --- | --- |
+| MFA | Not enabled for legacy admin account | Unfavourable |
+| Training | Annual training overdue by two months | Unfavourable but causation unclear |
+| Patch status | Known vulnerability patched after incident | Need link to attack vector |
+| Backups | Offline backup restored core systems | Helpful mitigation point |
 
-*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
+### Expanded Exhibit Detail
 
-**Source Status and Timing**
+The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.
 
-> **•** Prepared by: External consultant.
->
-> **•** Status: Draft.
+## Source Status and Timing
 
-**Detailed Matter Points**
+- Prepared by: External consultant.
 
-> **•** Source detail: Prepared by is recorded as External consultant.
->
-> **•** Source detail: Status is recorded as Draft.
->
-> **•** For Finding 'MFA', the exhibit records Detail: Not enabled for legacy admin account; Advocacy issue: Unfavourable.
->
-> **•** For Finding 'Training', the exhibit records Detail: Annual training overdue by two months; Advocacy issue: Unfavourable but causation unclear.
->
-> **•** For Finding 'Patch status', the exhibit records Detail: Known vulnerability patched after incident; Advocacy issue: Need link to attack vector.
->
-> **•** For Finding 'Backups', the exhibit records Detail: Offline backup restored core systems; Advocacy issue: Helpful mitigation point.
+- Status: Draft.
 
-**Uncertainty and Follow-Up Points Within This Exhibit**
+## Detailed Matter Points
 
-> **•** The wording 'draft' in this exhibit shows the wording or document may not have been approved; record it as a caveat or follow-up point, not as a final conclusion.
->
-> **•** The wording 'unclear' in this exhibit marks a fact that still needs clarification; record it as a caveat or follow-up point, not as a final conclusion.
+- Source detail: Prepared by is recorded as External consultant.
 
-**Additional Evidence-Use Detail**
+- Source detail: Status is recorded as Draft.
 
-> **•** This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
->
-> **•** Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
+- For Finding 'MFA', the exhibit records Detail: Not enabled for legacy admin account; Advocacy issue: Unfavourable.
 
-**Student Extraction Boxes**
+- For Finding 'Training', the exhibit records Detail: Annual training overdue by two months; Advocacy issue: Unfavourable but causation unclear.
 
-**Box 1 - Key facts from this exhibit**
+- For Finding 'Patch status', the exhibit records Detail: Known vulnerability patched after incident; Advocacy issue: Need link to attack vector.
 
-| *Type your answer here.* |
-|--------------------------|
+- For Finding 'Backups', the exhibit records Detail: Offline backup restored core systems; Advocacy issue: Helpful mitigation point.
 
-**Box 2 - Risks, uncertainty or missing information**
+### Uncertainty and Follow-Up Points Within This Exhibit
 
-| *Type your answer here.* |
-|--------------------------|
+- The wording 'draft' in this exhibit shows the wording or document may not have been approved; record it as a caveat or follow-up point, not as a final conclusion.
 
-**Box 3 - How this exhibit affects the final output**
+- The wording 'unclear' in this exhibit marks a fact that still needs clarification; record it as a caveat or follow-up point, not as a final conclusion.
 
-| *Type your answer here.* |
-|--------------------------|
+## Additional Evidence-Use Detail
 
-**Box 4 - Follow-up questions to carry forward**
+- This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
 
-| *Type your answer here.* |
-|--------------------------|
+- Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
+
+### Student Extraction Boxes
+
+### Box 1 - Key facts from this exhibit
+
+> _Type your answer here._
+
+## Box 2 - Risks, uncertainty or missing information
+
+> _Type your answer here._
+
+### Box 3 - How this exhibit affects the final output
+
+> _Type your answer here._
+
+## Box 4 - Follow-up questions to carry forward
+
+> _Type your answer here._

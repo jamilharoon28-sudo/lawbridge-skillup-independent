@@ -1,12 +1,10 @@
-<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
+### Exhibit 2 - Settlement Agreement Extract
 
-**Exhibit 2 - Settlement Agreement Extract**
-
-**What This Exhibit Contains**
+### What This Exhibit Contains
 
 This exhibit contains the source material for 'Settlement Agreement Extract'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Payment of £14,500 within 14 days. Release wording refers to 'all claims whether known or unknown'.
 
-**How to Use This Exhibit**
+### How to Use This Exhibit
 
 Read the exact wording rather than relying on the title.
 
@@ -14,56 +12,52 @@ Identify what is confirmed, what is uncertain and what is missing.
 
 Use the exhibit number and document title when citing evidence in your answer.
 
-**Do not treat this exhibit alone as the full legal or commercial position.**
+Do not treat this exhibit alone as the full legal or commercial position.
 
 Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-**Full Exhibit Content**
+### Full Exhibit Content
 
 Payment of £14,500 within 14 days. Release wording refers to 'all claims whether known or unknown'.
 
-**Expanded Exhibit Detail**
+### Expanded Exhibit Detail
 
-*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
+The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.
 
-**Source Status and Timing**
+## Source Status and Timing
 
-> **•** The exhibit should be treated as a matter-file source document rather than a complete legal conclusion.
+- The exhibit should be treated as a matter-file source document rather than a complete legal conclusion.
 
-**Detailed Matter Points**
+## Detailed Matter Points
 
-> **•** Narrative point: Payment of £14,500 within 14 days. Release wording refers to 'all claims whether known or unknown'.
+- Narrative point: Payment of £14,500 within 14 days. Release wording refers to 'all claims whether known or unknown'.
 
-**Uncertainty and Follow-Up Points Within This Exhibit**
+### Uncertainty and Follow-Up Points Within This Exhibit
 
-> **•** The wording 'unknown' in this exhibit marks a fact that still needs to be established; record it as a caveat or follow-up point, not as a final conclusion.
->
-> **•** Any figure, percentage or monetary amount in this exhibit should be reproduced exactly and checked against the other financial or operational records.
+- The wording 'unknown' in this exhibit marks a fact that still needs to be established; record it as a caveat or follow-up point, not as a final conclusion.
 
-**Additional Evidence-Use Detail**
+- Any figure, percentage or monetary amount in this exhibit should be reproduced exactly and checked against the other financial or operational records.
 
-> **•** This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
->
-> **•** Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
+## Additional Evidence-Use Detail
 
-**Student Extraction Boxes**
+- This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
 
-**Box 1 - Key facts from this exhibit**
+- Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
 
-| *Type your answer here.* |
-|--------------------------|
+### Student Extraction Boxes
 
-**Box 2 - Risks, uncertainty or missing information**
+### Box 1 - Key facts from this exhibit
 
-| *Type your answer here.* |
-|--------------------------|
+> _Type your answer here._
 
-**Box 3 - How this exhibit affects the final output**
+## Box 2 - Risks, uncertainty or missing information
 
-| *Type your answer here.* |
-|--------------------------|
+> _Type your answer here._
 
-**Box 4 - Follow-up questions to carry forward**
+### Box 3 - How this exhibit affects the final output
 
-| *Type your answer here.* |
-|--------------------------|
+> _Type your answer here._
+
+## Box 4 - Follow-up questions to carry forward
+
+> _Type your answer here._

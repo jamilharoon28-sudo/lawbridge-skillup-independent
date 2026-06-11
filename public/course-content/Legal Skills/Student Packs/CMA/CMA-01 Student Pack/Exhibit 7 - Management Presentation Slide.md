@@ -1,12 +1,10 @@
-<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
+### Exhibit 7 - Management Presentation Slide
 
-**Exhibit 7 - Management Presentation Slide**
+### What This Exhibit Contains
 
-**What This Exhibit Contains**
+This exhibit contains the source material for 'Management Presentation Slide'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Purpose | Commercial claims CloudNest owns a proprietary AI engine and has no material legal issues. All code is internally developed and fully controlled by the company. Does diligence support this statement?
 
-This exhibit contains the source material for 'Management Presentation Slide'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Purpose \| Commercial claims CloudNest owns a proprietary AI engine and has no material legal issues. All code is internally developed and fully controlled by the company. Does diligence support this statement?
-
-**How to Use This Exhibit**
+### How to Use This Exhibit
 
 Read the exact wording rather than relying on the title.
 
@@ -14,73 +12,69 @@ Identify what is confirmed, what is uncertain and what is missing.
 
 Use the exhibit number and document title when citing evidence in your answer.
 
-**Do not treat this exhibit alone as the full legal or commercial position.**
+Do not treat this exhibit alone as the full legal or commercial position.
 
 Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-**Full Exhibit Content**
+### Full Exhibit Content
 
-| **Status** | **Investor-style slide** |
-|------------|--------------------------|
-| Purpose    | Commercial claims        |
+**Status:** Investor-style slide
+
+**Purpose:** Commercial claims
 
 CloudNest owns a proprietary AI engine and has no material legal issues. All code is internally developed and fully controlled by the company.
 
-| **Check item**                            | **Evidence in exhibit** | **Student note** |
-|-------------------------------------------|-------------------------|------------------|
-| Does diligence support this statement?    |                         |                  |
-| Which claims require warranty protection? |                         |                  |
+| Check item | Evidence in exhibit | Student note |
+| --- | --- | --- |
+| Does diligence support this statement? |  |  |
+| Which claims require warranty protection? |  |  |
 
-**Expanded Exhibit Detail**
+### Expanded Exhibit Detail
 
-*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
+The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.
 
-**Source Status and Timing**
+## Source Status and Timing
 
-> **•** Status: Investor-style slide.
->
-> **•** Purpose: Commercial claims.
+- Status: Investor-style slide.
 
-**Detailed Matter Points**
+- Purpose: Commercial claims.
 
-> **•** Narrative point: CloudNest owns a proprietary AI engine and has no material legal issues. All code is internally developed and fully controlled by the company.
->
-> **•** Source detail: Status is recorded as Investor-style slide.
->
-> **•** Source detail: Purpose is recorded as Commercial claims.
->
-> **•** The exhibit records Check item: Does diligence support this statement?.
->
-> **•** The exhibit records Check item: Which claims require warranty protection?.
+## Detailed Matter Points
 
-**Uncertainty and Follow-Up Points Within This Exhibit**
+- Narrative point: CloudNest owns a proprietary AI engine and has no material legal issues. All code is internally developed and fully controlled by the company.
 
-> **•** No express uncertainty wording was extracted from this exhibit, but the document should still be cross-checked against the other exhibits before it is used as proof of the full position.
+- Source detail: Status is recorded as Investor-style slide.
 
-**Additional Evidence-Use Detail**
+- Source detail: Purpose is recorded as Commercial claims.
 
-> **•** This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
->
-> **•** Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
+- The exhibit records Check item: Does diligence support this statement?.
 
-**Student Extraction Boxes**
+- The exhibit records Check item: Which claims require warranty protection?.
 
-**Box 1 - Key facts from this exhibit**
+### Uncertainty and Follow-Up Points Within This Exhibit
 
-| *Type your answer here.* |
-|--------------------------|
+- No express uncertainty wording was extracted from this exhibit, but the document should still be cross-checked against the other exhibits before it is used as proof of the full position.
 
-**Box 2 - Risks, uncertainty or missing information**
+## Additional Evidence-Use Detail
 
-| *Type your answer here.* |
-|--------------------------|
+- This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
 
-**Box 3 - How this exhibit affects the final output**
+- Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
 
-| *Type your answer here.* |
-|--------------------------|
+### Student Extraction Boxes
 
-**Box 4 - Follow-up questions to carry forward**
+### Box 1 - Key facts from this exhibit
 
-| *Type your answer here.* |
-|--------------------------|
+> _Type your answer here._
+
+## Box 2 - Risks, uncertainty or missing information
+
+> _Type your answer here._
+
+### Box 3 - How this exhibit affects the final output
+
+> _Type your answer here._
+
+## Box 4 - Follow-up questions to carry forward
+
+> _Type your answer here._

@@ -1,165 +1,125 @@
-<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
+### Case Simulation 09 | AO-01
 
-**Case Simulation 09 \| AO-01**
+## Oral Submission in a Technology Payment Dispute
 
-**Oral Submission in a Technology Payment Dispute**
+## Learning Outcomes
 
-**Learning Outcomes**
+- Structure a persuasive oral submission from a document bundle.
 
-> **•** Structure a persuasive oral submission from a document bundle.
->
-> **•** Identify the issue, evidence, remedy and weakness in the opponent’s position.
->
-> **•** Prepare answers to likely questions.
->
-> **•** Present factual uncertainty fairly.
->
-> **•** Use professional and measured oral advocacy language.
+- Identify the issue, evidence, remedy and weakness in the opponent’s position.
 
-**Student Task Brief**
+- Prepare answers to likely questions.
+
+- Present factual uncertainty fairly.
+
+- Use professional and measured oral advocacy language.
+
+### Student Task Brief
 
 A buyer says it paid for a digital product but never received usable access. The supplier says delivery was automatic and complete. You must prepare a short oral submission and supporting advocacy note.
 
-**Student Practice Tasks**
+### Student Practice Tasks
 
 Complete the following practice tasks as a trainee-style matter file review. Your answers must cite the relevant exhibit, clause, date, email, log entry or policy wording. Do not give broad commentary where a specific document reference is available.
 
-**Detailed Practice Tasks**
+## Detailed Practice Tasks
 
-> **01** Identify the client and requested outcome.
->
-> **02** Prepare a one-minute opening.
->
-> **03** Build a chronology of payment, access issue and complaints.
->
-> **04** Extract evidence supporting non-delivery or unusable delivery.
->
-> **05** Extract evidence supporting the supplier’s position.
->
-> **06** Prepare submissions on practical fairness and evidence.
->
-> **07** Prepare responses to difficult questions.
->
-> **08** Identify what must not be overstated.
->
-> **09** Prepare a closing remedy request.
->
-> **10** Reflect on which fact is weakest for your client.
+1. Identify the client and requested outcome.
 
-**Working Method**
+2. Prepare a one-minute opening.
 
-> **•** Start with the exhibit index, but do not treat it as a summary of the answer.
->
-> **•** Mark every clause, date, figure and disputed factual point that affects advice or drafting.
->
-> **•** Separate confirmed facts, disputed facts, assumptions, missing information and legal points requiring further checking.
->
-> **•** Keep supervisor-facing outputs concise: lead with the practical risk, then the evidence, then the next step.
+3. Build a chronology of payment, access issue and complaints.
 
-**Final Student Submission Checklist**
+4. Extract evidence supporting non-delivery or unusable delivery.
 
-> ☐ I have identified the relevant clauses, documents and factual evidence.
->
-> ☐ I have distinguished agreed facts from disputed facts.
->
-> ☐ I have identified missing information and practical follow-up questions.
->
-> ☐ I have considered commercial, ethical, client-care and reputational risks.
->
-> ☐ I have avoided giving applicable law conclusions without checking the applicable legal framework.
->
-> ☐ I have prepared a concise, practical and professional output.
+5. Extract evidence supporting the supplier’s position.
 
-**Reflection Questions**
+6. Prepare submissions on practical fairness and evidence.
 
-**Which exhibit changed your initial view of the case the most?**
+7. Prepare responses to difficult questions.
 
-| *Type your answer here.* |
-|--------------------------|
+8. Identify what must not be overstated.
 
-**Which clause or document was easiest to miss?**
+9. Prepare a closing remedy request.
 
-| *Type your answer here.* |
-|--------------------------|
+10. Reflect on which fact is weakest for your client.
 
-**What information would you request before advising the client?**
+## Working Method
 
-| *Type your answer here.* |
-|--------------------------|
+- Start with the exhibit index, but do not treat it as a summary of the answer.
 
-**What would you escalate to a supervisor and why?**
+- Mark every clause, date, figure and disputed factual point that affects advice or drafting.
 
-| *Type your answer here.* |
-|--------------------------|
+- Separate confirmed facts, disputed facts, assumptions, missing information and legal points requiring further checking.
 
-**How would your approach change if the client had urgent commercial pressure?**
+- Keep supervisor-facing outputs concise: lead with the practical risk, then the evidence, then the next step.
 
-| *Type your answer here.* |
-|--------------------------|
+### Final Student Submission Checklist
 
-| **Fundamental AI Skills Extension** |                                                                                                                                                                                                                                                                            |
-|-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Purpose of this AI section**      | **The aim is not to let AI complete Advocacy and Oral Presentation for you. Build the human skill first, use AI only as a tool, then supervise the output with professional judgment. You remain responsible for the final answer, evidence use, caveats and escalation.** |
+- [ ] I have identified the relevant clauses, documents and factual evidence.
 
-**AI Ground Rules for This Advocacy and Oral Presentation Simulation**
+- [ ] I have distinguished agreed facts from disputed facts.
 
-• Use only the fictional scenario materials and separated exhibits. Do not add real client facts or confidential information.
+- [ ] I have identified missing information and practical follow-up questions.
 
-• Treat AI as an assistant, not an authority, lawyer, tutor or decision-maker.
+- [ ] I have considered commercial, ethical, client-care and reputational risks.
 
-• Check AI statements against the exhibits and any source that needs legal verification.
+- [ ] I have avoided giving applicable law conclusions without checking the applicable legal framework.
 
-• Do not let polished wording hide uncertainty, missing facts or supervisor approval points.
+- [ ] I have prepared a concise, practical and professional output.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p><strong>● AI Task 1 - Human Skill First</strong></p>
-<p><strong>Using only the exhibits in this file, identify the key facts, risks and missing information you must address in the final Advocacy and Oral Presentation output for AO-01 - Oral Submission in a Technology Payment Dispute. Your answer must use Exhibit 1 (Hearing Instruction Email); Exhibit 2 (Purchase Confirmation); Exhibit 3 (Payment and Access Log); Exhibit 4 (Supplier Response); Exhibit 5 (Terms Extract); Exhibit 6 (Decision-Maker Questions), separate confirmed facts from uncertainty, and state what you would check or escalate before using AI.</strong></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><em>Type your answer here.</em></td>
-</tr>
-</tbody>
-</table>
+## Reflection Questions
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p><strong>● AI Task 2 - AI Tool Usage and Critique</strong></p>
-<p><strong>Use AI to help structure the required output (the required student output) for AO-01 - Oral Submission in a Technology Payment Dispute. What single safe prompt would you use, and how would you critique the result against the exhibits so it does not invent facts, assume law or hide missing information?</strong></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><em>Type your answer here.</em></td>
-</tr>
-</tbody>
-</table>
+### Which exhibit changed your initial view of the case the most?
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p><strong>● AI Task 3 - Judgment and AI Supervision Under Pressure</strong></p>
-<p><strong>You receive a polished AI draft for AO-01 - Oral Submission in a Technology Payment Dispute. What would you accept, change or reject before sending it to a supervisor or client team, and how would you explain your decision using human judgment and the scenario evidence?</strong></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><em>Type your answer here.</em></td>
-</tr>
-</tbody>
-</table>
+> _Type your answer here._
 
-**AI Section Completion Standard: The section is complete only if all three answers are linked to the actual scenario material, not generic AI commentary.**
+## Which clause or document was easiest to miss?
+
+> _Type your answer here._
+
+## What information would you request before advising the client?
+
+> _Type your answer here._
+
+## What would you escalate to a supervisor and why?
+
+> _Type your answer here._
+
+How would your approach change if the client had urgent commercial pressure?
+
+> _Type your answer here._
+
+## Fundamental AI Skills Extension
+
+**Purpose of this AI section:** The aim is not to let AI complete Advocacy and Oral Presentation for you. Build the human skill first, use AI only as a tool, then supervise the output with professional judgment. You remain responsible for the final answer, evidence use, caveats and escalation.
+
+AI Ground Rules for This Advocacy and Oral Presentation Simulation
+
+- Use only the fictional scenario materials and separated exhibits. Do not add real client facts or confidential information.
+
+- Treat AI as an assistant, not an authority, lawyer, tutor or decision-maker.
+
+- Check AI statements against the exhibits and any source that needs legal verification.
+
+- Do not let polished wording hide uncertainty, missing facts or supervisor approval points.
+
+### AI Task 1 - Human Skill First
+
+Using only the exhibits in this file, identify the key facts, risks and missing information you must address in the final Advocacy and Oral Presentation output for AO-01 - Oral Submission in a Technology Payment Dispute. Your answer must use Exhibit 1 (Hearing Instruction Email); Exhibit 2 (Purchase Confirmation); Exhibit 3 (Payment and Access Log); Exhibit 4 (Supplier Response); Exhibit 5 (Terms Extract); Exhibit 6 (Decision-Maker Questions), separate confirmed facts from uncertainty, and state what you would check or escalate before using AI.
+
+> _Type your answer here._
+
+### AI Task 2 - AI Tool Usage and Critique
+
+Use AI to help structure the required output (the required student output) for AO-01 - Oral Submission in a Technology Payment Dispute. What single safe prompt would you use, and how would you critique the result against the exhibits so it does not invent facts, assume law or hide missing information?
+
+> _Type your answer here._
+
+### AI Task 3 - Judgment and AI Supervision Under Pressure
+
+You receive a polished AI draft for AO-01 - Oral Submission in a Technology Payment Dispute. What would you accept, change or reject before sending it to a supervisor or client team, and how would you explain your decision using human judgment and the scenario evidence?
+
+> _Type your answer here._
+
+AI Section Completion Standard: The section is complete only if all three answers are linked to the actual scenario material, not generic AI commentary.

@@ -1,12 +1,10 @@
-<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
+### Exhibit 6 - Source Quality Guide
 
-**Exhibit 6 - Source Quality Guide**
+### What This Exhibit Contains
 
-**What This Exhibit Contains**
+This exhibit contains the source material for 'Source Quality Guide'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status | Training note Use official regulator, legislation, court or government sources where available. Do not rely on blogs for final legal propositions. Record date accessed and whether the source is binding, guidance, commentary or practical industry material. Which sources are authoritative?
 
-This exhibit contains the source material for 'Source Quality Guide'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Status \| Training note Use official regulator, legislation, court or government sources where available. Do not rely on blogs for final legal propositions. Record date accessed and whether the source is binding, guidance, commentary or practical industry material. Which sources are authoritative?
-
-**How to Use This Exhibit**
+### How to Use This Exhibit
 
 Read the exact wording rather than relying on the title.
 
@@ -14,76 +12,72 @@ Identify what is confirmed, what is uncertain and what is missing.
 
 Use the exhibit number and document title when citing evidence in your answer.
 
-**Do not treat this exhibit alone as the full legal or commercial position.**
+Do not treat this exhibit alone as the full legal or commercial position.
 
 Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-**Full Exhibit Content**
+### Full Exhibit Content
 
-| **Prepared by** | **Supervisor** |
-|-----------------|----------------|
-| Status          | Training note  |
+**Prepared by:** Supervisor
+
+**Status:** Training note
 
 Use official regulator, legislation, court or government sources where available. Do not rely on blogs for final legal propositions. Record date accessed and whether the source is binding, guidance, commentary or practical industry material.
 
-| **Check item**                      | **Evidence in exhibit** | **Student note** |
-|-------------------------------------|-------------------------|------------------|
-| Which sources are authoritative?    |                         |                  |
-| Which sources are only explanatory? |                         |                  |
-| What must be checked for currency?  |                         |                  |
+| Check item | Evidence in exhibit | Student note |
+| --- | --- | --- |
+| Which sources are authoritative? |  |  |
+| Which sources are only explanatory? |  |  |
+| What must be checked for currency? |  |  |
 
-**Expanded Exhibit Detail**
+### Expanded Exhibit Detail
 
-*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
+The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.
 
-**Source Status and Timing**
+## Source Status and Timing
 
-> **•** Prepared by: Supervisor.
->
-> **•** Status: Training note.
+- Prepared by: Supervisor.
 
-**Detailed Matter Points**
+- Status: Training note.
 
-> **•** Narrative point: Use official regulator, legislation, court or government sources where available. Do not rely on blogs for final legal propositions. Record date accessed and whether the source is binding, guidance, commentary or practical industry material.
->
-> **•** Source detail: Prepared by is recorded as Supervisor.
->
-> **•** Source detail: Status is recorded as Training note.
->
-> **•** The exhibit records Check item: Which sources are authoritative?.
->
-> **•** The exhibit records Check item: Which sources are only explanatory?.
->
-> **•** The exhibit records Check item: What must be checked for currency?.
+## Detailed Matter Points
 
-**Uncertainty and Follow-Up Points Within This Exhibit**
+- Narrative point: Use official regulator, legislation, court or government sources where available. Do not rely on blogs for final legal propositions. Record date accessed and whether the source is binding, guidance, commentary or practical industry material.
 
-> **•** No express uncertainty wording was extracted from this exhibit, but the document should still be cross-checked against the other exhibits before it is used as proof of the full position.
+- Source detail: Prepared by is recorded as Supervisor.
 
-**Additional Evidence-Use Detail**
+- Source detail: Status is recorded as Training note.
 
-> **•** This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
->
-> **•** Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
+- The exhibit records Check item: Which sources are authoritative?.
 
-**Student Extraction Boxes**
+- The exhibit records Check item: Which sources are only explanatory?.
 
-**Box 1 - Key facts from this exhibit**
+- The exhibit records Check item: What must be checked for currency?.
 
-| *Type your answer here.* |
-|--------------------------|
+### Uncertainty and Follow-Up Points Within This Exhibit
 
-**Box 2 - Risks, uncertainty or missing information**
+- No express uncertainty wording was extracted from this exhibit, but the document should still be cross-checked against the other exhibits before it is used as proof of the full position.
 
-| *Type your answer here.* |
-|--------------------------|
+## Additional Evidence-Use Detail
 
-**Box 3 - How this exhibit affects the final output**
+- This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
 
-| *Type your answer here.* |
-|--------------------------|
+- Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
 
-**Box 4 - Follow-up questions to carry forward**
+### Student Extraction Boxes
 
-| *Type your answer here.* |
-|--------------------------|
+### Box 1 - Key facts from this exhibit
+
+> _Type your answer here._
+
+## Box 2 - Risks, uncertainty or missing information
+
+> _Type your answer here._
+
+### Box 3 - How this exhibit affects the final output
+
+> _Type your answer here._
+
+## Box 4 - Follow-up questions to carry forward
+
+> _Type your answer here._

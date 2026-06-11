@@ -1,12 +1,10 @@
-<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
+### Exhibit 6 - Customer Support Summary
 
-**Exhibit 6 - Customer Support Summary**
+### What This Exhibit Contains
 
-**What This Exhibit Contains**
+This exhibit contains the source material for 'Customer Support Summary'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Date | 5 October Failed checkout tickets | 1,250 | May include duplicate attempts Refund complaints | 87 | Not all linked to outage
 
-This exhibit contains the source material for 'Customer Support Summary'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Date \| 5 October Failed checkout tickets \| 1,250 \| May include duplicate attempts Refund complaints \| 87 \| Not all linked to outage
-
-**How to Use This Exhibit**
+### How to Use This Exhibit
 
 Read the exact wording rather than relying on the title.
 
@@ -14,77 +12,73 @@ Identify what is confirmed, what is uncertain and what is missing.
 
 Use the exhibit number and document title when citing evidence in your answer.
 
-**Do not treat this exhibit alone as the full legal or commercial position.**
+Do not treat this exhibit alone as the full legal or commercial position.
 
 Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-**Full Exhibit Content**
+### Full Exhibit Content
 
-| **Prepared by** | **Support lead** |
-|-----------------|------------------|
-| Date            | 5 October        |
+**Prepared by:** Support lead
 
-| **Issue**               | **Number** | **Notes**                      |
-|-------------------------|------------|--------------------------------|
-| Failed checkout tickets | 1,250      | May include duplicate attempts |
-| Refund complaints       | 87         | Not all linked to outage       |
-| Social posts            | 33         | Mixed customer sentiment       |
-| Calls to support        | 146        | Additional staffing used       |
+**Date:** 5. October
 
-**Expanded Exhibit Detail**
+| Issue | Number | Notes |
+| --- | --- | --- |
+| Failed checkout tickets | 1,250 | May include duplicate attempts |
+| Refund complaints | 87 | Not all linked to outage |
+| Social posts | 33 | Mixed customer sentiment |
+| Calls to support | 146 | Additional staffing used |
 
-*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
+### Expanded Exhibit Detail
 
-**Source Status and Timing**
+The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.
 
-> **•** Date: 5 October.
->
-> **•** Prepared by: Support lead.
+## Source Status and Timing
 
-**Detailed Matter Points**
+- Date: 5 October.
 
-> **•** Source detail: Prepared by is recorded as Support lead.
->
-> **•** Source detail: Date is recorded as 5 October.
->
-> **•** For Issue 'Failed checkout tickets', the exhibit records Number: 1,250; Notes: May include duplicate attempts.
->
-> **•** For Issue 'Refund complaints', the exhibit records Number: 87; Notes: Not all linked to outage.
->
-> **•** For Issue 'Social posts', the exhibit records Number: 33; Notes: Mixed customer sentiment.
->
-> **•** For Issue 'Calls to support', the exhibit records Number: 146; Notes: Additional staffing used.
+- Prepared by: Support lead.
 
-**Uncertainty and Follow-Up Points Within This Exhibit**
+## Detailed Matter Points
 
-> **•** The wording 'may' in this exhibit uses possibility wording rather than confirmed fact; record it as a caveat or follow-up point, not as a final conclusion.
->
-> **•** Any date or time in this exhibit should be carried across exactly, because timing may affect awareness, notice, deadline or escalation analysis.
+- Source detail: Prepared by is recorded as Support lead.
 
-**Additional Evidence-Use Detail**
+- Source detail: Date is recorded as 5 October.
 
-> **•** This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
->
-> **•** Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
+- For Issue 'Failed checkout tickets', the exhibit records Number: 1,250; Notes: May include duplicate attempts.
 
-**Student Extraction Boxes**
+- For Issue 'Refund complaints', the exhibit records Number: 87; Notes: Not all linked to outage.
 
-**Box 1 - Key facts from this exhibit**
+- For Issue 'Social posts', the exhibit records Number: 33; Notes: Mixed customer sentiment.
 
-| *Type your answer here.* |
-|--------------------------|
+- For Issue 'Calls to support', the exhibit records Number: 146; Notes: Additional staffing used.
 
-**Box 2 - Risks, uncertainty or missing information**
+### Uncertainty and Follow-Up Points Within This Exhibit
 
-| *Type your answer here.* |
-|--------------------------|
+- The wording 'may' in this exhibit uses possibility wording rather than confirmed fact; record it as a caveat or follow-up point, not as a final conclusion.
 
-**Box 3 - How this exhibit affects the final output**
+- Any date or time in this exhibit should be carried across exactly, because timing may affect awareness, notice, deadline or escalation analysis.
 
-| *Type your answer here.* |
-|--------------------------|
+## Additional Evidence-Use Detail
 
-**Box 4 - Follow-up questions to carry forward**
+- This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
 
-| *Type your answer here.* |
-|--------------------------|
+- Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
+
+### Student Extraction Boxes
+
+### Box 1 - Key facts from this exhibit
+
+> _Type your answer here._
+
+## Box 2 - Risks, uncertainty or missing information
+
+> _Type your answer here._
+
+### Box 3 - How this exhibit affects the final output
+
+> _Type your answer here._
+
+## Box 4 - Follow-up questions to carry forward
+
+> _Type your answer here._

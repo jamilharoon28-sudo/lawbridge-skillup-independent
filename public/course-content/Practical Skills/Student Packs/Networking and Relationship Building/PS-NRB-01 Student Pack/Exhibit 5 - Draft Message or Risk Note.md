@@ -1,12 +1,10 @@
-<img src="media/image1.png" style="width:1.42in;height:1.00045in" />
+### Exhibit 5 - Draft Message or Risk Note
 
-**Exhibit 5 - Draft Message or Risk Note**
-
-**What This Exhibit Contains**
+### What This Exhibit Contains
 
 This is the client, business or draft-message exhibit. It shows how the matter is being communicated and helps students judge tone, risk and next steps.
 
-**How to Use This Exhibit**
+### How to Use This Exhibit
 
 Read the exact wording rather than relying on the title.
 
@@ -14,104 +12,106 @@ Identify what is confirmed, what is uncertain and what is missing.
 
 Use the exhibit number and document title when citing evidence in your answer.
 
-**Do not treat this exhibit alone as the full legal or commercial position.**
+Do not treat this exhibit alone as the full legal or commercial position.
 
 Cross-check against the instructions, task brief and other exhibits before finalising your output.
 
-**Full Exhibit Content**
+### Full Exhibit Content
 
-| **Message field** | **Details**                                                                  |
-|-------------------|------------------------------------------------------------------------------|
-| From              | Client, business team or draft internal message                              |
-| To                | Legal team / student / supervisor                                            |
-| Tone              | Concerned, time-pressured or potentially unclear                             |
-| Purpose           | Shows what the recipient is worried about and what communication risk exists |
+**Message field:** Details
 
-**Message content**
+**From:** Client, business team or draft internal message
+
+**To:** Legal team / student / supervisor
+
+**Tone:** Concerned, time-pressured or potentially unclear
+
+**Purpose:** Shows what the recipient is worried about and what communication risk exists
+
+## Message content
 
 I need a clear update on Following Up After a University Law Event. I understand there may be details still being checked, but I need to know what matters most, what the immediate risk is, and what happens next. Please do not send me a long technical explanation if the practical position is still uncertain.
 
-**Message Signals to Notice**
+## Message Signals to Notice
 
-**Speaker discussed retail work to legal operations**
+## Speaker discussed retail work to legal operations
 
-**Student is first-generation and nervous**
+### Student is first-generation and nervous
 
-**Draft asks for referral**
+## Draft asks for referral
 
-**Speaker is legal operations manager active in mentoring**
+## Speaker is legal operations manager active in mentoring
 
-**Networking is learning not instant favours**
+## Networking is learning not instant favours
 
-| **Signal**      | **Meaning**                                                                   |
-|-----------------|-------------------------------------------------------------------------------|
-| Reader need     | They need a practical answer, not a long commentary.                          |
-| Tone risk       | Defensive, vague or overconfident wording may damage trust.                   |
-| Evidence risk   | A reply must be grounded in the exhibits.                                     |
-| Escalation risk | If supervisor approval is needed, the student should say what needs approval. |
+**Signal:** Meaning
 
-**Expanded Exhibit Detail**
+**Reader need:** They need a practical answer, not a long commentary.
 
-*The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.*
+**Tone risk:** Defensive, vague or overconfident wording may damage trust.
 
-**Source Status and Timing**
+**Evidence risk:** A reply must be grounded in the exhibits.
 
-> **•** Purpose: Shows what the recipient is worried about and what communication risk exists.
->
-> **•** From: Client, business team or draft internal message.
->
-> **•** To: Legal team / student / supervisor.
+**Escalation risk:** If supervisor approval is needed, the student should say what needs approval.
 
-**Detailed Matter Points**
+### Expanded Exhibit Detail
 
-> **•** Narrative point: I need a clear update on Following Up After a University Law Event. I understand there may be details still being checked, but I need to know what matters most, what the immediate risk is, and what happens next. Please do not send me a long technical...
->
-> **•** Source detail: Message field is recorded as Details.
->
-> **•** Source detail: From is recorded as Client, business team or draft internal message.
->
-> **•** Source detail: To is recorded as Legal team / student / supervisor.
->
-> **•** Source detail: Tone is recorded as Concerned, time-pressured or potentially unclear.
->
-> **•** Source detail: Purpose is recorded as Shows what the recipient is worried about and what communication risk exists.
->
-> **•** Source detail: Signal is recorded as Meaning.
->
-> **•** Source detail: Reader need is recorded as They need a practical answer, not a long commentary..
->
-> **•** Source detail: Tone risk is recorded as Defensive, vague or overconfident wording may damage trust..
->
-> **•** Source detail: Evidence risk is recorded as A reply must be grounded in the exhibits..
->
-> **•** Source detail: Escalation risk is recorded as If supervisor approval is needed, the student should say what needs approval..
+The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.
 
-**Uncertainty and Follow-Up Points Within This Exhibit**
+## Source Status and Timing
 
-> **•** The wording 'may' in this exhibit uses possibility wording rather than confirmed fact; record it as a caveat or follow-up point, not as a final conclusion.
->
-> **•** The wording 'draft' in this exhibit shows the wording or document may not have been approved; record it as a caveat or follow-up point, not as a final conclusion.
->
-> **•** The wording 'unclear' in this exhibit marks a fact that still needs clarification; record it as a caveat or follow-up point, not as a final conclusion.
+- Purpose: Shows what the recipient is worried about and what communication risk exists.
 
-**Student Extraction Boxes**
+- From: Client, business team or draft internal message.
 
-**Box 1 - Key facts from this exhibit**
+- To: Legal team / student / supervisor.
 
-| *Type your answer here.* |
-|--------------------------|
+## Detailed Matter Points
 
-**Box 2 - Risks, uncertainty or missing information**
+- Narrative point: I need a clear update on Following Up After a University Law Event. I understand there may be details still being checked, but I need to know what matters most, what the immediate risk is, and what happens next. Please do not send me a long technical...
 
-| *Type your answer here.* |
-|--------------------------|
+- Source detail: Message field is recorded as Details.
 
-**Box 3 - How this exhibit affects the final output**
+- Source detail: From is recorded as Client, business team or draft internal message.
 
-| *Type your answer here.* |
-|--------------------------|
+- Source detail: To is recorded as Legal team / student / supervisor.
 
-**Box 4 - Follow-up questions to carry forward**
+- Source detail: Tone is recorded as Concerned, time-pressured or potentially unclear.
 
-| *Type your answer here.* |
-|--------------------------|
+- Source detail: Purpose is recorded as Shows what the recipient is worried about and what communication risk exists.
+
+- Source detail: Signal is recorded as Meaning.
+
+- Source detail: Reader need is recorded as They need a practical answer, not a long commentary..
+
+- Source detail: Tone risk is recorded as Defensive, vague or overconfident wording may damage trust..
+
+- Source detail: Evidence risk is recorded as A reply must be grounded in the exhibits..
+
+- Source detail: Escalation risk is recorded as If supervisor approval is needed, the student should say what needs approval..
+
+### Uncertainty and Follow-Up Points Within This Exhibit
+
+- The wording 'may' in this exhibit uses possibility wording rather than confirmed fact; record it as a caveat or follow-up point, not as a final conclusion.
+
+- The wording 'draft' in this exhibit shows the wording or document may not have been approved; record it as a caveat or follow-up point, not as a final conclusion.
+
+- The wording 'unclear' in this exhibit marks a fact that still needs clarification; record it as a caveat or follow-up point, not as a final conclusion.
+
+### Student Extraction Boxes
+
+### Box 1 - Key facts from this exhibit
+
+> _Type your answer here._
+
+## Box 2 - Risks, uncertainty or missing information
+
+> _Type your answer here._
+
+### Box 3 - How this exhibit affects the final output
+
+> _Type your answer here._
+
+## Box 4 - Follow-up questions to carry forward
+
+> _Type your answer here._
