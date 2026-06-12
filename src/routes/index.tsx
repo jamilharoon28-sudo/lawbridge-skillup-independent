@@ -27,11 +27,11 @@ function Landing() {
     <div className="landing-page min-h-screen bg-background">
       <header className="border-b border-border/70 bg-background/90 backdrop-blur-xl">
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
-          <Link to="/" className="flex items-center">
+          <Link to="/" className="flex items-center gap-3 font-semibold text-primary">
             <img
               src="/lawbridge-logo-header.png"
               alt="LawBridge"
-              className="h-10 w-auto object-contain transition-transform duration-200 hover:scale-[1.02] sm:h-11"
+              className="h-11 w-auto object-contain"
             />
             <span className="sr-only">LawBridge Skills Portal</span>
           </Link>

@@ -1,6 +1,8 @@
 import { Link, useNavigate, useRouterState } from "@tanstack/react-router";
 import {
+  Award,
   BookOpen,
+  Inbox,
   LayoutDashboard,
   LogOut,
   ShieldCheck,
@@ -44,8 +46,9 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   };
 
   const navItems = [
-    { to: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
+    { to: "/dashboard", label: "Trainee Desk", icon: LayoutDashboard },
     { to: "/skills", label: "Skills Library", icon: BookOpen },
+    { to: "/passport", label: "Skills Passport", icon: Award },
     ...(isAdmin ? [{ to: "/admin", label: "Tutor/Admin", icon: ShieldCheck }] : []),
   ];
 
@@ -53,11 +56,11 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     <div className="app-shell min-h-screen flex flex-col bg-background">
       <header className="app-topbar sticky top-0 z-30 border-b border-border/70 bg-background/90 backdrop-blur-xl">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
-          <Link to="/dashboard" className="brand-lockup group flex items-center">
+          <Link to="/dashboard" className="brand-lockup group flex items-center gap-3">
             <img
               src="/lawbridge-logo-header.png"
               alt="LawBridge"
-              className="h-10 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.02] sm:h-11"
+              className="h-11 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.02]"
             />
             <span className="sr-only">LawBridge Skills Portal</span>
           </Link>
@@ -83,7 +86,8 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           </nav>
 
           <div className="flex items-center gap-2">
-            <div className="hidden lg:block rounded-full border border-border/70 bg-card px-3 py-1.5 text-xs text-muted-foreground shadow-sm max-w-[220px] truncate">
+            <div className="hidden lg:flex items-center gap-2 rounded-full border border-border/70 bg-card px-3 py-1.5 text-xs text-muted-foreground shadow-sm max-w-[240px] truncate">
+              <Inbox className="h-3.5 w-3.5 text-accent" />
               {email ?? "Signed in"}
             </div>
             <Button size="sm" variant="outline" onClick={signOut} title="Sign out" className="rounded-full">
@@ -118,7 +122,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       <footer className="app-footer border-t border-border/70 py-6 text-center text-xs text-muted-foreground">
         <div className="mx-auto flex max-w-7xl items-center justify-center gap-2 px-4">
           <Sparkles className="h-3.5 w-3.5 text-accent" />
-          LawBridge Skills Portal · Interactive legal training workspace
+          LawBridge Skills Portal · Trainee-style legal simulation workspace
         </div>
       </footer>
     </div>
