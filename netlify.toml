@@ -1,6 +1,10 @@
 [build]
   command = "npm run build"
-  publish = "dist"
+  # TanStack Start (via @netlify/vite-plugin-tanstack-start) emits the static
+  # client assets to dist/client and registers the SSR handler as a Netlify
+  # function. Publishing "dist" (the old SPA path) makes every /assets/*.css and
+  # *.js request 404, so the deployed site renders as unstyled HTML.
+  publish = "dist/client"
 
 [dev]
   command = "npm run dev -- --host 0.0.0.0 --port 5173"
