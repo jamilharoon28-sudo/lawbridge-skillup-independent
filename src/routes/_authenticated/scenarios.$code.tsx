@@ -11,9 +11,11 @@ import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Textarea } from "@/components/ui/textarea";
+import { markAnswer } from "@/lib/aiMarking";
 import {
   AlertTriangle,
   ArrowLeft,
+  BookOpen,
   Brain,
   CheckCircle2,
   ChevronDown,
@@ -198,7 +200,10 @@ function ScenarioPage() {
   }
 
   const { scenario, files, isTutor, progress } = data;
-  const instructions = files.find((f) => f.file_type === "student_pack");
+  const overviewFile = findScenarioFile(files, "Overview");
+  const practiceTasksFile = findScenarioFile(files, "Practice Tasks") ?? files.find((f) => f.file_type === "student_pack");
+  const aiDevelopmentFile = findScenarioFile(files, "AI Development");
+  const instructions = practiceTasksFile;
   const exhibits = files.filter((f) => f.file_type === "exhibit");
   const tutorGuide = files.find(
     (f) => f.file_type === "tutor_pack" || f.file_type === "answer_guide",
@@ -228,7 +233,9 @@ function ScenarioPage() {
       uid={data.uid}
       isTutor={isTutor}
       files={files}
+      overviewFile={overviewFile}
       instructions={instructions}
+      aiDevelopmentFile={aiDevelopmentFile}
       exhibits={exhibits}
       tutorGuide={tutorGuide}
       progress={progress}
@@ -245,7 +252,9 @@ function ScenarioExperience({
   uid,
   isTutor,
   files,
+  overviewFile,
   instructions,
+  aiDevelopmentFile,
   exhibits,
   tutorGuide,
   progress,
@@ -258,7 +267,9 @@ function ScenarioExperience({
   uid: string;
   isTutor: boolean;
   files: ScenarioFile[];
+  overviewFile?: ScenarioFile;
   instructions?: ScenarioFile;
+  aiDevelopmentFile?: ScenarioFile;
   exhibits: ScenarioFile[];
   tutorGuide?: ScenarioFile;
   progress: any;
@@ -266,7 +277,9 @@ function ScenarioExperience({
   initialSubmission: SubmissionRecord | null;
   onToggleComplete: () => void;
 }) {
+  const overviewDoc = useMarkdownFileOptional(overviewFile);
   const instructionsDoc = useMarkdownFileOptional(instructions);
+  const aiDevelopmentDoc = useMarkdownFileOptional(aiDevelopmentFile);
   const tasks = useMemo(() => extractInstructionTasks(instructionsDoc.md), [instructionsDoc.md]);
   const instructionMarkdown = useMemo(
     () => removePracticeTaskListFromMarkdown(instructionsDoc.md),
@@ -347,27 +360,44 @@ function ScenarioExperience({
         </Card>
       )}
 
-      <Tabs defaultValue="exhibits" className="w-full">
+      <Tabs defaultValue="overview" className="w-full">
         <TabsList className="flex-wrap h-auto scenario-tabs brilliant-tabs">
+          <TabsTrigger value="overview">
+            <BookOpen className="w-4 h-4 mr-1.5" />
+            Overview
+          </TabsTrigger>
           <TabsTrigger value="exhibits">
             <FileSearch className="w-4 h-4 mr-1.5" />
             Exhibits ({exhibits.length})
           </TabsTrigger>
           <TabsTrigger value="tasks">
             <ClipboardList className="w-4 h-4 mr-1.5" />
-            Tasks
+            Practice Tasks
+          </TabsTrigger>
+          <TabsTrigger value="ai-development">
+            <Brain className="w-4 h-4 mr-1.5" />
+            AI Development
           </TabsTrigger>
           <TabsTrigger value="submission">
             <FileText className="w-4 h-4 mr-1.5" />
             Final Submission
           </TabsTrigger>
-          {isTutor && (
-            <TabsTrigger value="tutor">
-              <Lock className="w-4 h-4 mr-1.5" />
-              Tutor Guide
-            </TabsTrigger>
-          )}
+          <TabsTrigger value="tutor">
+            <Lock className="w-4 h-4 mr-1.5" />
+            Tutor Guide
+          </TabsTrigger>
         </TabsList>
+
+        <TabsContent value="overview" className="mt-6">
+          {overviewFile ? (
+            <FileViewer file={overviewFile} />
+          ) : (
+            <Card className="p-6 overview-empty-card">
+              <h3 className="font-semibold">No overview connected</h3>
+              <p className="mt-2 text-sm text-muted-foreground">The overview is taken from the scenario sheet up to the Student Task Brief.</p>
+            </Card>
+          )}
+        </TabsContent>
 
         <TabsContent value="exhibits" className="mt-6">
           <MatterFileWorkspace
@@ -392,6 +422,17 @@ function ScenarioExperience({
           />
         </TabsContent>
 
+        <TabsContent value="ai-development" className="mt-6">
+          {aiDevelopmentFile ? (
+            <AIDevelopmentViewer file={aiDevelopmentFile} document={aiDevelopmentDoc} />
+          ) : (
+            <Card className="p-6 ai-development-empty-card">
+              <h3 className="font-semibold flex items-center gap-2"><Brain className="h-4 w-4" /> No AI development section connected</h3>
+              <p className="mt-2 text-sm text-muted-foreground">The AI section is extracted from the scenario sheet from Fundamental AI Skills Extension onwards.</p>
+            </Card>
+          )}
+        </TabsContent>
+
         <TabsContent value="submission" className="mt-6">
           <FinalSubmissionBuilder
             userId={uid}
@@ -405,14 +446,18 @@ function ScenarioExperience({
           />
         </TabsContent>
 
-        {isTutor && (
-          <TabsContent value="tutor" className="mt-6">
-            {tutorGuide ? <TutorGuideViewer file={tutorGuide} /> : <TutorEmptyState />}
-          </TabsContent>
-        )}
+        <TabsContent value="tutor" className="mt-6">
+          {isTutor && tutorGuide ? <TutorGuideViewer file={tutorGuide} /> : <TutorLockedState />}
+        </TabsContent>
       </Tabs>
     </div>
   );
+}
+
+function findScenarioFile(files: ScenarioFile[], name: string) {
+  const target = name.toLowerCase();
+  return files.find((file) => file.file_name.toLowerCase() === target)
+    ?? files.find((file) => file.file_name.toLowerCase().includes(target));
 }
 
 function MiniMetric({ label, value }: { label: string; value: string | number }) {
@@ -782,6 +827,8 @@ function TaskCompletionPanel({
   const [evidence, setEvidence] = useLocalRecord<EvidenceMap>(evidenceStorageKey, {});
   const [reflections, setReflections] = useLocalRecord<ReflectionMap>(reflectionStorageKey, {});
   const [saving, setSaving] = useState(false);
+  const [aiCheckingTaskId, setAiCheckingTaskId] = useState<string | null>(null);
+  const [aiFeedbackByTask, setAiFeedbackByTask] = useState<Record<string, any>>({});
   const [isTaskListOpen, setIsTaskListOpen] = useState(false);
 
   useEffect(() => {
@@ -881,6 +928,45 @@ function TaskCompletionPanel({
     toast.success("Task answers copied");
   };
 
+  const checkAnswerWithAi = async (task: InstructionTask, taskAnswer: string) => {
+    if (!taskAnswer.trim()) {
+      toast.error("Write an answer before using AI feedback");
+      return;
+    }
+
+    const isAiJudgmentTask = /ai|artificial intelligence|judg(e)?ment/i.test(task.title ?? "");
+
+    const aiTaskId =
+      scenarioId === "AN-01"
+        ? isAiJudgmentTask
+          ? "ai-section-1"
+          : "detailed-task-1"
+        : task.id;
+
+    setAiCheckingTaskId(task.id);
+
+    try {
+      const result = await markAnswer({
+        scenarioId,
+        taskId: aiTaskId,
+        studentAnswer: isAiJudgmentTask ? "" : taskAnswer,
+        aiSectionAnswer: isAiJudgmentTask ? taskAnswer : ""
+      });
+
+      setAiFeedbackByTask((current) => ({
+        ...current,
+        [task.id]: result
+      }));
+
+      toast.success("AI tutor feedback ready");
+    } catch (error: any) {
+      toast.error(error?.message ?? "AI marking failed");
+    } finally {
+      setAiCheckingTaskId(null);
+    }
+  };
+
+
   if (activeTask) {
     const answer = answers[activeTask.id] ?? "";
     const selectedEvidence = evidence[activeTask.id] ?? [];
@@ -918,6 +1004,66 @@ function TaskCompletionPanel({
               placeholder="Write your answer for this task here. Be specific. Cite the exhibits you rely on. Flag missing information separately."
               className="task-workspace-textarea min-h-[360px] resize-y bg-background text-base leading-relaxed"
             />
+
+            <div className="flex flex-wrap items-center gap-3">
+              <Button
+                type="button"
+                variant="secondary"
+                onClick={() => checkAnswerWithAi(activeTask, answer)}
+                disabled={aiCheckingTaskId === activeTask.id || !answer.trim()}
+              >
+                <Sparkles className="w-4 h-4 mr-2" />
+                {aiCheckingTaskId === activeTask.id ? "Checking..." : "AI Check My Answer"}
+              </Button>
+
+              {aiFeedbackByTask[activeTask.id] && (
+                <span className="text-sm text-muted-foreground">
+                  Score: {aiFeedbackByTask[activeTask.id].overallScore}/{aiFeedbackByTask[activeTask.id].maxScore} · {aiFeedbackByTask[activeTask.id].band}
+                </span>
+              )}
+            </div>
+
+            {aiFeedbackByTask[activeTask.id] && (
+              <Card className="rounded-2xl border border-border bg-muted/30 p-4">
+                <h4 className="text-sm font-semibold mb-2">AI Tutor Feedback</h4>
+                <p className="text-sm text-muted-foreground mb-3">
+                  {aiFeedbackByTask[activeTask.id].shortSummary}
+                </p>
+
+                <div className="space-y-2">
+                  {aiFeedbackByTask[activeTask.id].criteria?.map((item: any) => (
+                    <div key={item.name} className="rounded-xl border border-border bg-background p-3">
+                      <p className="text-sm font-medium">
+                        {item.name}: {item.score}/{item.maxScore}
+                      </p>
+                      <p className="text-sm text-muted-foreground mt-1">{item.feedback}</p>
+                    </div>
+                  ))}
+                </div>
+
+                {!!aiFeedbackByTask[activeTask.id].missingKeyPoints?.length && (
+                  <div className="mt-4">
+                    <p className="text-sm font-medium">Missing key points</p>
+                    <ul className="mt-2 list-disc pl-5 text-sm text-muted-foreground">
+                      {aiFeedbackByTask[activeTask.id].missingKeyPoints.map((point: string, index: number) => (
+                        <li key={index}>{point}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+
+                {!!aiFeedbackByTask[activeTask.id].actionPlan?.length && (
+                  <div className="mt-4">
+                    <p className="text-sm font-medium">Action plan</p>
+                    <ul className="mt-2 list-disc pl-5 text-sm text-muted-foreground">
+                      {aiFeedbackByTask[activeTask.id].actionPlan.map((step: string, index: number) => (
+                        <li key={index}>{step}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </Card>
+            )}
 
             <div className="grid md:grid-cols-3 gap-3">
               <MiniTextBox
@@ -1186,6 +1332,9 @@ function FinalSubmissionBuilder({
   const [note, setNote] = useState(initialNote);
   const [submissionText, setSubmissionText] = useState(initialSubmission?.submission_text ?? "");
   const [saving, setSaving] = useState(false);
+  const [aiCheckingFinal, setAiCheckingFinal] = useState(false);
+  const [aiFinalFeedback, setAiFinalFeedback] = useState<any | null>(null);
+  const [aiFinalError, setAiFinalError] = useState<string | null>(null);
   const [supervisor, setSupervisor] = useState<QualityResult | null>(null);
 
   useEffect(() => setNote(initialNote), [initialNote]);
@@ -1203,6 +1352,39 @@ function FinalSubmissionBuilder({
     const built = buildFinalSubmissionText(scenarioTitle, tasks, answers, evidence, reflections, exhibits);
     setSubmissionText(built);
     toast.success("Final submission built from task workspace");
+  };
+
+  const handleAiFinalReview = async () => {
+    if (!submissionText.trim()) {
+      toast.error("Build or write your final answer before using AI review");
+      setAiFinalError("Build or write your final answer before using AI review.");
+      return;
+    }
+
+    setAiCheckingFinal(true);
+    setAiFinalFeedback(null);
+    setAiFinalError(null);
+
+    try {
+      const result = await markAnswer({
+        scenarioId,
+        taskId: scenarioId === "AN-01" ? "detailed-task-1" : "final-submission",
+        studentAnswer: submissionText,
+        aiSectionAnswer: ""
+      });
+
+      console.log("AI final review result:", result);
+
+      setAiFinalFeedback(result);
+      toast.success("AI review complete");
+    } catch (error: any) {
+      console.error("AI final review failed:", error);
+      const message = error?.message ?? "AI review failed. Check that the local AI backend is running on port 8891.";
+      setAiFinalError(message);
+      toast.error(message);
+    } finally {
+      setAiCheckingFinal(false);
+    }
   };
 
   const runSupervisorCheck = () => {
@@ -1326,10 +1508,112 @@ function FinalSubmissionBuilder({
             className="mt-5 min-h-[470px] bg-background text-sm leading-relaxed font-mono"
           />
 
+          {aiCheckingFinal && (
+            <Card className="mt-4 rounded-2xl border border-border bg-muted/30 p-4">
+              <p className="text-sm font-medium">AI review is running...</p>
+              <p className="mt-1 text-sm text-muted-foreground">
+                Please wait. The feedback will appear here when complete.
+              </p>
+            </Card>
+          )}
+
+          {aiFinalError && (
+            <Card className="mt-4 rounded-2xl border border-red-200 bg-red-50 p-4">
+              <p className="text-sm font-semibold text-red-700">AI review failed</p>
+              <p className="mt-1 text-sm text-red-700">{aiFinalError}</p>
+            </Card>
+          )}
+
+          {aiFinalFeedback && (
+            <Card className="mt-4 rounded-2xl border border-amber-200 bg-amber-50/60 p-5">
+              <div className="flex items-start justify-between gap-3">
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">
+                    AI review output
+                  </p>
+                  <h4 className="mt-1 text-lg font-semibold">AI Final Submission Review</h4>
+                </div>
+                <Badge variant="secondary">
+                  {aiFinalFeedback.overallScore}/{aiFinalFeedback.maxScore} · {aiFinalFeedback.band}
+                </Badge>
+              </div>
+
+              <p className="mt-3 text-sm text-muted-foreground">
+                {aiFinalFeedback.shortSummary}
+              </p>
+
+              {!!aiFinalFeedback.criteria?.length && (
+                <div className="mt-4 space-y-2">
+                  <p className="text-sm font-semibold">Marking breakdown</p>
+                  {aiFinalFeedback.criteria.map((item: any) => (
+                    <div key={item.name} className="rounded-xl border border-border bg-background p-3">
+                      <p className="text-sm font-medium">
+                        {item.name}: {item.score}/{item.maxScore}
+                      </p>
+                      <p className="mt-1 text-sm text-muted-foreground">{item.feedback}</p>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              {!!aiFinalFeedback.missingKeyPoints?.length && (
+                <div className="mt-4">
+                  <p className="text-sm font-semibold">Missing key points</p>
+                  <ul className="mt-2 list-disc pl-5 text-sm text-muted-foreground">
+                    {aiFinalFeedback.missingKeyPoints.map((point: string, index: number) => (
+                      <li key={index}>{point}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {!!aiFinalFeedback.professionalRiskIssues?.length && (
+                <div className="mt-4">
+                  <p className="text-sm font-semibold">Professional risk issues</p>
+                  <ul className="mt-2 list-disc pl-5 text-sm text-muted-foreground">
+                    {aiFinalFeedback.professionalRiskIssues.map((point: string, index: number) => (
+                      <li key={index}>{point}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {!!aiFinalFeedback.actionPlan?.length && (
+                <div className="mt-4">
+                  <p className="text-sm font-semibold">Action plan before tutor submission</p>
+                  <ul className="mt-2 list-disc pl-5 text-sm text-muted-foreground">
+                    {aiFinalFeedback.actionPlan.map((step: string, index: number) => (
+                      <li key={index}>{step}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {aiFinalFeedback.improvedAnswer && (
+                <div className="mt-4 rounded-xl border border-border bg-background p-3">
+                  <p className="text-sm font-semibold">Improved example</p>
+                  <p className="mt-2 whitespace-pre-wrap text-sm text-muted-foreground">
+                    {aiFinalFeedback.improvedAnswer}
+                  </p>
+                </div>
+              )}
+            </Card>
+          )}
+
           <div className="mt-4 flex flex-wrap gap-2">
             <Button onClick={() => saveSubmission("draft")} disabled={saving} variant="outline">
               <Save className="w-4 h-4 mr-2" /> Save draft
             </Button>
+            <Button
+              type="button"
+              variant="secondary"
+              onClick={handleAiFinalReview}
+              disabled={aiCheckingFinal || saving || !submissionText.trim()}
+            >
+              <Sparkles className="w-4 h-4 mr-2" />
+              {aiCheckingFinal ? "AI reviewing..." : "Submit for AI review"}
+            </Button>
+
             <Button onClick={() => saveSubmission("submitted")} disabled={saving}>
               <Send className="w-4 h-4 mr-2" /> Submit for review
             </Button>
@@ -1396,6 +1680,33 @@ function SkillEvidenceRow({ label, ready }: { label: string; ready: boolean }) {
   );
 }
 
+function AIDevelopmentViewer({ file, document }: { file: ScenarioFile; document: ReturnType<typeof useMarkdownFileOptional> }) {
+  return (
+    <div className="grid xl:grid-cols-[1fr_320px] gap-4">
+      <Card className="document-card premium-document ai-development-document overflow-hidden">
+        <DocumentHeader fileName={file.file_name} url={document.url} badge="AI Development" />
+        <div className="p-5 sm:p-7">
+          {document.loading && <p className="text-sm text-muted-foreground">Loading AI development tasks…</p>}
+          {document.error && <p className="text-sm text-destructive">Could not load: {document.error}</p>}
+          {document.md && <MarkdownContent markdown={document.md} scope={file.storage_path ?? file.file_name} />}
+          {!document.loading && !document.md && !document.error && <p className="text-sm text-muted-foreground italic">No AI development content.</p>}
+        </div>
+      </Card>
+      <aside className="space-y-4 xl:sticky xl:top-4 xl:self-start">
+        <Card className="p-5 ai-development-side-card">
+          <h3 className="font-semibold flex items-center gap-2"><Brain className="h-4 w-4" /> AI supervision standard</h3>
+          <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
+            <li>• Use AI for structure, not final legal judgment.</li>
+            <li>• Check every output against the exhibits.</li>
+            <li>• Do not turn uncertainty into certainty.</li>
+            <li>• Escalate legal conclusions and client-care risk.</li>
+          </ul>
+        </Card>
+      </aside>
+    </div>
+  );
+}
+
 function TutorGuideViewer({ file }: { file: ScenarioFile }) {
   return (
     <div className="grid xl:grid-cols-[1fr_340px] gap-4">
@@ -1425,6 +1736,17 @@ function TutorGuideViewer({ file }: { file: ScenarioFile }) {
         </Card>
       </aside>
     </div>
+  );
+}
+
+function TutorLockedState() {
+  return (
+    <Card className="p-6 tutor-locked-card">
+      <h3 className="font-semibold flex items-center gap-2"><Lock className="h-4 w-4" /> Tutor guide locked</h3>
+      <p className="mt-2 text-sm text-muted-foreground">
+        Tutor guidance is reserved for tutor/admin accounts. Students should complete the exhibits, practice tasks, AI development and final submission first.
+      </p>
+    </Card>
   );
 }
 

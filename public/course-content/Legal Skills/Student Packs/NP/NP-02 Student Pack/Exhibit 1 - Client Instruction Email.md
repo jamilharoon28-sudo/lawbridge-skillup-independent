@@ -1,61 +1,18 @@
-### Exhibit 1 - Client Instruction Email
+# Exhibit 1 — Client Instruction Email
 
-### What This Exhibit Contains
+From: NovaMetric commercial lead
 
-This exhibit contains the source material for 'Client Instruction Email'. It should be read as a standalone file document and cross-checked against the other exhibits. Key content includes: Client says late packaging caused a missed launch weekend and wants a practical settlement.
+To: Supervising solicitor
 
-### How to Use This Exhibit
+Subject: Urgent help with commission and exit payment dispute
 
-Read the exact wording rather than relying on the title.
+NovaMetric Analytics Ltd asks for help preparing a negotiation with Amira Patel. The client wants to reach a proportionate settlement on outstanding commission and return of company property while avoiding inflammatory admissions. The current internal position is under pressure because the business needs a workable outcome by next Tuesday before payroll closes.
 
-Identify what is confirmed, what is uncertain and what is missing.
+The client says the headline exposure is approximately USD 74,500, but accepts that some figures still need checking. The client wants a firm opening position but has asked the legal team not to damage the relationship unless necessary.
 
-Use the exhibit number and document title when citing evidence in your answer.
+Known difficulty: The commission plan is not clear on deals substantially negotiated before departure but signed afterwards.
 
-Do not treat this exhibit alone as the full legal or commercial position.
+## Exhibit Questions:
 
-Cross-check against the instructions, task brief and other exhibits before finalising your output.
-
-### Full Exhibit Content
-
-Client says late packaging caused a missed launch weekend and wants a practical settlement.
-
-### Expanded Exhibit Detail
-
-The additional detail below expands the Full Exhibit Content only. It restates the matter-file evidence in a more developed form so the exhibit can be read consistently with the rest of the LawBridge pack.
-
-## Source Status and Timing
-
-- The exhibit should be treated as a matter-file source document rather than a complete legal conclusion.
-
-## Detailed Matter Points
-
-- Narrative point: Client says late packaging caused a missed launch weekend and wants a practical settlement.
-
-### Uncertainty and Follow-Up Points Within This Exhibit
-
-- The wording 'late' in this exhibit may affect timing, escalation or reliability of the record; record it as a caveat or follow-up point, not as a final conclusion.
-
-## Additional Evidence-Use Detail
-
-- This exhibit is short, so each individual wording choice matters: identify the person, system, date, document title, status label and any qualification before relying on it.
-
-- Where the exhibit gives only a brief statement, the safer approach is to record the statement as a source fact and then request the supporting record, log, policy, email chain or approval trail.
-
-### Student Extraction Boxes
-
-### Box 1 - Key facts from this exhibit
-
-> _Type your answer here._
-
-## Box 2 - Risks, uncertainty or missing information
-
-> _Type your answer here._
-
-### Box 3 - How this exhibit affects the final output
-
-> _Type your answer here._
-
-## Box 4 - Follow-up questions to carry forward
-
-> _Type your answer here._
+1. Identify the key facts, dates, people, and documents in this exhibit.
+1. Explain how this exhibit affects the main practical task, including what it proves, what remains uncertain, and what should be followed up.

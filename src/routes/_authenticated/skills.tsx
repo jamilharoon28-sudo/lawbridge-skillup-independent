@@ -23,10 +23,36 @@ export const Route = createFileRoute("/_authenticated/skills")({
   component: SkillsLibrary,
 });
 
+const ATTENDANCE_NOTES_LEARNING_OUTCOMES = [
+  "prepare a clear attendance note from realistic client-facing materials",
+  "identify key facts, dates, people, documents and events from the scenario and exhibits",
+  "distinguish confirmed facts from assumptions, allegations, uncertainty and missing information",
+  "recognise early legal, commercial, regulatory, communication and professional risk issues",
+  "prepare an initial legal analysis without giving premature or unsupported advice",
+  "create a focused evidence request list for the supervising lawyer",
+  "prepare a practical supervisor-facing action list ranked by urgency",
+  "identify wording that should be avoided in client, internal or external communications",
+  "use AI cautiously as a support tool for structure and organisation",
+  "critique AI-assisted output by checking it against the actual exhibits",
+  "apply human judgment when making recommendations under uncertainty",
+];
+
+const ATTENDANCE_NOTES_HOW_TO_USE = [
+  "Read the scenario first, then review each exhibit carefully as the evidence base for your work.",
+  "Record key facts clearly and separate confirmed information from uncertainty, contradictions and gaps.",
+  "Avoid treating allegations, assumptions or draft wording as proven facts.",
+  "Identify further documents or information that should be requested.",
+  "Escalate issues that need supervising-lawyer judgment.",
+  "Prepare your answers in a clear, professional and supervisor-facing style.",
+  "Use the AI Development section to practise safe delegation, verification and human judgment.",
+];
+
+
 function SkillsLibrary() {
   const [q, setQ] = useState("");
   const [categoryId, setCategoryId] = useState<string | "all">("all");
   const [statusFilter, setStatusFilter] = useState<string | "all">("all");
+  const [expandedSkillGuide, setExpandedSkillGuide] = useState<string | null>(null);
 
   const { data } = useQuery({
     queryKey: ["library"],
@@ -179,6 +205,12 @@ function SkillsLibrary() {
                   {skill.description && (
                     <p className="mt-2 max-w-3xl text-sm text-muted-foreground">{skill.description}</p>
                   )}
+                  {skill.code === "AN" && (
+                    <SkillGuidanceButtons
+                      expanded={expandedSkillGuide}
+                      onToggle={setExpandedSkillGuide}
+                    />
+                  )}
                 </div>
                 <div className="min-w-[170px] rounded-2xl bg-secondary/60 p-3">
                   <div className="mb-1 flex items-center justify-between text-xs text-muted-foreground">
@@ -188,6 +220,10 @@ function SkillsLibrary() {
                   <Progress value={skillPercent} />
                 </div>
               </div>
+
+              {skill.code === "AN" && expandedSkillGuide && (
+                <SkillGuidancePanel type={expandedSkillGuide} />
+              )}
 
               <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-3">
                 {scenarios.map((sc: any) => (
@@ -204,6 +240,56 @@ function SkillsLibrary() {
         })}
       </div>
     </div>
+  );
+}
+
+function SkillGuidanceButtons({
+  expanded,
+  onToggle,
+}: {
+  expanded: string | null;
+  onToggle: (value: string | null) => void;
+}) {
+  const toggle = (key: string) => onToggle(expanded === key ? null : key);
+  return (
+    <div className="skill-guidance-actions mt-3 flex flex-wrap gap-2">
+      <Button type="button" size="sm" variant={expanded === "learning" ? "default" : "outline"} onClick={() => toggle("learning")}>
+        <BookOpen className="mr-2 h-4 w-4" /> Learning Outcomes
+      </Button>
+      <Button type="button" size="sm" variant={expanded === "how-to" ? "default" : "outline"} onClick={() => toggle("how-to")}>
+        <Sparkles className="mr-2 h-4 w-4" /> How to Use
+      </Button>
+    </div>
+  );
+}
+
+function SkillGuidancePanel({ type }: { type: string }) {
+  const isLearning = type === "learning";
+  const items = isLearning ? ATTENDANCE_NOTES_LEARNING_OUTCOMES : ATTENDANCE_NOTES_HOW_TO_USE;
+  return (
+    <Card className="skill-guidance-panel mb-4 overflow-hidden border-border/70 bg-secondary/35 p-4">
+      <div className="flex items-start gap-3">
+        <div className="rounded-2xl bg-primary/10 p-2 text-primary">
+          {isLearning ? <BookOpen className="h-5 w-5" /> : <Sparkles className="h-5 w-5" />}
+        </div>
+        <div className="min-w-0">
+          <h3 className="font-semibold">{isLearning ? "Learning Outcomes" : "How to Use This Sheet"}</h3>
+          {!isLearning && (
+            <p className="mt-2 text-sm text-muted-foreground">
+              Read the scenario first, then work through the exhibits as the evidence base. Your role is to organise the materials, identify risk and help the supervising lawyer decide what happens next.
+            </p>
+          )}
+          <ul className="mt-3 grid gap-2 text-sm text-muted-foreground md:grid-cols-2">
+            {items.map((item) => (
+              <li key={item} className="flex gap-2 rounded-xl bg-background/70 p-2">
+                <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </Card>
   );
 }
 

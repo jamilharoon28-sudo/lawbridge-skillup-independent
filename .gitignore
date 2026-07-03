@@ -36,3 +36,6 @@ dist-ssr
 .env.production
 .netlify
 .vercel
+
+.env
+.env.local
