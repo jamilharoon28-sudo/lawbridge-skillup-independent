@@ -361,35 +361,25 @@ function ScenarioExperience({
         </Card>
       )}
 
-      <Tabs defaultValue="overview" className="w-full">
-        <TabsList className="flex-wrap h-auto scenario-tabs brilliant-tabs">
-          <TabsTrigger value="overview">
-            <BookOpen className="w-4 h-4 mr-1.5" />
-            Overview
-          </TabsTrigger>
-          <TabsTrigger value="exhibits">
-            <FileSearch className="w-4 h-4 mr-1.5" />
-            Exhibits ({exhibits.length})
-          </TabsTrigger>
-          <TabsTrigger value="tasks">
-            <ClipboardList className="w-4 h-4 mr-1.5" />
-            Practice Tasks
-          </TabsTrigger>
-          <TabsTrigger value="ai-development">
-            <Brain className="w-4 h-4 mr-1.5" />
-            AI Development
-          </TabsTrigger>
-          <TabsTrigger value="submission">
-            <FileText className="w-4 h-4 mr-1.5" />
-            Final Submission
-          </TabsTrigger>
-          <TabsTrigger value="tutor">
-            <Lock className="w-4 h-4 mr-1.5" />
-            Tutor Guide
-          </TabsTrigger>
-        </TabsList>
+      <Tabs defaultValue="overview" orientation="vertical" className="w-full">
+        <div className="grid gap-6 lg:grid-cols-[236px_minmax(0,1fr)]">
+          <div className="lg:sticky lg:top-20 lg:self-start">
+            <TabsList className="scenario-rail flex h-auto w-full flex-row gap-1 overflow-x-auto rounded-2xl border border-border/60 bg-card/70 p-2 shadow-sm lg:flex-col lg:overflow-visible">
+              <ScenarioRailItem value="overview" step="1" icon={BookOpen} label="Brief" />
+              <ScenarioRailItem value="exhibits" step="2" icon={FileSearch} label="Matter file" hint={`${exhibits.length} exhibits`} />
+              <ScenarioRailItem value="tasks" step="3" icon={ClipboardList} label="Practice tasks" hint={tasks.length ? `${tasks.length} tasks` : undefined} />
+              <ScenarioRailItem value="ai-development" step="4" icon={Brain} label="AI development" />
+              <ScenarioRailItem value="submission" step="5" icon={FileText} label="Final submission" />
+              <ScenarioRailItem value="tutor" icon={Lock} label="Tutor guide" />
+            </TabsList>
+            <p className="mt-3 hidden px-2 text-[11px] leading-relaxed text-muted-foreground lg:block">
+              Work top to bottom: read the brief, study the matter file, complete each task, then build
+              your final submission.
+            </p>
+          </div>
 
-        <TabsContent value="overview" className="mt-6">
+          <div className="min-w-0">
+        <TabsContent value="overview" className="mt-0">
           {overviewFile ? (
             <FileViewer file={overviewFile} />
           ) : (
@@ -400,7 +390,7 @@ function ScenarioExperience({
           )}
         </TabsContent>
 
-        <TabsContent value="exhibits" className="mt-6">
+        <TabsContent value="exhibits" className="mt-0">
           <MatterFileWorkspace
             exhibits={exhibits}
             userId={uid}
@@ -409,7 +399,7 @@ function ScenarioExperience({
           />
         </TabsContent>
 
-        <TabsContent value="tasks" className="mt-6">
+        <TabsContent value="tasks" className="mt-0">
           <InstructionViewer
             file={instructions}
             document={instructionsDoc}
@@ -423,7 +413,7 @@ function ScenarioExperience({
           />
         </TabsContent>
 
-        <TabsContent value="ai-development" className="mt-6">
+        <TabsContent value="ai-development" className="mt-0">
           {aiDevelopmentFile ? (
             <AIDevelopmentViewer file={aiDevelopmentFile} document={aiDevelopmentDoc} />
           ) : (
@@ -434,7 +424,7 @@ function ScenarioExperience({
           )}
         </TabsContent>
 
-        <TabsContent value="submission" className="mt-6">
+        <TabsContent value="submission" className="mt-0">
           <FinalSubmissionBuilder
             userId={uid}
             scenarioId={scenario.id}
@@ -447,11 +437,50 @@ function ScenarioExperience({
           />
         </TabsContent>
 
-        <TabsContent value="tutor" className="mt-6">
+        <TabsContent value="tutor" className="mt-0">
           {isTutor && tutorGuide ? <TutorGuideViewer file={tutorGuide} /> : <TutorLockedState />}
         </TabsContent>
+          </div>
+        </div>
       </Tabs>
     </div>
+  );
+}
+
+function ScenarioRailItem({
+  value,
+  step,
+  icon: Icon,
+  label,
+  hint,
+}: {
+  value: string;
+  step?: string;
+  icon: typeof BookOpen;
+  label: string;
+  hint?: string;
+}) {
+  return (
+    <TabsTrigger
+      value={value}
+      className="group w-full justify-start gap-2.5 rounded-xl px-3 py-2.5 text-left text-muted-foreground hover:bg-secondary hover:text-foreground data-[state=active]:bg-primary data-[state=active]:text-primary-foreground data-[state=active]:shadow-sm"
+    >
+      {step ? (
+        <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-secondary text-[10px] font-semibold text-muted-foreground group-data-[state=active]:bg-primary-foreground group-data-[state=active]:text-primary">
+          {step}
+        </span>
+      ) : (
+        <Icon className="h-4 w-4 shrink-0" />
+      )}
+      <span className="min-w-0 flex-1">
+        <span className="block truncate text-sm font-medium">{label}</span>
+        {hint && (
+          <span className="block truncate text-[11px] font-normal text-muted-foreground group-data-[state=active]:text-primary-foreground/80">
+            {hint}
+          </span>
+        )}
+      </span>
+    </TabsTrigger>
   );
 }
 
