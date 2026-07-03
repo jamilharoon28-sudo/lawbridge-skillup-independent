@@ -17,6 +17,7 @@ import {
   Search,
   Sparkles,
 } from "lucide-react";
+import { PageSkeleton } from "@/components/PageSkeleton";
 
 export const Route = createFileRoute("/_authenticated/skills")({
   head: () => ({ meta: [{ title: "Skills Library — LawBridge" }] }),
@@ -107,7 +108,7 @@ function SkillsLibrary() {
       .filter((g) => g.scenarios.length > 0 || (!term && statusFilter === "all"));
   }, [data, q, categoryId, statusFilter, progressMap]);
 
-  if (!data) return <div className="text-muted-foreground">Loading library…</div>;
+  if (!data) return <PageSkeleton />;
 
   const total = data.scenarios.length;
   const completed = data.progress.filter((p: any) => p.status === "completed").length;

@@ -45,6 +45,7 @@ import {
   X,
 } from "lucide-react";
 import { toast } from "sonner";
+import { PageSkeleton } from "@/components/PageSkeleton";
 
 export const Route = createFileRoute("/_authenticated/scenarios/$code")({
   head: () => ({ meta: [{ title: "Scenario — LawBridge" }] }),
@@ -187,7 +188,7 @@ function ScenarioPage() {
     })();
   }, [data?.scenario?.id, data?.uid, data?.progress?.status, data?.progress?.completion_percentage]);
 
-  if (isLoading) return <div className="text-muted-foreground">Loading scenario…</div>;
+  if (isLoading) return <PageSkeleton variant="scenario" />;
   if (!data || !data.scenario) {
     return (
       <div className="text-center py-16">

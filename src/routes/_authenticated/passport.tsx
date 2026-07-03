@@ -13,10 +13,13 @@ import {
   CheckCircle2,
   FileCheck2,
   GraduationCap,
+  Radar as RadarIcon,
   ShieldAlert,
   Sparkles,
   Target,
 } from "lucide-react";
+import { MasteryRadar } from "@/components/charts/MasteryRadar";
+import { PageSkeleton } from "@/components/PageSkeleton";
 
 export const Route = createFileRoute("/_authenticated/passport")({
   head: () => ({ meta: [{ title: "Skills Passport — LawBridge" }] }),
@@ -56,7 +59,7 @@ function PassportPage() {
     },
   });
 
-  if (!data) return <div className="text-muted-foreground">Loading your Skills Passport…</div>;
+  if (!data) return <PageSkeleton />;
 
   const progressMap = new Map((data.progress ?? []).map((p: any) => [p.scenario_id, p]));
   const completed = data.progress.filter((p: any) => p.status === "completed").length;
@@ -66,6 +69,18 @@ function PassportPage() {
   const score = total ? Math.round(((completed + submitted * 0.85 + inProgress * 0.45) / total) * 100) : 0;
   const firstName = data.profile?.full_name?.split(" ")[0] ?? "there";
   const nextScenario = data.scenarios.find((s: any) => !progressMap.get(s.id));
+
+  const radarData = data.skills.map((skill: any) => {
+    const skillScenarios = data.scenarios.filter((s: any) => s.skill_id === skill.id);
+    const done = skillScenarios.filter((s: any) => {
+      const status = progressMap.get(s.id)?.status;
+      return status === "completed" || status === "submitted";
+    }).length;
+    return {
+      skill: skill.code,
+      value: skillScenarios.length ? Math.round((done / skillScenarios.length) * 100) : 0,
+    };
+  });
 
   return (
     <div className="passport-page space-y-8">
@@ -106,6 +121,21 @@ function PassportPage() {
       </div>
 
       <div className="grid gap-6 xl:grid-cols-[1fr_360px]">
+        <div className="space-y-6">
+        <Card className="p-5">
+          <CardHeader className="p-0 pb-2">
+            <CardTitle className="flex items-center gap-2 text-lg">
+              <RadarIcon className="h-5 w-5 text-accent" /> Mastery radar
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="p-0">
+            <MasteryRadar data={radarData} />
+            <p className="mt-1 text-center text-xs text-muted-foreground">
+              Completion across your {radarData.length} skill areas.
+            </p>
+          </CardContent>
+        </Card>
+
         <Card className="p-5">
           <CardHeader className="p-0 pb-4">
             <CardTitle className="flex items-center gap-2 text-lg">
@@ -138,6 +168,7 @@ function PassportPage() {
             })}
           </CardContent>
         </Card>
+        </div>
 
         <aside className="space-y-4">
           <Card className="p-5">

@@ -43,74 +43,95 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
-  --font-serif: "Source Serif 4", Georgia, serif;
+  --color-gold: var(--gold);
+  --color-gold-foreground: var(--gold-foreground);
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
 }
 
-/* LawBridge palette: navy primary, indigo accent, slate greys, off-white bg */
+/*
+ * LawBridge unified design tokens — one coherent system (OKLCH).
+ * Brand: warm ivory canvas, deep navy ink, purple accent, restrained gold.
+ * Light + dark are built on the same hues so both modes stay on-brand.
+ */
 :root {
-  --radius: 0.5rem;
-  --background: oklch(0.985 0.003 247);
-  --foreground: oklch(0.21 0.04 260);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.21 0.04 260);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.21 0.04 260);
-  --primary: oklch(0.27 0.06 260); /* navy */
-  --primary-foreground: oklch(0.99 0.003 247);
-  --secondary: oklch(0.96 0.01 255);
-  --secondary-foreground: oklch(0.27 0.06 260);
-  --muted: oklch(0.96 0.01 255);
-  --muted-foreground: oklch(0.5 0.02 257);
-  --accent: oklch(0.55 0.18 277); /* indigo */
-  --accent-foreground: oklch(0.99 0.003 247);
-  --destructive: oklch(0.58 0.22 27);
-  --destructive-foreground: oklch(0.99 0.003 247);
-  --border: oklch(0.91 0.012 255);
-  --input: oklch(0.91 0.012 255);
-  --ring: oklch(0.55 0.18 277);
-  --chart-1: oklch(0.55 0.18 277);
-  --chart-2: oklch(0.6 0.12 200);
-  --chart-3: oklch(0.4 0.07 230);
-  --chart-4: oklch(0.75 0.15 85);
-  --chart-5: oklch(0.65 0.18 30);
-  --sidebar: oklch(0.27 0.06 260);
-  --sidebar-foreground: oklch(0.96 0.01 255);
-  --sidebar-primary: oklch(0.55 0.18 277);
-  --sidebar-primary-foreground: oklch(0.99 0.003 247);
-  --sidebar-accent: oklch(0.32 0.05 260);
-  --sidebar-accent-foreground: oklch(0.99 0.003 247);
-  --sidebar-border: oklch(0.32 0.05 260);
-  --sidebar-ring: oklch(0.55 0.18 277);
+  --radius: 0.625rem;
+
+  --background: oklch(0.977 0.008 83); /* warm ivory */
+  --foreground: oklch(0.25 0.035 280); /* navy ink */
+  --card: oklch(0.995 0.004 83);
+  --card-foreground: oklch(0.25 0.035 280);
+  --popover: oklch(0.995 0.004 83);
+  --popover-foreground: oklch(0.25 0.035 280);
+  --primary: oklch(0.30 0.075 286); /* deep navy-violet */
+  --primary-foreground: oklch(0.98 0.01 83);
+  --secondary: oklch(0.945 0.018 80); /* warm sand */
+  --secondary-foreground: oklch(0.30 0.075 286);
+  --muted: oklch(0.95 0.014 80);
+  --muted-foreground: oklch(0.52 0.025 285);
+  --accent: oklch(0.58 0.205 288); /* purple */
+  --accent-foreground: oklch(0.99 0.005 83);
+  --gold: oklch(0.80 0.09 82); /* restrained gold */
+  --gold-foreground: oklch(0.28 0.05 286);
+  --destructive: oklch(0.55 0.20 27);
+  --destructive-foreground: oklch(0.99 0.005 83);
+  --border: oklch(0.90 0.016 80);
+  --input: oklch(0.90 0.016 80);
+  --ring: oklch(0.58 0.205 288);
+
+  --chart-1: oklch(0.58 0.205 288); /* purple */
+  --chart-2: oklch(0.80 0.09 82); /* gold */
+  --chart-3: oklch(0.36 0.06 286); /* navy */
+  --chart-4: oklch(0.66 0.13 200); /* teal */
+  --chart-5: oklch(0.68 0.17 40); /* amber-rose */
+
+  --sidebar: oklch(0.30 0.075 286);
+  --sidebar-foreground: oklch(0.96 0.01 83);
+  --sidebar-primary: oklch(0.58 0.205 288);
+  --sidebar-primary-foreground: oklch(0.99 0.005 83);
+  --sidebar-accent: oklch(0.36 0.06 286);
+  --sidebar-accent-foreground: oklch(0.98 0.01 83);
+  --sidebar-border: oklch(0.36 0.06 286);
+  --sidebar-ring: oklch(0.58 0.205 288);
 }
 
 .dark {
-  --background: oklch(0.17 0.03 260);
-  --foreground: oklch(0.97 0.005 247);
-  --card: oklch(0.21 0.04 260);
-  --card-foreground: oklch(0.97 0.005 247);
-  --popover: oklch(0.21 0.04 260);
-  --popover-foreground: oklch(0.97 0.005 247);
-  --primary: oklch(0.97 0.005 247);
-  --primary-foreground: oklch(0.21 0.04 260);
-  --secondary: oklch(0.27 0.05 260);
-  --secondary-foreground: oklch(0.97 0.005 247);
-  --muted: oklch(0.27 0.05 260);
-  --muted-foreground: oklch(0.7 0.03 257);
-  --accent: oklch(0.65 0.18 277);
-  --accent-foreground: oklch(0.17 0.03 260);
-  --destructive: oklch(0.6 0.2 27);
-  --destructive-foreground: oklch(0.97 0.005 247);
-  --border: oklch(0.3 0.04 260);
-  --input: oklch(0.3 0.04 260);
-  --ring: oklch(0.65 0.18 277);
-  --sidebar: oklch(0.21 0.04 260);
-  --sidebar-foreground: oklch(0.97 0.005 247);
-  --sidebar-primary: oklch(0.65 0.18 277);
-  --sidebar-primary-foreground: oklch(0.97 0.005 247);
-  --sidebar-accent: oklch(0.27 0.05 260);
-  --sidebar-accent-foreground: oklch(0.97 0.005 247);
-  --sidebar-border: oklch(0.27 0.05 260);
-  --sidebar-ring: oklch(0.65 0.18 277);
+  --background: oklch(0.185 0.028 285); /* deep navy */
+  --foreground: oklch(0.96 0.008 83);
+  --card: oklch(0.225 0.032 285);
+  --card-foreground: oklch(0.96 0.008 83);
+  --popover: oklch(0.225 0.032 285);
+  --popover-foreground: oklch(0.96 0.008 83);
+  --primary: oklch(0.72 0.155 288); /* bright purple */
+  --primary-foreground: oklch(0.17 0.025 285);
+  --secondary: oklch(0.28 0.035 285);
+  --secondary-foreground: oklch(0.96 0.008 83);
+  --muted: oklch(0.28 0.035 285);
+  --muted-foreground: oklch(0.72 0.025 285);
+  --accent: oklch(0.70 0.17 288);
+  --accent-foreground: oklch(0.17 0.025 285);
+  --gold: oklch(0.81 0.10 82);
+  --gold-foreground: oklch(0.20 0.03 285);
+  --destructive: oklch(0.62 0.19 27);
+  --destructive-foreground: oklch(0.98 0.008 83);
+  --border: oklch(0.31 0.032 285);
+  --input: oklch(0.31 0.032 285);
+  --ring: oklch(0.70 0.17 288);
+
+  --chart-1: oklch(0.72 0.155 288);
+  --chart-2: oklch(0.81 0.10 82);
+  --chart-3: oklch(0.72 0.05 286);
+  --chart-4: oklch(0.70 0.13 200);
+  --chart-5: oklch(0.72 0.16 40);
+
+  --sidebar: oklch(0.20 0.03 285);
+  --sidebar-foreground: oklch(0.96 0.008 83);
+  --sidebar-primary: oklch(0.72 0.155 288);
+  --sidebar-primary-foreground: oklch(0.98 0.008 83);
+  --sidebar-accent: oklch(0.28 0.035 285);
+  --sidebar-accent-foreground: oklch(0.96 0.008 83);
+  --sidebar-border: oklch(0.28 0.035 285);
+  --sidebar-ring: oklch(0.70 0.17 288);
 }
 
 @layer base {
@@ -119,15 +140,26 @@
   }
   body {
     @apply bg-background text-foreground antialiased;
+    font-family: var(--font-sans);
     font-feature-settings:
       "rlig" 1,
       "calt" 1;
+    text-rendering: optimizeLegibility;
   }
   h1,
   h2,
   h3,
   h4 {
     @apply tracking-tight;
+    font-family: var(--font-sans);
+  }
+  /* Consistent type scale + rhythm */
+  h1 {
+    text-wrap: balance;
+  }
+  h2,
+  h3 {
+    text-wrap: balance;
   }
 }
 
@@ -303,46 +335,24 @@
   @apply border-border shadow-inner;
 }
 
-/* LawBridge public-site inspired visual refresh: ivory canvas, deep navy, purple and restrained gold accents. */
-:root {
-  --background: #fbf7ef;
-  --foreground: #17213b;
-  --card: #ffffff;
-  --card-foreground: #17213b;
-  --popover: #ffffff;
-  --popover-foreground: #17213b;
-  --primary: #24143d;
-  --primary-foreground: #fffdf8;
-  --secondary: #f2eadf;
-  --secondary-foreground: #24143d;
-  --muted: #f4efe7;
-  --muted-foreground: #6b6475;
-  --accent: #7357ff;
-  --accent-foreground: #ffffff;
-  --destructive: #b42318;
-  --destructive-foreground: #ffffff;
-  --border: #ded4c5;
-  --input: #d8cfbf;
-  --ring: #7357ff;
-  --sidebar: #24143d;
-  --sidebar-foreground: #fffdf8;
-  --sidebar-primary: #d8b46a;
-  --sidebar-primary-foreground: #24143d;
-  --sidebar-accent: #372153;
-  --sidebar-accent-foreground: #fffdf8;
-  --sidebar-border: #46305f;
-  --sidebar-ring: #d8b46a;
-}
-
+/* Ambient canvas — derived from tokens so it tracks light/dark automatically. */
 body {
   background:
-    radial-gradient(circle at top left, rgba(115, 87, 255, 0.12), transparent 34rem),
-    radial-gradient(circle at 90% 10%, rgba(216, 180, 106, 0.18), transparent 28rem),
-    linear-gradient(180deg, #fbf7ef 0%, #f7f1e7 100%);
+    radial-gradient(circle at top left, color-mix(in oklch, var(--accent) 12%, transparent), transparent 34rem),
+    radial-gradient(circle at 90% 8%, color-mix(in oklch, var(--gold) 20%, transparent), transparent 28rem),
+    var(--background);
+  min-height: 100vh;
+}
+
+.dark body {
+  background:
+    radial-gradient(circle at top left, color-mix(in oklch, var(--accent) 16%, transparent), transparent 36rem),
+    radial-gradient(circle at 92% 6%, color-mix(in oklch, var(--gold) 10%, transparent), transparent 30rem),
+    var(--background);
 }
 
 .scenario-page {
-  --lawbridge-gold: #d8b46a;
+  --lawbridge-gold: var(--gold);
 }
 
 .scenario-hero {
@@ -977,4 +987,130 @@ body {
 .scenario-card,
 .passport-stat-card {
   border-color: rgba(216, 180, 106, 0.20);
+}
+
+/* ============================================================================
+   v2 visual refinement layer — appended last so it wins the cascade.
+   Goals: one soft elevation model, serif reading type, slimmer heroes,
+   tactile hover/focus, and subtle motion. All token-driven (light + dark).
+   ============================================================================ */
+
+/* Long-form document reading uses the serif; headings stay sans. */
+.premium-prose,
+.prose-lawbridge {
+  font-family: var(--font-serif);
+  line-height: 1.72;
+}
+.premium-prose :is(h1, h2, h3, h4),
+.prose-lawbridge :is(h1, h2, h3, h4) {
+  font-family: var(--font-sans);
+  letter-spacing: -0.01em;
+}
+
+/* One soft, consistent elevation for surface cards. */
+.premium-document,
+.document-card,
+.task-launcher-card,
+.task-workspace-card,
+.final-builder-card,
+.evidence-bank-card,
+.matter-notes-card,
+.stat-card,
+.scenario-card,
+.skill-section {
+  box-shadow:
+    0 1px 2px oklch(0 0 0 / 0.04),
+    0 10px 26px -14px oklch(0 0 0 / 0.12);
+  border-radius: var(--radius-xl);
+}
+.dark .premium-document,
+.dark .document-card,
+.dark .task-launcher-card,
+.dark .task-workspace-card,
+.dark .final-builder-card,
+.dark .evidence-bank-card,
+.dark .matter-notes-card,
+.dark .stat-card,
+.dark .scenario-card,
+.dark .skill-section {
+  box-shadow:
+    0 1px 2px oklch(0 0 0 / 0.30),
+    0 14px 34px -18px oklch(0 0 0 / 0.60);
+}
+
+/* Slimmer, consistent page heroes. */
+.dashboard-hero,
+.skills-hero,
+.admin-hero,
+.passport-hero {
+  border-radius: var(--radius-xl);
+  box-shadow:
+    0 1px 2px oklch(0 0 0 / 0.04),
+    0 24px 60px -38px oklch(0 0 0 / 0.24);
+}
+
+/* Tactile lift on tappable cards. */
+.scenario-card,
+.scenario-link-card,
+.matter-file-button,
+.task-answer-card {
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease;
+}
+.scenario-card:hover,
+.scenario-link-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Consistent, visible keyboard focus. */
+:where(a, button, [role="button"], input, textarea, select):focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* Subtle motion for tab panels and popovers. */
+[role="tabpanel"] {
+  animation: lb-fade-in 0.24s ease;
+}
+@keyframes lb-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Refined active tab treatment. */
+.brilliant-tabs [data-state="active"] {
+  box-shadow: 0 1px 2px oklch(0 0 0 / 0.06);
+}
+
+/* Thin, on-brand scrollbars. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-thumb {
+  background: color-mix(in oklch, var(--border) 80%, var(--muted-foreground));
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+/* Gold accent utility for restrained highlights. */
+.text-gold {
+  color: var(--gold);
+}
+.bg-gold-soft {
+  background: color-mix(in oklch, var(--gold) 18%, var(--card));
 }

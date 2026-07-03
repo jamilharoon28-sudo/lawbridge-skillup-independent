@@ -14,6 +14,8 @@ import {
   ShieldCheck,
   Users,
 } from "lucide-react";
+import { StatusBars } from "@/components/charts/StatusBars";
+import { PageSkeleton } from "@/components/PageSkeleton";
 
 export const Route = createFileRoute("/_authenticated/admin")({
   head: () => ({ meta: [{ title: "Admin — LawBridge" }] }),
@@ -89,7 +91,7 @@ function AdminPage() {
     },
   });
 
-  if (!data) return <div className="text-muted-foreground">Loading tutor/admin workspace…</div>;
+  if (!data) return <PageSkeleton />;
   if (!data.allowed) {
     return (
       <Card className="p-8 text-center">
@@ -179,6 +181,18 @@ function AdminPage() {
         </Card>
 
         <aside className="space-y-4">
+          <Card className="p-5">
+            <h3 className="font-semibold">Learner activity</h3>
+            <div className="mt-3">
+              <StatusBars
+                data={[
+                  { label: "In progress", value: data.progressStats.inProgress, color: "var(--gold)" },
+                  { label: "Submitted", value: data.progressStats.submitted, color: "var(--accent)" },
+                  { label: "Completed", value: data.progressStats.completed, color: "var(--chart-4)" },
+                ]}
+              />
+            </div>
+          </Card>
           <Card className="p-5">
             <h3 className="font-semibold">Review summary</h3>
             <div className="mt-4 space-y-3">

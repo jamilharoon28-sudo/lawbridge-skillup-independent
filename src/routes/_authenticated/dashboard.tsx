@@ -17,6 +17,7 @@ import {
   Sparkles,
   Target,
 } from "lucide-react";
+import { PageSkeleton } from "@/components/PageSkeleton";
 
 export const Route = createFileRoute("/_authenticated/dashboard")({
   head: () => ({ meta: [{ title: "Dashboard — LawBridge" }] }),
@@ -58,7 +59,7 @@ function Dashboard() {
     },
   });
 
-  if (!data) return <div className="text-muted-foreground">Loading dashboard…</div>;
+  if (!data) return <PageSkeleton />;
 
   const total = data.scenarios.length;
   const progressMap = new Map(data.progress.map((p: any) => [p.scenario_id, p]));
